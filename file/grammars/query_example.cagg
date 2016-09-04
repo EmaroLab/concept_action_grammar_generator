@@ -1,0 +1,21 @@
+#CAGv1;  
+
+!start <MAIN>;
+
+<MAIN>	:	!optional(<WH>{@?~;}) <QUERY> !optional(<OBJ>{@Obj;@~;});
+
+<QUERY>	:	<AUX>{@?~;} <OBJ>{@Subj;@~;} <VERB>{@?~;} 
+		|	<VERB>{@?~;} <OBJ>{@Subj;@~;};
+
+<WH>	:	which | what | where;
+<HAVE>	:	have | has;
+<BE>	:	am | are | is;
+<BE_HAVE>:	<HAVE> | <BE>;
+<AUX>	:	do | does | can | could | <HAVE>;
+<VERB>	: 	<BE_HAVE> | see | seen | take;
+<OBJ>	:	<PRONOUN> {@?;} | <THING> {@?;} | <CONCEPT> {@?;};
+
+
+<THING>	:	robot;
+<CONCEPT> : name;
+<PRONOUN>:	you;

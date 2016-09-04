@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ This is a gEditor font highlighter for the CAGG language.
+ To use this place this file in "/usr/share/gtksourceview-3.0/language-specs/"
+ and give to it running permissions.
+ Then load open a *.cagg or *.bnf file and tell to gedit to use
+ this the CAGG hihgliting mode.
+
+ This model is based on "modelica.xml" for Gnome 14.04.
+
+ As a convention this layout assume that the name of the rule are
+ capitalised (e.g. <MAIN_RULE>) while te terms no (e.g. "a term | another")
+
+ #############################################################################
+
+
+ Authors: Luca Buoncompagni
+ Copyright (C) 2016 Luca Buoncompagni <luca.buoncompagni@edu.unige.it>
+
+ Based on modelica.xml from Kate, Copyright (C) 2008 Federico Zenith.
+
+ GtkSourceView is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+
+ GtkSourceView is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+-->
+<language id="cagg" _name="CAGG" version="2.0" _section="Scientific;Script;Source">
+  <metadata>
+    <property name="mimetypes">text/x-modelica</property>
+    <property name="globs">*.cagg</property>
+    <property name="line-comment-start">//</property>
+    <property name="block-comment-start">/*</property>
+    <property name="block-comment-end">*/</property>
+  </metadata>
+
+  <styles>
+    <style id="comment"           _name="Comment"           map-to="def:comment"/>
+    <style id="string"            _name="String"            map-to="def:string"/>
+    <style id="operator"          _name="Operator"          map-to="def:operator"/>
+    <style id="default-attribute" _name="Default Attribute" map-to="def:identifier"/>
+    <style id="keyword"           _name="Keyword"           map-to="def:keyword"/>
+    <style id="decimal"           _name="Decimal"           map-to="def:decimal"/>
+    <style id="floating-point"    _name="Floating Point"    map-to="def:floating-point"/>
+    <style id="base-n-integer"    _name="Base-N Integer"    map-to="def:base-n-integer"/>
+    <style id="rule" _name="rule" map-to="def:rule"/>
+  </styles>
+
+  <definitions>
+
+    <context id="rule" style-ref="floating-point">
+       <match>[A-Z]*</match>	
+    </context>
+	
+    <context id="double-quoted-string" style-ref="string" end-at-line-end="false" class="string">
+      <start>"</start>
+      <end>"</end>
+    </context>
+
+    <!--To see the list of operators, use the function __operators__-->
+    <context id="operator" style-ref="operator">
+      <match extended="true">
+	&lt; |
+	&gt; |
+        \= |                                              
+        \: |                                             
+	\@ |
+	\{ |
+	\} |
+	\( |
+	\) |
+	\] |
+	\[ |
+	\; |
+	\| |
+      </match>
+    </context>
+
+    <context id="default-attribute" style-ref="default-attribute">
+      <keyword>start</keyword>
+      <keyword>optional</keyword>
+      <keyword>repeat</keyword>
+      <keyword>start</keyword>
+      <keyword>id</keyword>
+      <keyword>label</keyword>
+      <keyword>action</keyword>
+      <keyword>pronounce</keyword>
+      <keyword>grammar</keyword>
+      <keyword>language</keyword>
+      <keyword>export</keyword>
+      <keyword>import</keyword>
+      <keyword>modifiable</keyword>
+      <keyword>activatable</keyword>
+      <keyword>pronounce</keyword>
+    </context>
+
+    <!--To see the list of keywords, use the function __keywords__-->
+    <context id="keyword" style-ref="keyword">
+       <keyword>CAGv1</keyword>
+       <keyword>CAG v1</keyword>
+       <keyword>BNF\+EMV1.0</keyword>
+       <keyword>BNF\+EM V1.0</keyword>
+       <keyword>BNF\+AM V1.0</keyword>
+       <keyword>BNF\+AMV1.0</keyword>
+       <keyword>BNF\+EMV2.1</keyword>
+       <keyword>BNF\+EM V2.1</keyword>
+       <keyword>BNF\+AMV2.1</keyword>
+       <keyword>BNF\+AM V2.1</keyword>
+    </context>
+
+    <context id="decimal" style-ref="decimal">
+      <match>\b([1-9][0-9]*|0)([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</match>
+    </context>
+
+    <context id="floating-point-number" style-ref="decimal">
+      <match>\b([0-9]+[Ee][-]?[0-9]+|([0-9]*\.[0-9]+|[0-9]+\.)([Ee][-]?[0-9]+)?)[fFlL]?</match>
+    </context>  
+
+    <context id="cagg">
+      <include>
+        <context ref="def:c-like-comment"/>
+        <context ref="def:c-like-comment-multiline"/>
+        <context ref="def:c-like-close-comment-outside-comment"/>
+        <context ref="double-quoted-string"/>
+        <context ref="operator"/>
+        <context ref="default-attribute"/>
+        <context ref="decimal"/>
+        <context ref="floating-point-number"/>
+	<context ref="keyword"/>
+	<context ref="rule"/>
+      </include>
+    </context>
+  </definitions>
+</language>

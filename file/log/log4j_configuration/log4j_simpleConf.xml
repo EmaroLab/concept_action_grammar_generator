@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" name="cagg-log4j2-console-config">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="(%rms) %d{dd/MM/yy HH:mm:ss.SSS} [Thred:%t ; Cls:%l] {%-5level} -> %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="TRACE">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

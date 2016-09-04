@@ -1,0 +1,12 @@
+idx ,	 User Input ,	 Computation Time [sec] 
+
+0 ,	 what do you see ,	 5.3403625
+
+	Test executed on 06-07-2016_11-51-06 (overall computation and logging time: 5.3405666 sec).
+	######################################################################################################	
+
+1 ,	 is there a higher sphere ,	 3.155732
+
+	Test executed on 06-07-2016_11-51-09 (overall computation and logging time: 3.15593 sec).
+	######################################################################################################	
+
