@@ -70,5 +70,9 @@ local.properties
 # PDT-specific
 .buildpath
 
+######################
+# CAGG files
+######################
+# logs
 *.log
 *.xcagg
