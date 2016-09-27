@@ -28,7 +28,7 @@ public class APIusage { // (API)
 		SOURCE_BASE_PATH + "englishBase.cagg", 			//SOURCE_BASE_PATH + "englishQuestions.cagg",
 		SOURCE_BASE_PATH + "ontoEntities.cagg",			SOURCE_BASE_PATH + "ontoProperty.cagg"
 	};
-	public static final String SERIALISATION_PATH = DebuggingDefaults.PATH_GRAMMA_DESERIALISATION_NOTJAR + "englishOntoProperties.ser";
+	public static final String SERIALISATION_PATH = DebuggingDefaults.PATH_GRAMMA_DESERIALISATION_NOTJAR + "query_scene.ser";
 	
 	// selector to choose the behavior of the main method
 	public static final int COMPILE = 0;

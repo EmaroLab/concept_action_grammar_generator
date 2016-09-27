@@ -562,6 +562,10 @@ public final class DebuggingDefaults{
 	 */
 	public static final String ADD_TOPMENU_SPACE = "   ";
 
+	
+	///// constants
+	public static final String LOGS_FILE_FORMAT = ".log";
+	public static final String RESULT_FILE_FORMAT = ".xcagg";
 
 		
 }

@@ -2,6 +2,7 @@ package it.emarolab.cagg.debugging;
 
 import it.emarolab.cagg.core.evaluation.semanticGrammar.GrammarLog;
 import it.emarolab.cagg.core.language.ParserLog;
+import it.emarolab.cagg.interfaces.CaggGrammarTesterOnFile;
 import it.emarolab.cagg.interfaces.TestLog;
 
 public class CaggLoggersManager {
@@ -50,10 +51,10 @@ public class CaggLoggersManager {
 		initialise( names, log4jConfigPath);
 	}
 	private void initialise( LoggersNames names, String log4jConfigPath){
+		setFilePath( null);
 		this.names = new LoggersNames();
 		this.log4jConfigPath = log4jConfigPath;
 		this.applyAll();
-		setFilePath( null);
 	}
 	
 	/* ##################################################################################
@@ -93,12 +94,14 @@ public class CaggLoggersManager {
 	public static void setFilePath( String path){
 		String p = path;
 		if( path == null)
-			p = DebuggingDefaults.PATH_LOG_BASE + DebuggingText.getFormattedDate();
+			p = DebuggingDefaults.PATH_LOG_BASE + DebuggingText.getFormattedDate() + DebuggingDefaults.LOGS_FILE_FORMAT;
 		else if( path.isEmpty())
 			p = DebuggingDefaults.PATH_LOG_BASE + DebuggingText.getFormattedDate();
 		// pad and set the value
 		try{
-			UILog.info( "Log output redirected on file: " + p);
+			if( UILog.getLogger() != null)
+				UILog.info( "Log output redirected on file: " + p);
+			else System.out.println( "Log output redirected on file: " + p);
 			System.setProperty( SYST_PROPERTY_PATH, p);
 		} catch( Exception e){
 			System.err.println( "Cannot store logging information on System.properties. Lost attribute: " + p);

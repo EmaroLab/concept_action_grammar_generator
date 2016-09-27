@@ -23,10 +23,7 @@ import it.emarolab.cagg.debugging.result2XML.CaggXmlResultList;
 	###################### UTILITY CLASS FOR FILE NAME ###############################
  */
 class TestFileNames{
-	///// constants
-	public static final String LOGS_FILE_FORMAT = ".log";
-	public static final String TESTMAP_FILE_FORMAT = ".txt";
-	public static final String RESULT_FILE_FORMAT = ".xcagg";
+	
 	///// fields 
 	private String logs, testMap, resulBase;
 	public TestFileNames( String logs, String testMap, String resultBase){
@@ -36,16 +33,16 @@ class TestFileNames{
 	}
 	///// getters
 	public String getLogs() {
-		return logs + LOGS_FILE_FORMAT;
+		return logs + DebuggingDefaults.LOGS_FILE_FORMAT;
 	}
 	public String getQuestionMap() {
-		return testMap + TESTMAP_FILE_FORMAT;
+		return testMap + DebuggingDefaults.LOGS_FILE_FORMAT;
 	}
 	public String getResul( Integer idx) {
-		return idx + resulBase + RESULT_FILE_FORMAT;
+		return idx + resulBase + DebuggingDefaults.RESULT_FILE_FORMAT;
 	}
 	public String getResul( String name) {
-		return name + resulBase + RESULT_FILE_FORMAT;
+		return name + resulBase + DebuggingDefaults.RESULT_FILE_FORMAT;
 	}
 	@Override
 	public String toString(){
