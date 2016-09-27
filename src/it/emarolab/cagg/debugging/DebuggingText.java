@@ -16,7 +16,7 @@ import org.apache.logging.log4j.core.LoggerContext;
 import org.apache.logging.log4j.core.config.Configurator;
 
 public class DebuggingText {
-
+	
 	/* ##################################################################################
 	   ################################# FIELDS #########################################
 	 */
@@ -37,7 +37,7 @@ public class DebuggingText {
 		addLogger();
 	}
 	protected LoggerBase createLogger(){
-		return new Log4j( getLoggerName(), getConfigurationPath());
+		return new Log4j( getLoggerName(), getConfigurationPath()); // il null default on system properties (than change it from there)
 	}
 	protected void addLogger(){
 		addLogger( getLoggerName(), getLogger());
@@ -45,7 +45,6 @@ public class DebuggingText {
 	public static void reconfigureLogger(){
 		( ( LoggerContext) LogManager.getContext(false)).reconfigure();
 	}
-
 	
 	/* ##################################################################################
 	   ########################### GETTERS AND SETTERS ##################################
@@ -68,6 +67,7 @@ public class DebuggingText {
 	protected void setLogger(LoggerBase logger) {
 		this.logger = logger;
 	}
+	
 
 	/* ##################################################################################
 	   ##################### STATIC UTILITIES FOR LOGGING ###############################
@@ -227,7 +227,7 @@ public class DebuggingText {
 	}
 
 	/* ##################################################################################
-	   ############################ LOGGER INTERFACE ####################################
+	   ############################ LO SYST_PROPERTY_PATH, pGGER INTERFACE ####################################
 	 */
 	// log4j2 interface
 	public class Log4j extends LoggerBase{
@@ -441,6 +441,7 @@ public class DebuggingText {
 						+ ":" + pad( String.valueOf( "??"), false, SYST_PROPERTY_CALLER_LINE_CHAR_CNT));
 				// reset attribute
 				System.setProperty( SYST_PROPERTY_ATTRIBUTE, pad( "??", true, SYST_PROPERTY_ATTRIBUTE_CHAR_CNT));
+				// the path is not resetted!!!!
 			} catch( Exception e){
 				System.err.println( "Cannot store logging information on System.properties.");
 			}

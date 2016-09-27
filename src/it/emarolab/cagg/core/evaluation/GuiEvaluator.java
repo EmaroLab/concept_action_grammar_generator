@@ -74,6 +74,7 @@ public class GuiEvaluator extends ThreadedEvaluator implements GuiEvaluationInte
 		testPanel.appendToOuptuText( feasibleHeader.format());
 		// monitor all the solutions of the evaluator
 		List< Integer> trueSolutionId = new ArrayList<>();
+		int bestSolutionIdx = -1, bestTagCnt = 0;
 		Long previousTimeStamp = null;
 		while( solution != null){
 			// do something with feasible solution
@@ -85,6 +86,10 @@ public class GuiEvaluator extends ThreadedEvaluator implements GuiEvaluationInte
 			if( solution.getResultOutcome()){
 				exclamation = "\t !!!!!! ";
 				trueSolutionId.add( solution.getResultIdx());
+				if( solution.getResultTags().size() > bestTagCnt){
+					bestTagCnt = solution.getResultTags().size();
+					bestSolutionIdx = solution.getResultIdx();
+				}
 			}
 			infoPrim.appendInfoLn( "\t  (O): " + solution.getResultOutcome() + exclamation);
 			// log considered word
@@ -122,6 +127,7 @@ public class GuiEvaluator extends ThreadedEvaluator implements GuiEvaluationInte
 		EvaluatingInfoPrimitive trueSolutionInfo = new EvaluatingInfoPrimitive( SolutionType.TRUE_SOL_IDX);
 		trueSolutionInfo.appendInfoLn( "\t\t" + "TRUE SOLUTION INDEXES:");
 		trueSolutionInfo.appendInfoLn( "\t" + trueSolutionId);
+		trueSolutionInfo.appendInfoLn( "\t" + "best result:" + bestSolutionIdx + ", with " + bestTagCnt + " tags.");
 		testPanel.appendToOuptuText( trueSolutionInfo.format());
 		guiInfo.add( trueSolutionInfo);
 		

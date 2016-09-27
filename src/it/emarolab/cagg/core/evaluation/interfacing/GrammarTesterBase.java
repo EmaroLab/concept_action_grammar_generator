@@ -76,6 +76,9 @@ public abstract class GrammarTesterBase{
 	// 	####################  CONTRUCTOR INTERFACE (ABSTRACT)  ###########################
 	protected abstract ThreadedInputFormatter getNewFormatter( String loggerName, GrammarBase< ? extends SemanticExpressionTreeBase> grammar);
 	protected abstract TimeOutedEvaluatorBase getNewEvaluator( String loggerName, ThreadedInputFormatter formatter, Float timeOutSec);
+	protected TimeOutedEvaluatorBase getNewEvaluator( TimeOutedEvaluatorBase eval) { // copy the evaluator
+		return getNewEvaluator( eval.getLoggerName(), eval.getFormatter(), eval.getTimeOutSecRange());
+	}
 
 	/* 	##################################################################################
    		################################ GETTERS #########################################
@@ -139,6 +142,9 @@ public abstract class GrammarTesterBase{
 		setTestingTime();
 		didEvaluateCommand( command, testIdx);
 		resetLastCommand();
+		
+		// reset the evaluator with a copy for the next command (performances !?!?)
+		evaluator = getNewEvaluator( evaluator);
 	}
 	// abstact method called every time a new command is going to be tested
 	public abstract void willEvaluateCommand( String command, int testIdx);

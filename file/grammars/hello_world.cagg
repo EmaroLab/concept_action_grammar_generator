@@ -1,0 +1,9 @@
+#CAGv1;  
+
+!start <MAIN>;
+
+<MAIN>	: 	<R1> {@?;@~;} | <R2> {@T;@bb;};
+<R1> 	: 	hi | hello;
+<R2> 	: 	(!optional(good {@!T;}) bye) | !repeat(bye{@!!;}, 1, 2);
+
+

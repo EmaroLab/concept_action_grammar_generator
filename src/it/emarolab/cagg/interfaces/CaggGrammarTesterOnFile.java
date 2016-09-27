@@ -11,6 +11,7 @@ import it.emarolab.cagg.core.evaluation.interfacing.EvaluatorBase;
 import it.emarolab.cagg.core.evaluation.interfacing.TimeOutedEvaluatorBase;
 import it.emarolab.cagg.core.evaluation.semanticGrammar.syntaxCompiler.GrammarBase;
 import it.emarolab.cagg.core.evaluation.semanticGrammar.syntaxCompiler.SemanticExpressionTreeBase;
+import it.emarolab.cagg.debugging.CaggLoggersManager;
 import it.emarolab.cagg.debugging.DebuggingDefaults;
 import it.emarolab.cagg.debugging.DebuggingText;
 import it.emarolab.cagg.debugging.DebuggingText.Logger;
@@ -212,13 +213,12 @@ public class CaggGrammarTesterOnFile extends CaggGrammarTester{
 	 */
 	@Override
 	public synchronized void willEvaluateCommand(String command, int testIdx) {
-		super.willEvaluateCommand(command, testIdx); // just log on Logger.ok stream
+		// just log on Logger.ok stream
+		super.willEvaluateCommand(command, testIdx); 
 		// initialise test logging on file structure
 		if( pathManager != null){
 			if( testIdx == 0)
 				createTestMap( testIdx);
-			// move the Logger stream into the folder
-			//storeSystemLog( pathManager.getLogPath());
 		}else Logger.error( "Cannot log the result with a null pathManager! Be sure to call tester.setFile(..) before to call tester.test()");
 		// generate the description of this test (all the fields must be setted manually)
 		initialTime = System.nanoTime();
@@ -245,10 +245,7 @@ public class CaggGrammarTesterOnFile extends CaggGrammarTester{
 	protected void createSystemLog( String logPath){
 		DebuggingText.appendOnFileLn( logPath, "idx ,\t User Input ,\t Computation Time [sec] " + DebuggingDefaults.SYS_LINE_SEPARATOR);
 	}
-	/*protected void storeSystemLog( String logPath){
-		DebuggingText.setFilePath( logPath);
-	}*/
-
+	
 	@Override
 	public synchronized void didEvaluateCommand(String command, int testIdx) {
 		super.didEvaluateCommand(command, testIdx); // just log on Logger.ok stream
@@ -349,6 +346,7 @@ public class CaggGrammarTesterOnFile extends CaggGrammarTester{
 	}
 	private void setFile( String basePath, String attribute, boolean useDate, TestFileNames fileNames){
 		this.pathManager = new TestPathManager(basePath, attribute, useDate, fileNames);
+		CaggLoggersManager.setFilePath( pathManager.getLogPath());
 	}
 	public void setPathManager(TestPathManager pathManager) {
 		this.pathManager = pathManager;

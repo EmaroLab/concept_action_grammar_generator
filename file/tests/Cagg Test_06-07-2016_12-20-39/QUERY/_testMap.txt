@@ -1,7 +1,0 @@
-idx ,	 User Input ,	 Computation Time [sec] 
-
-0 ,	 what do you see ,	 3.5899482
-
-	Test executed on 06-07-2016_12-20-43 (overall computation and logging time: 3.5901082 sec).
-	######################################################################################################	
-

@@ -138,7 +138,8 @@ public final class DebuggingDefaults{
 
 	// ########################################################################################################################
 	// file path defaults  ####################################################################################################
-	public static final String PARH_LOG_CONF_BASE = SYS_PATH_WORKING + SYS_PATH_DELIM + "file" + SYS_PATH_DELIM + "log" + SYS_PATH_DELIM + "log4j_configuration" + SYS_PATH_DELIM;
+	public static final String PATH_LOG_CONF_BASE = SYS_PATH_WORKING + SYS_PATH_DELIM + "file" + SYS_PATH_DELIM + "log" + SYS_PATH_DELIM + "log4j_configuration" + SYS_PATH_DELIM;
+	public static final String PATH_LOG_BASE = SYS_PATH_WORKING + SYS_PATH_DELIM + "file" + SYS_PATH_DELIM + "log" + SYS_PATH_DELIM;
 	
 	/**
 	 * The default relative path to the folder that collects all the grammar files.

@@ -1,0 +1,370 @@
+#CAGv1;  
+// to format this file properly open it with 4 space tabs
+
+// 	This grammar represents the possible ways to address
+// ontological entities by speaking. Particularly, the considere ontology
+// description is the one that describes primitive objects shapes and
+// relations between each other in a scene.
+//	This grammar considers an InputFormatter able to skip worlds
+// that are told by the user but not specified in the grammar.
+// 	In particular, the ontology used in this case is the one
+// describing scenes of primitives objects composition (scene)
+// 	Attention, it is not a main grammar and it cannot be used stand alone!
+//	Finally, since the system may consider only the first solution put it with priority
+				
+				
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Ontological Object Definition !!!
+
+// describes the possible type of objects in a sentence
+<ONTO_OBJ>		:	!optional( <ENUM> {@objEnum;}) 
+					( <ONTO_OBJ_CLS> {@CLS;} | <ONTO_OBJ_IND> {@IND;}) // | <PARAM_IND>	
+				;											// ##############
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Ontological IND directives !!!!!!
+
+// the collection of all the ontological  individuals
+<ONTO_OBJ_IND>	:	<SHAPE_OBJ_IND> {@Shape;} | <SCENE_OBJ_IND> {@!~;@Scene;}	
+				;											// ##############
+
+// all the ways that you can call the Scene ontological individual
+<SCENE_OBJ_IND>	:	learned | scene | composition
+				;											// ##############
+
+// all the ways that you can call a Shape (Plane, Cone, Cylinder or Sphere) ontological individual
+<SHAPE_OBJ_IND>:	x1 | x2 | x3 | x4 | x5	
+				  | <IND_OBJ_LABEL> {@Label;@!~;}
+				;											// ##############
+
+// the context of the label with which is possible to address ontological individuals.
+// Used only on individuals belonging to the Primitive ontological class.
+<IND_OBJ_LABEL>:	<SPHERE_OBJ_LABEL>		{@Sphere;}
+				  | <CONE_OBJ_LABEL>		{@Cone;}
+				  | <CYLINDER_OBJ_LABEL>	{@Cylinder;}
+				  | <PLANE_OBJ_LABEL>		{@Plane;}
+				;											// ##############
+
+
+// all the ways that you can label a sphere
+<SPHERE_OBJ_LABEL>
+				:	ball 	| balls 	| volleyball
+				;											// ##############
+
+// all the ways that you can label a plane
+<PLANE_OBJ_LABEL>	
+				:	book 		| books 
+				  | notebook 	| notebooks
+				  | copybook	| copybooks
+				  | keyboard	| keyboards
+				  | monitor 	| monitors
+				  | display		| displays
+				;											// ##############
+
+// all the ways that you can label a plane
+<CONE_OBJ_LABEL>	:	disc	| disk
+				;											// ##############
+
+// all the ways that you can label a plane
+<CYLINDER_OBJ_LABEL>
+				:	tube 	
+				  | glass	
+				  | cup		
+				  | mug		
+				  | mouse	
+				;											// ##############
+
+/*
+// all the ways that you can call a Parameter ontological individual
+<PARAM_IND>		:	parameter 		| parameters
+				  | threshold		| thresholds
+				;											// ##############
+*/
+
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Ontological CLASS directives !!!!
+
+// the collection of all the classes (put it with priority !!!) 
+<ONTO_OBJ_CLS>	: 	<SCENE_OBJ_CLS>			{@!~;@Scene;}			
+				  |	<SPHERE_OBJ_CLS> 		{@!~;@Sphere;}
+				  | <CONE_OBJ_CLS>			{@!~;@Cone;}
+				  | <CYLINDER_OBJ_CLS>		{@!~;@Cylinder;}
+				  | <PLANE_OBJ_CLS>			{@!~;@Plane;}
+				  | <ORIENTABLE_OBJ_CLS>	{@!~;@Directionable;}
+				  | <PRIMITIVE_OBJ_CLS>		{@!~;@Primitive;}
+				  //|<PARAM_CLS>
+				;											// ##############
+
+/*
+// all the ways that you can call the Parameter ontological class
+<PARAM_CLS>		:	configuration	| configurations
+				  | set up			| set ups
+				  | parameter 		| parameters
+				  | threshold		| thresholds
+				;											// ##############
+*/
+
+// all the ways that you can call the Scene ontological class
+<SCENE_OBJ_CLS>	:	composition		| compositions		
+				  | set				| sets				
+				  | stage			| stages			
+				  | configuration	| configurations	
+				  | scene			| scenes			
+				;											// ##############
+
+// all the ways that you can call the Primitive ontological class
+<PRIMITIVE_OBJ_CLS>	
+				:	primitive		| primitives
+				  | object			| objects
+				;											// ##############
+
+// all the ways that you can call the Sphere ontological class
+<SPHERE_OBJ_CLS>:	sphere			| spheres	
+				  | spheric			| spherical
+				;											// ##############
+
+// all the ways that you can call the Directionable ontological class
+<ORIENTABLE_OBJ_CLS>
+				:	orientable		| orient able 		
+				  | directable		| direct able
+				;											// ##############
+
+// all the ways that you can call the Plane ontological class
+<PLANE_OBJ_CLS>	:	plane			| planes			| planar 
+				;											// ##############
+
+// all the ways that you can call the Cone ontological class
+<CONE_OBJ_CLS>	:	cone		| cones
+			      | conic		| conical	
+				;											// ##############
+
+// all the ways that you can call the Cylinder ontological class
+<CYLINDER_OBJ_CLS>	
+				:	cylinder 	| cylinders	
+				  | cylindrical 
+				;											// ##############
+
+
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Ontological OBJ PROP directives !
+
+// this collects the possible ways to asses a comparative property 
+// (without using the keyword "than")				
+<PROP_COMP>	:						// <DISTANCE> data prop ????????????????????????????
+			  | <PLANAR_PROP_COMP>		{@!~;@onPlane;}
+			  | <ABOVE_PROP_COMP> 		{@!~;@isAboveOf;} 
+			  |	<BELOW_PROP_COMP> 		{@!~;@isBelowOf;} 
+			  | <FRONT_PROP_COMP>		{@!~;@isInFrontOf;}
+			  | <BEHIND_PROP_COMP>		{@!~;@isBehindOf;}
+			  | <RIGHT_PROP_COMP>		{@!~;@isRightOf;}
+			  | <LEFT_PROP_COMP>		{@!~;@isLeftOf;}
+			  | <ALONG_PROP_COMP>		{@!~;@isAlong;}
+			  | <PARAL_PROP_COMP>		{@!~;@isParallelTo;}
+			  | <PERP_PROP_COMP>		{@!~;@isPerpendicularTo;}
+			  | <COAX_PROP_COMP>		{@!~;@isCoaxialWith;}
+			;											// ##############		
+
+// the property for above property comparisons
+<ABOVE_PROP_COMP>:	above 
+				;											// ##############					
+
+// the property for below property comparisons
+<BELOW_PROP_COMP>:	below | bottom 
+				;											// ##############				
+		
+// the property for front property comparisons
+<FRONT_PROP_COMP>:	front | before 
+				;											// ##############			
+
+// the property for behind property comparisons
+<BEHIND_PROP_COMP>:	behind | beyond | back 
+				;											// ##############				
+
+// the property for right property comparisons
+<RIGHT_PROP_COMP>:	right 
+				;											// ##############
+				
+// the property for right property comparisons
+<LEFT_PROP_COMP>:	left 
+				;											// ##############	
+				
+// the property for along [x,y,z] property comparisons
+<ALONG_PROP_COMP>  // do not use optional on <AXIS> for nice tag creation 
+				:	( aligned {@!!;} | along {@!!;} | line {@!!;} ) <AXIS> 
+				  | ( aligned | along | line )
+				  | <AXIS> ( axis {@!!;} | axes {@!!;})
+				  | ( axis | axes )
+				;											// ##############				
+
+// the property for planar [xy,xz,yz] property comparisons
+<PLANAR_PROP_COMP> // do not use optional on <AXIS> for nice tag creation 
+				:	coplanar {@!!;} <AXIS_PLANES>
+				  | coplanar
+//			      | <AXIS_PLANES> ( plane {@!!;} | planes {@!!;} )
+//				  | ( plane {@!!;} | planes {@!!;} ) <AXIS_PLANES>
+//				  | ( plane | planes )
+				;											// ##############	
+	
+// the property for parallel property comparisons
+<PARAL_PROP_COMP>:	 parallel
+				;											// ##############	
+
+// the property for perpendicular property comparisons
+<PERP_PROP_COMP>:	 perpendicular
+				;											// ##############				
+
+// the property for coaxial property comparisons
+<COAX_PROP_COMP>:	 coaxial
+				;											// ##############				
+				
+// this collects the possible ways to asses a comparative property 
+<PROP_ER>	:						// BIGGER/SMALLER ?????????????????????????????????????????
+				<ABOVE_PROP_ER>			{@!~;@isAboveOf;}	
+			  | <BELOW_PROP_ER>			{@!~;@isBelowOf;}
+			  | <FRONT_PROP_ER>			{@!~;@isInFrontOf;}
+			  | <BEHIND_PROP_ER>		{@!~;@isBehindOf;}
+			;											// ##############
+				
+// the property for above property(-er) comparisons 
+<ABOVE_PROP_ER>	:	higher | taller
+				;											// ##############
+				
+// the property for below property(-er) comparisons
+<BELOW_PROP_ER>	:	shorter | lower
+				;											// ##############
+
+// the property for front property(-er) comparisons
+<FRONT_PROP_ER>	:	closer | nearer 
+				;											// ##############
+
+// the property for behind property(-er) comparisons
+<BEHIND_PROP_ER>:	far | further | farther
+				;											// ##############	
+		
+// this collects the possible ways to asses a superlative property 				
+<PROP_EST>	:						// BIGGEST/SMALLEST ????????????????????????????????????
+				<ABOVE_PROP_EST>  		{@!~;@isAboveOf;}	
+			  | <BELOW_PROP_EST>		{@!~;@isBelowOf;}
+			  | <FRONT_PROP_EST>		{@!~;@isInFrontOf;}
+			  | <BEHIND_PROP_EST>		{@!~;@isBehindOf;}
+			  | <RIGHT_PROP_EST>		{@!~;@isRightOf;}
+			  | <LEFT_PROP_EST>			{@!~;@isLeftOf;}
+			;											// ##############		
+		
+// the property for above superlative comparisons
+<ABOVE_PROP_EST>:	 highest | tallest
+				;											// ##############
+				
+// the property for below superlative comparisons
+<BELOW_PROP_EST>:	 shortest | lowest
+				;											// ##############
+				
+// the property for front superlative comparisons
+<FRONT_PROP_EST>:	 closest | nearest
+				;											// ##############	
+				
+// the property for behind superlative comparisons
+<BEHIND_PROP_EST>:	 farthest | furthest | bheindest
+				;											// ##############
+				
+// the property for right superlative comparisons
+<RIGHT_PROP_EST>:	 rightmost | right {@!!;} most
+				;											// ##############
+				
+// the property for left superlative comparisons
+<LEFT_PROP_EST>	:	 leftmost | left {@!!;} most
+				;											// ##############
+							
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Ontological CLASSIFIC directives!
+
+// the properties that exists between ontological calsses
+<PROP_DESCRIPT>	:	instance | instances
+				  | belong | belongs
+				  | type | types
+				  | !optional( sub | super ) ( class | classes )
+				;											// ##############
+				
+				
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Ontological DATA PROP directives!
+
+<PROP_QUANTIT>:		<CENTRE_PROP_QUANTIT>		{@!~;@hasPrimitiveGeometricCenter;}
+				  | <COEFF_PROP_QUANTIT>		{@!~;@coeff;}
+				  | <NORMAL_PROP_QUANTIT>		{@!~;@hasPrimitiveAxisDirection;}
+				  | <LABEL_PROP_QUANTIT>		{@!~;@hasPrimitiveLabel;}
+				  | <COLOR_PROP_QUANTIT>		{@!~;@hasPrimitiveColor;}
+			;											// ##############
+
+// the center of mass property [x,y,z]
+<CENTRE_PROP_QUANTIT>	
+			:	(   <AXIS>
+					(	location {@!!;}	| located {@!!;}
+					  | position {@!!;}	| placed  {@!!;}
+					  | ( centre {@!!;} | center {@!!;} ) !optional( mass {@!!;})
+					  | barycentre {@!!;}
+					)
+				) | (
+					(	location {@!!;}	| located {@!!;}
+					  | position {@!!;}	| placed  {@!!;}
+					  | ( centre {@!!;} | center {@!!;}) !optional( mass {@!!;})
+					  | barycentre {@!!;}
+					) <AXIS>
+				) | (
+					  location		| located
+					| position		| placed 
+					| ( centre | center) !optional( mass {@!!;})
+					| barycentre
+				)
+
+			
+			;											// ##############
+
+// all the way you can address the hasCoefficients( a, b, c ...) ontological data property
+<COEFF_PROP_QUANTIT>
+			:	dimension		| dimensions 
+			  | coefficient		| coefficients 
+			  | radius 		{@hasPrimitiveRadius;}
+			  | high		{@hasPrimitiveHeight;}
+			  | <AXIS> {@hasPrimitivePointOnAxis;} point
+			  | point <AXIS> {@hasPrimitivePointOnAxis;}
+			  | point {@hasPrimitivePointOnAxis;}
+			  | <AXIS> {@hasPrimitivePointOnAxis;} apex
+			  | apex <AXIS> {@hasPrimitivePointOnAxis;}
+			  | apex {@hasPrimitivePointOnAxis;}
+			  | hessian {@hasPlaneCoefficent_d;}
+			;											// ##############
+
+// all the way you can address the hasNormal( x, y, z) ontological data property
+<NORMAL_PROP_QUANTIT>	
+			:	direction	| directions
+			  | normal		| normals
+			;											// ##############
+
+// all the way you can address the hasConfidence( f) ontological data property
+<CONFID_PROP_QUANTIT>
+			:	confidence | sure
+			;											// ##############
+
+// all the way you can address the hasLabel( str) ontological data property
+<LABEL_PROP_QUANTIT>	
+			:	name | named
+			  | call | called
+			  | label | labelled	
+			;											// ##############
+
+// all the way you can address the hasColor( str) ontological data property
+<COLOR_PROP_QUANTIT>
+			:	white
+			  | black
+			  | blue
+			  | green
+			  | red
+			  | yellow
+			  | orange
+			  | gray	
+			;											// ##############
+				

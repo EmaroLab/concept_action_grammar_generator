@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" name="cagg-log4j2-gui-console-config"
+	packages="it.emarolab.cagg.debugging.baseComponents">
+	<Properties>
+		 <Property name="CLS-ALL">${sys:caggLoggerCallerClass}.${sys:caggLoggerCallerMethod}:${sys:caggLoggerCallerLine}</Property>
+		 <Property name="CLS">${sys:caggLoggerCaller}</Property>		
+		 <Property name="TH">${sys:caggLoggerThread}</Property>
+		 <Property name="ATTR">${sys:caggLoggerAttribute}</Property>
+		 <Property name="PATH">${sys:caggLoggerPath}</Property>
+	</Properties>
+	
+	<Appenders>
+		<Console name="console-log" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} ${TH}( ${CLS}) [%10.10c @${ATTR} #%5.5p] : %msg%n" />
+		</Console>
+
+		<JLog4j2Appender name="gui-log">
+			<PatternLayout pattern="%rms -|- ${TH} @${ATTR} -|- ${CLS} -|- %p -|- %c -|- %msg" />
+		</JLog4j2Appender>
+  
+		<File name="file-log" fileName="${PATH}">
+	       	<PatternLayout pattern="%d{HH:mm:ss.SSS}(%rms) ${TH}( ${CLS}) [%10.10c @${ATTR} #%5.5p] : %msg%n"/>
+		</File>
+  	
+	</Appenders>
+		
+	<Loggers>
+		<Logger name="log-evaluator" level="debug" additivity="false">
+			<appender-ref ref="console-log" level="debug" />
+			<appender-ref ref="gui-log" level="debug" />
+			<appender-ref ref="file-log" level="debug" />
+		</Logger>
+		<Logger name="log-formatter" level="debug" additivity="false">
+			<appender-ref ref="console-log" level="debug" />
+			<appender-ref ref="gui-log" level="debug" />
+			<appender-ref ref="file-log" level="debug" />
+		</Logger>
+		<Logger name="log-UI" level="debug" additivity="false">
+			<appender-ref ref="console-log" level="debug" />
+			<appender-ref ref="gui-log" level="debug" />
+			<appender-ref ref="file-log" level="debug" />
+		</Logger>
+		<Logger name="log-parsing" level="debug" additivity="false">
+			<appender-ref ref="console-log" level="debug" />
+			<appender-ref ref="gui-log" level="debug" />
+			<appender-ref ref="file-log" level="debug" />
+		</Logger>
+		<Logger name="log-grammar" level="debug" additivity="false">
+			<appender-ref ref="console-log" level="debug" />
+			<appender-ref ref="gui-log" level="debug" />
+			<appender-ref ref="file-log" level="debug" />
+		</Logger>
+		<Logger name="log-test" level="debug" additivity="false">
+			<appender-ref ref="console-log" level="debug" />
+			<appender-ref ref="gui-log" level="debug" />
+			<appender-ref ref="file-log" level="debug" />
+		</Logger>
+
+		
+		
+		<Root level="info" additivity="false">
+			<AppenderRef ref="console-log" level="debug" />
+			<AppenderRef ref="file-log" level="debug" />
+		</Root>
+		
+	</Loggers>
+</Configuration>

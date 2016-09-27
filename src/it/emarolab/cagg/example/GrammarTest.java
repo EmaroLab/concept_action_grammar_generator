@@ -17,14 +17,14 @@ import it.emarolab.cagg.interfaces.CaggGrammarTesterOnFile;
 public class GrammarTest {
 	
 	///// file path constants (serialisation path)
-	public static final String GRAMMAR_PATH = DebuggingDefaults.PATH_GRAMMA_DESERIALISATION_NOTJAR + "englishOntoQuestions.ser";
+	public static final String GRAMMAR_PATH = DebuggingDefaults.PATH_GRAMMA_DESERIALISATION_NOTJAR + "query_scene.ser";
 	
 	////// set of user inputs to be tested sequentially
 	public static final List< String> USER_COMMANDS = new ArrayList<>();
 	static{
 		USER_COMMANDS.add( "is there a higher sphere");
-		USER_COMMANDS.add( "2 cones on the left of x1");
-		USER_COMMANDS.add( "is x1 higher than x2");
+		//USER_COMMANDS.add( "are there 2 cones on the left of x1");
+		//USER_COMMANDS.add( "is x1 higher than x2");
 		USER_COMMANDS.add( "what do you see?");
 	}
 	
@@ -37,7 +37,7 @@ public class GrammarTest {
 	public static void main(String[] args) {
 		// attach debugger (w.r.t. log4j2 configurations)
 		new CaggLoggersManager( "log-evaluator", "log-formatter", "log-UI", "log-parsing", "log-grammar", "log-test", 
-				DebuggingDefaults.PARH_LOG_CONF_BASE + "log4j_guiConf.xml");
+				DebuggingDefaults.PATH_LOG_CONF_BASE + "log4j_grammarTestConf.xml");
 		// test the grammar
 		GrammarTesterBase tester;
 		if( USE_DEFAULT_TESTER)

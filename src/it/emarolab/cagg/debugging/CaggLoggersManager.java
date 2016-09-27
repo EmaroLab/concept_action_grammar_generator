@@ -14,14 +14,16 @@ public class CaggLoggersManager {
 	public static final String DEFAULT_LOGGING_NAME_PARSING = "log-parsing"; // parsing, trees and structure debug (pkg: it.emarolab.core and it.emarolab.core.language)
 	public static final String DEFAULT_LOGGING_NAME_GRAMMAR = "log-grammar"; // compiler (pkg: it.emarolab.cagg.core.evaluation.semanticGrammar)
 	public static final String DEFAULT_LOGGING_NAME_TEST = "log-test"; // compiler (pkg: it.emarolab.cagg.example and it.emarolab.cagg.interfaces) TODO : to set in code!!!!
-	public static final String DEFAULT_CONFIGURATION_PATH = DebuggingDefaults.PARH_LOG_CONF_BASE + "log4j_guiConf.xml"; 
+	public static final String DEFAULT_CONFIGURATION_PATH = DebuggingDefaults.PATH_LOG_CONF_BASE + "log4j_guiConf.xml"; 
+	
+	public static final String SYST_PROPERTY_PATH = "caggLoggerPath";
 	
 	/* ##################################################################################
 	   ################################## FIELDS ########################################
 	 */
 	private LoggersNames names;
 	private String log4jConfigPath;
-	
+		
 	/* ##################################################################################
 	   ############################### CONSTRUCTOR ######################################
 	 */
@@ -51,6 +53,7 @@ public class CaggLoggersManager {
 		this.names = new LoggersNames();
 		this.log4jConfigPath = log4jConfigPath;
 		this.applyAll();
+		setFilePath( null);
 	}
 	
 	/* ##################################################################################
@@ -85,6 +88,24 @@ public class CaggLoggersManager {
 	}
 	protected void apply( String name){
 		new DebuggingText( name, getLog4jConfigPath());
+	}
+	
+	public static void setFilePath( String path){
+		String p = path;
+		if( path == null)
+			p = DebuggingDefaults.PATH_LOG_BASE + DebuggingText.getFormattedDate();
+		else if( path.isEmpty())
+			p = DebuggingDefaults.PATH_LOG_BASE + DebuggingText.getFormattedDate();
+		// pad and set the value
+		try{
+			UILog.info( "Log output redirected on file: " + p);
+			System.setProperty( SYST_PROPERTY_PATH, p);
+		} catch( Exception e){
+			System.err.println( "Cannot store logging information on System.properties. Lost attribute: " + p);
+		}
+	}
+	public static String getFilePath(){
+		return System.getProperty( SYST_PROPERTY_PATH);
 	}
 
 	/* ##################################################################################
