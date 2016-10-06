@@ -1,0 +1,218 @@
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner}{\section{it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner Class Reference}
+\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner}\index{it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner@{it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner}}
+}
+
+
+Inheritance diagram for it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_ac00f4fc61c7a54c2b9e14684d3e6f7db}{Evaluator\-Runner} (String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1CaggThread_a9f93a5dd960d289f5e2a1889f8b6f55b}{thread\-Name}, String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1CaggThread_ae7dd4d1aec246c90d4a997b825978256}{logger\-Name})
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a7b525fad9b253d9aae30fe94cad2e788}{implement} ()
+\item 
+Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a65aca67d0ab51ffd3787c7e4663bd622}{get\-Evaluated\-Solution\-Count} ()
+\item 
+List$<$ Evaluation\-Results $>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_acbf8c07ca6fbe9296f94f88499b69d2a}{get\-All\-Results} ()
+\item 
+Evaluation\-Results \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af77f2773e2c1133de645d5b9e2b6aa34}{get\-Result} (Integer idx)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a5ab1d558bd791fd21cbedaf3504e83e8}{evaluate\-Once} (Facts$<$ ?$>$ true\-Facts)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Evaluation\-Results $>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af51b192937c6518b825ed3bed7960d82}{results} = new Array\-List$<$$>$()
+\item 
+Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af164a42dd65c05e231c6ae6abf701787}{evaluate\-Solution\-Idx} = 0
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 40 of file Threaded\-Evaluator.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_ac00f4fc61c7a54c2b9e14684d3e6f7db}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}!Evaluator\-Runner@{Evaluator\-Runner}}
+\index{Evaluator\-Runner@{Evaluator\-Runner}!it::emarolab::cagg::core::evaluation::ThreadedEvaluator::EvaluatorRunner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}}
+\subsubsection[{Evaluator\-Runner}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-Evaluator\-Runner (
+\begin{DoxyParamCaption}
+\item[{String}]{thread\-Name, }
+\item[{String}]{logger\-Name}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_ac00f4fc61c7a54c2b9e14684d3e6f7db}
+
+
+Definition at line 47 of file Threaded\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-processed\-Solution\-Idx.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a5ab1d558bd791fd21cbedaf3504e83e8}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}!evaluate\-Once@{evaluate\-Once}}
+\index{evaluate\-Once@{evaluate\-Once}!it::emarolab::cagg::core::evaluation::ThreadedEvaluator::EvaluatorRunner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}}
+\subsubsection[{evaluate\-Once}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-evaluate\-Once (
+\begin{DoxyParamCaption}
+\item[{Facts$<$ ?$>$}]{true\-Facts}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a5ab1d558bd791fd21cbedaf3504e83e8}
+
+
+Definition at line 81 of file Threaded\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-evaluate\-Solution\-Idx, it.\-emarolab.\-cagg.\-core.\-evaluation.\-Cagg\-Thread.\-log(), it.\-emarolab.\-cagg.\-debugging.\-Debugging\-Defaults.\-N\-A\-N\-O\-S\-E\-C\-\_\-2\-\_\-\-S\-E\-C, and it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-results.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-implement().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a5ab1d558bd791fd21cbedaf3504e83e8_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_acbf8c07ca6fbe9296f94f88499b69d2a}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}!get\-All\-Results@{get\-All\-Results}}
+\index{get\-All\-Results@{get\-All\-Results}!it::emarolab::cagg::core::evaluation::ThreadedEvaluator::EvaluatorRunner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}}
+\subsubsection[{get\-All\-Results}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Evaluation\-Results$>$ it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-get\-All\-Results (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_acbf8c07ca6fbe9296f94f88499b69d2a}
+
+
+Definition at line 121 of file Threaded\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-results.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a65aca67d0ab51ffd3787c7e4663bd622}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}!get\-Evaluated\-Solution\-Count@{get\-Evaluated\-Solution\-Count}}
+\index{get\-Evaluated\-Solution\-Count@{get\-Evaluated\-Solution\-Count}!it::emarolab::cagg::core::evaluation::ThreadedEvaluator::EvaluatorRunner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}}
+\subsubsection[{get\-Evaluated\-Solution\-Count}]{\setlength{\rightskip}{0pt plus 5cm}Integer it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-get\-Evaluated\-Solution\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a65aca67d0ab51ffd3787c7e4663bd622}
+
+
+Definition at line 117 of file Threaded\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-evaluate\-Solution\-Idx.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af77f2773e2c1133de645d5b9e2b6aa34}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}!get\-Result@{get\-Result}}
+\index{get\-Result@{get\-Result}!it::emarolab::cagg::core::evaluation::ThreadedEvaluator::EvaluatorRunner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}}
+\subsubsection[{get\-Result}]{\setlength{\rightskip}{0pt plus 5cm}Evaluation\-Results it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-get\-Result (
+\begin{DoxyParamCaption}
+\item[{Integer}]{idx}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af77f2773e2c1133de645d5b9e2b6aa34}
+
+
+Definition at line 126 of file Threaded\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Cagg\-Thread.\-is\-Running(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Cagg\-Thread.\-log\-Error(), and it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-results.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af77f2773e2c1133de645d5b9e2b6aa34_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a7b525fad9b253d9aae30fe94cad2e788}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}!implement@{implement}}
+\index{implement@{implement}!it::emarolab::cagg::core::evaluation::ThreadedEvaluator::EvaluatorRunner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}}
+\subsubsection[{implement}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-implement (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a7b525fad9b253d9aae30fe94cad2e788}
+
+
+Definition at line 58 of file Threaded\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-evaluate\-Once(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-evaluate\-Solution\-Idx, it.\-emarolab.\-cagg.\-core.\-evaluation.\-Cagg\-Thread.\-is\-Running(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Cagg\-Thread.\-log(), it.\-emarolab.\-cagg.\-debugging.\-Debugging\-Defaults.\-N\-A\-N\-O\-S\-E\-C\-\_\-2\-\_\-\-S\-E\-C, it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-results, and it.\-emarolab.\-cagg.\-core.\-evaluation.\-Cagg\-Thread.\-should\-Run().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_a7b525fad9b253d9aae30fe94cad2e788_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af164a42dd65c05e231c6ae6abf701787}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}!evaluate\-Solution\-Idx@{evaluate\-Solution\-Idx}}
+\index{evaluate\-Solution\-Idx@{evaluate\-Solution\-Idx}!it::emarolab::cagg::core::evaluation::ThreadedEvaluator::EvaluatorRunner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}}
+\subsubsection[{evaluate\-Solution\-Idx}]{\setlength{\rightskip}{0pt plus 5cm}Integer it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-evaluate\-Solution\-Idx = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af164a42dd65c05e231c6ae6abf701787}
+
+
+Definition at line 44 of file Threaded\-Evaluator.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-evaluate\-Once(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-get\-Evaluated\-Solution\-Count(), and it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-implement().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af51b192937c6518b825ed3bed7960d82}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}!results@{results}}
+\index{results@{results}!it::emarolab::cagg::core::evaluation::ThreadedEvaluator::EvaluatorRunner@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Threaded\-Evaluator\-::\-Evaluator\-Runner}}
+\subsubsection[{results}]{\setlength{\rightskip}{0pt plus 5cm}List$<$ Evaluation\-Results$>$ it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-results = new Array\-List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner_af51b192937c6518b825ed3bed7960d82}
+
+
+Definition at line 43 of file Threaded\-Evaluator.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-evaluate\-Once(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-get\-All\-Results(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-get\-Result(), and it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-Evaluator\-Runner.\-implement().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/luca-\/phd/\-Documents/school luca/dottorato/research/verbal interface/speech\-\_\-workspace/concept\-\_\-action\-\_\-grammar\-\_\-generator/src/it/emarolab/cagg/core/evaluation/\hyperlink{ThreadedEvaluator_8java}{Threaded\-Evaluator.\-java}\end{DoxyCompactItemize}

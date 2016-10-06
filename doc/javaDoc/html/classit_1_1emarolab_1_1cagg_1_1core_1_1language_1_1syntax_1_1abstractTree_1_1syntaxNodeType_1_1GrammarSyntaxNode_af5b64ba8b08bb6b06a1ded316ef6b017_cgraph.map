@@ -1,0 +1,5 @@
+<map id="it.emarolab.cagg.core.language.syntax.abstractTree.syntaxNodeType.GrammarSyntaxNode.assignData" name="it.emarolab.cagg.core.language.syntax.abstractTree.syntaxNodeType.GrammarSyntaxNode.assignData">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser.html#aa439fccd0ee28a5ba52809b24312ad56" title="it.emarolab.cagg.core.language.parser.\lTextualParser.isStringLiteral" alt="" coords="406,5,653,46"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser.html#a96d5c4a6eeb211ea5cca81b9edfe932a" title="it.emarolab.cagg.core.language.parser.\lTextualParser.retrieveString" alt="" coords="406,70,653,111"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser.html#ad037508d30fc47f879348055b875c31b" title="it.emarolab.cagg.core.language.parser.\lTextualParser.getWordBetweenSymbols" alt="" coords="701,70,960,111"/>
+</map>

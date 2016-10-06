@@ -1,0 +1,9 @@
+<map id="it.emarolab.cagg.debugging.DebuggingGui.DebuggingActioner" name="it.emarolab.cagg.debugging.DebuggingGui.DebuggingActioner">
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1ParserTreeDebuggingPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.ParserTreeDebuggingPanel" alt="" coords="989,101,1328,142"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1BaseDebugginGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.BaseDebugginGuiPanel" alt="" coords="259,103,498,145"/>
+<area shape="rect" id="node10" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1SubSplitDebuggingGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.SubSplitDebugging\lGuiPanel" alt="" coords="661,161,952,217"/>
+<area shape="rect" id="node12" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1SourceDebuggingPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.SourceDebuggingPanel" alt="" coords="649,45,965,86"/>
+<area shape="rect" id="node9" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1AstDebugginGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.AstDebuggin\lGuiPanel" alt="" coords="1753,157,2007,213"/>
+<area shape="rect" id="node11" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1AsnDebugginGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.AsnDebuggin\lGuiPanel" alt="" coords="1360,208,1619,264"/>
+<area shape="rect" id="node14" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser.html" title="it.emarolab.cagg.core.language.parser.\lTextualParser" alt="" coords="1757,237,2003,278"/>
+</map>

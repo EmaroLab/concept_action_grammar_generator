@@ -1,0 +1,60 @@
+#CAGv1;  
+// to format this file properly open it with 4 space tabs
+
+!start <QUERY>;
+
+// 	This grammar understands whenever the sentence is a question
+// (past and future are not considered).
+// 	This grammar considers an InputFormatter able to skip worlds
+// that are told by the user but not specified in the grammar.
+// 	Finally, consider that this is a main grammar 
+// and it needs also the ontoEntities.cagg and englishBase.cagg source files.
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	English queries directives !!!!!!
+
+// since the system may consider only the first solution put it with priority
+// examples of possible queries: 
+//		1) "what do you see?" 							(WH AUX SUBJ VERB)
+//		2) "Which is the closest object?"				(WH BE ... SUBJ)
+//		3) "Does a spere exist?"						(AUX SUBJ VERB)
+//		4) "Is there a cone"							(BE there SUBJ)
+//		5) "How many objects there are in the scene?"	(WH+ SUBJ VERB)
+//		6) "Where is x1?"								(WH BE SUBJ)
+//		7) "Have you got any idea?"						(BE_HAVE SUBJ VERB)
+//		8) "... if there is a sphere?"					(there BE SUBJ)
+//		9) "is x1 a sphere?"							(BE SUBJ)
+//	   10) "Which object have the bigger radius"		(WH SUBJ VERB)
+<QUERY>	: 	(	!optional( <WH> {@?~;}) !optional( <SUBJ> {@?~;}) 
+			  (   <AUX> {@?~;} <SUBJ> <VERB> {@?~;} // (1,3,10)
+			  	| <BE> {@?~;} !optional( <SUBJ>)	// (2,6)	[SUBJ, PROP OBJ]						
+			  	| <SUBJ> !optional( there {@~;}) <VERB> {@?~;} // (5)
+			  )
+			) |	(
+			    <BE> {@?~;} there {@~;} <SUBJ>	// (4)
+			  | <BE_HAVE> {@?~;} <SUBJ> <VERB> {@?~;} // (7) (9)
+			  |	if {@?~;} ( !optional( there {@~;}) <BE_HAVE> {@?~;} <SUBJ> | <SUBJ> <VERB> {@?~;}) // (8)
+			) 
+			//!optional( <ITERATIVE_PROPS>)
+		;											// ##############
+
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Query components definition !!!!!
+		   
+<WH+>	:	how {@!~;} ( much | many)
+		;											// ##############
+
+<WH>	:	which       | what          | where		
+		  |	<WH+> {@!WH;@?;}
+		;											// ##############
+
+<AUX>	:	do 			| does
+		  | can		    | could 
+		  | would		| should
+		;											// ##############
+
+<SUBJ>	:	<NOUM> 		{@SUBJ;@~;}	
+		  | <PRONOUM> 	{@SUBJ;@~;}	
+		  | <ONTO_OBJ> 	{@SUBJ;@~;}
+		;											// ##############

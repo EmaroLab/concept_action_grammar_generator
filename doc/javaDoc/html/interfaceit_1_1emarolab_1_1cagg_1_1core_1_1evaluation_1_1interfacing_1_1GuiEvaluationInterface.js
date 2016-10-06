@@ -1,0 +1,14 @@
+var interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface =
+[
+    [ "EvaluatedTree", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_1_1EvaluatedTree.html", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_1_1EvaluatedTree" ],
+    [ "EvaluatingInfo", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_1_1EvaluatingInfo.html", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_1_1EvaluatingInfo" ],
+    [ "EvaluatingInfoPrimitive", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_1_1EvaluatingInfoPrimitive.html", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_1_1EvaluatingInfoPrimitive" ],
+    [ "SolutionType", "enumit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_1_1SolutionType.html", "enumit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_1_1SolutionType" ],
+    [ "getAllEvaluatedExpressions", "interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html#a30c5a5306a28d4c67641bf55548b25d3", null ],
+    [ "getEvaluatingProgress", "interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html#a998af18ddb63f0ac9d8bb3423a7b2eab", null ],
+    [ "getNewEvaluatingInfo", "interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html#ac005a4f002a5f0642be21c1202135c3c", null ],
+    [ "hasBeenKilled", "interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html#abefc2330a6288d4b4ccaed7a530c65ca", null ],
+    [ "inProgress", "interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html#a2f8c453178460998dbfe966c5d409652", null ],
+    [ "startAndMonitorResult", "interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html#adfc8f64a0eacda3e0dd7e9ce8a59d37e", null ],
+    [ "stopEvaluation", "interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html#a9088bd8a49d34a9b9925fc577b226a61", null ]
+];

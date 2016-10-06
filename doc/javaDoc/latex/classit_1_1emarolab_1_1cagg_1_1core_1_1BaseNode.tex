@@ -1,0 +1,840 @@
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{\section{it.\-emarolab.\-cagg.\-core.\-Base\-Node Class Reference}
+\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}\index{it.\-emarolab.\-cagg.\-core.\-Base\-Node@{it.\-emarolab.\-cagg.\-core.\-Base\-Node}}
+}
+
+
+Inheritance diagram for it.\-emarolab.\-cagg.\-core.\-Base\-Node\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for it.\-emarolab.\-cagg.\-core.\-Base\-Node\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Base\-Node\-Collector}
+\item 
+class {\bfseries Copy\-Walker}
+\item 
+class {\bfseries String\-Walker}
+\item 
+class {\bfseries To\-Map\-Visitor}
+\item 
+class \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_1_1TreeVisitor}{Tree\-Visitor}
+\item 
+class \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_1_1TreeVisitorRecoursive_3_01D_01extends_01Object_01_4}{Tree\-Visitor\-Recoursive$<$ D extends Object $>$}
+\item 
+class \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_1_1TreeVisualizer}{Tree\-Visualizer}
+\item 
+class \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_1_1TreeWalker}{Tree\-Walker}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a232a6eb936fff2089b0836709d1e3110}{Base\-Node} ()
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad5456b3d2d5552aba5c68e6c2baa5713}{Base\-Node} (String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}{prefix\-Id})
+\item 
+abstract String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4333d02bc1f9764812dc5bffb5af53d2}{to\-String} ()
+\item 
+Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a60057c324224df3bb3ed19513440dbaa}{get\-Original\-Id} ()
+\item 
+Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac2b29704663a2afe6db65bee8b699442}{get\-Id} ()
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4618a493bc87517e3cf9174eaa97bc69}{get\-Parent} ()
+\item 
+Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad89da9dcb2927e982f1415ba8ed5fc2b}{get\-Copy\-Id} ()
+\item 
+Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a84ec1522500a0aee620dfe3654a2eb0b}{is\-Copy} ()
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a6a7f71afc2cc29a45845b75a274c98ef}{set\-Prefix\-Id} (String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}{prefix\-Id})
+\item 
+String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a15d89614a65fa67f3148155f3ef84036}{get\-Prefix\-Id} ()
+\item 
+String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_aaa062a29c60d37d63b105a1c95fec6f5}{get\-Debugging\-Id} ()
+\item 
+List$<$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} $>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a24adaab076a6a8a4d9ab0f353182003c}{get\-Children\-Array} ()
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4f786a60130938990ebb6aea8fbdcfa0}{add} (int position, \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} new\-Child)
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a60b683e07f93776e3cfa66c0e76168c4}{get\-Child} (int index)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1d04356a5dc33e09db1b33f2899eeabd}{print\-Tree} ()
+\item 
+String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a0a350c0a6c67fa203ae530a55929be43}{to\-Tree\-String} ()
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a0384fbfce38913921cfa372606b7f8a6}{copy\-Contents} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} new\-Node, Boolean generate\-Copy\-Id)
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad94af343d93ea00bdce7c99e759adef9}{copy\-Tree} ()
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a7a5b39603380ff3d65f69b2e2d2eba7d}{copy\-Tree} (final Boolean update\-Copy\-Id)
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ab040052d71e812c22e4f463a7778edc8}{copy\-Tree\-With\-New\-I\-D} (Map$<$ Long, List$<$ String $>$$>$ tag\-Map)
+\item 
+Map$<$ Long, \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} $>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac8ec9d738aab3e71ed4953d5c04ddd32}{to\-Map} ()
+\item 
+Map$<$ Long, \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} $>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a2b945f955a5a0151dd3d9c832cfc157f}{to\-Map} (Boolean use\-Copy\-Id)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a9d8a1fbd1428ce47a30247bba94ddd25}{show\-Tree} ()
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a5ed645f243d1555f06db33e1b57e9f3c}{show\-Tree} (final String frame\-Title)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ab1b67d800fbb127b6e95d27c6c936f1d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-P\-R\-E\-F\-I\-X\-\_\-\-I\-D} = \char`\"{}m\char`\"{}
+\item 
+static Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a800cf0002fa8eb5d2e1a1efc798e9d3d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-E\-R\-B\-O\-S\-E} = false
+\item 
+static Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_af2c0c0c449f10cb72892b6df42f4e4a8}{L\-O\-G\-\_\-\-T\-O\-T\-A\-L\-\_\-\-T\-I\-M\-E\-\_\-\-A\-N\-Y\-T\-W\-A\-Y} = false
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac48c006848405146428a0c553e43429e}{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-I\-S\-I\-T\-O\-R\-\_\-\-N\-A\-M\-E} = \char`\"{}visitor\char`\"{}
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_af4c8492c4126c6b336993d47448fd0ad}{D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-A\-L\-K\-E\-R\-\_\-\-N\-A\-M\-E} = \char`\"{}walker\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a8a9d55c02c90bb06c8f37d7b976cc11c}{copy} (Boolean create\-New\-Copy\-I\-D)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a7b7c9533b6174764ff1f631504985d43}{set\-Original\-Id} (Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a6a3d93e1d8a6fa71aeded8749347da7c}{original\-Id})
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_aa6e5ed85e9e68ca715a1588ec0707546}{set\-Id} (Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ace8dafa005681888ca194c9f02e6f9cf}{id})
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1236fd1a41b8bfebc6ac31707a0772de}{add} (Mutable\-Tree\-Node new\-Child, Boolean suppress\-Warning)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad8d73b94319bf906047a748e7c31a931}{initialise} (String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}{prefix\-Id})
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a233616587a719d76c5bd5efabde15016}{set\-Copy\-Id} (Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ace8dafa005681888ca194c9f02e6f9cf}{id})
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+transient Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a6a3d93e1d8a6fa71aeded8749347da7c}{original\-Id}
+\item 
+Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ace8dafa005681888ca194c9f02e6f9cf}{id}
+\item 
+Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a526a32f2f2efacaf0a701e8d9b8d387c}{copy\-Id} = null
+\item 
+boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a9c661847e680bebcd0f7cd59f88ea4a1}{is\-A\-Copy} = false
+\item 
+String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}{prefix\-Id}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVersion}{Version}
+Concept-\/\-Action Grammar Generator 1.\-1 \par
+ File\-: src//cagg.core.\-source\-Interface.\-Base\-Node.\-java \par
+
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Buoncompagni Luca \par
+ D\-I\-B\-R\-I\-S, emaro\-Lab,\par
+ University of Genoa. \par
+ 15/gen/2016 \par
+
+\end{DoxyAuthor}
+
+
+This is the base class for all the nodes in all the trees of the system in order to assure a unique identifier along all the structure (where, the I\-D is implemented as an incremental
+\begin{DoxyCode}
+Long 
+\end{DoxyCode}
+ number.\par
+
+
+Each nodes are described in terms of
+\begin{DoxyCode}
+Type T 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+Data D 
+\end{DoxyCode}
+ . Where,
+\begin{DoxyCode}
+T 
+\end{DoxyCode}
+ is usually an enumerator for easy node type definition, while
+\begin{DoxyCode}
+D 
+\end{DoxyCode}
+ is a generic Object templated in the system classes structures for visualisation as well as maintenance purposes.\par
+
+
+At the same time, this class implements the procedures to print iteratively the tree and to copy it with the possibility to have different node I\-D.\par
+
+
+Last but not less important, the main classes that implements this object are\-: \hyperlink{}{it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-abstract\-Tree.\-Abstract\-Syntax\-Node} and \hyperlink{}{it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-Expression\-Node\-Old}
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & the node Type. \\
+\hline
+{\em $<$\-D$>$} & the node Data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+Abstract\-Syntax\-Node.\-Type 
+
+Type.\-Expression\-Node\-Type\-Enum 
+
+it.\-emarolab.\-cagg.\-core.\-language.\-Base\-Data 
+
+it.\-emarolab.\-cagg.\-core.\-language.\-Base\-Double\-Data 
+
+it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-abstract\-Tree.\-Abstract\-Syntax\-Node 
+
+it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-Expression\-Node\-Old 
+\end{DoxySeeAlso}
+
+
+Definition at line 67 of file Base\-Node.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a232a6eb936fff2089b0836709d1e3110}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!Base\-Node@{Base\-Node}}
+\index{Base\-Node@{Base\-Node}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{Base\-Node}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-Base\-Node (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a232a6eb936fff2089b0836709d1e3110}
+Create a new tree node. \par
+ It does not call \hyperlink{}{assign()} so, it does not instantiate the
+\begin{DoxyCode}
+type 
+\end{DoxyCode}
+ and 
+\begin{DoxyCode}
+data 
+\end{DoxyCode}
+ fields. That is why the non abstract implementation of this class must implement the abstract interfaces\-: \hyperlink{}{assign\-Data()} and \hyperlink{}{assign\-Type()}. Moreover, in order to fully initialise the node the non abstract implementation should call \hyperlink{}{assign()} in the constructor (considering also possible node coping).\par
+ It also initialises the node I\-D and sets \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ab1b67d800fbb127b6e95d27c6c936f1d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-P\-R\-E\-F\-I\-X\-\_\-\-I\-D} for printing it on debugging. 
+
+Definition at line 122 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad5456b3d2d5552aba5c68e6c2baa5713}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!Base\-Node@{Base\-Node}}
+\index{Base\-Node@{Base\-Node}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{Base\-Node}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-Base\-Node (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix\-Id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad5456b3d2d5552aba5c68e6c2baa5713}
+Create a new tree node. It does not call \hyperlink{}{assign()} so, it does not instantiate the
+\begin{DoxyCode}
+type 
+\end{DoxyCode}
+ and 
+\begin{DoxyCode}
+data 
+\end{DoxyCode}
+ fields. That is why the non abstract implementation of this class must implement the abstract interfaces\-: \hyperlink{}{assign\-Data()} and \hyperlink{}{assign\-Type()}. Moreover, in order to fully initialise the node the non abstract implementation should call \hyperlink{}{assign()} in the constructor (considering also possible node coping).\par
+ It also initialises the node I\-D and sets the input parameter as
+\begin{DoxyCode}
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}{prefixId} 
+\end{DoxyCode}
+ for printing it on debugging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em prefix\-Id} & the prefix to be visualised for node I\-D debugging. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 136 of file Base\-Node.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4f786a60130938990ebb6aea8fbdcfa0}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!add@{add}}
+\index{add@{add}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-add (
+\begin{DoxyParamCaption}
+\item[{int}]{position, }
+\item[{{\bf Base\-Node}}]{new\-Child}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4f786a60130938990ebb6aea8fbdcfa0}
+This method add a child to the indicated position in the children array. It cannot create new position on the children array so it logs an error if
+\begin{DoxyCode}
+position < this.getChildCount() 
+\end{DoxyCode}
+ . It would replace the old child at that position. 
+\begin{DoxyParams}{Parameters}
+{\em position} & the position of the new child in the children array of this node \\
+\hline
+{\em new\-Child} & the new child to be set at the given position. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 251 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1236fd1a41b8bfebc6ac31707a0772de}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!add@{add}}
+\index{add@{add}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-add (
+\begin{DoxyParamCaption}
+\item[{Mutable\-Tree\-Node}]{new\-Child, }
+\item[{Boolean}]{suppress\-Warning}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1236fd1a41b8bfebc6ac31707a0772de}
+This method can be used from in order to add a node to this tree by calling \hyperlink{}{add(\-Mutable\-Tree\-Node)} and by giving the possibility to show or suppress warning messages. Specially, in case in which the implementing tree controls the number of children.\par
+ Node that the extending tree that want to log messages on its \hyperlink{}{add(\-Mutable\-Tree\-Node)} method must override this function (as for example happen in\-: \hyperlink{}{it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-Expression\-Node\-Old}). 
+\begin{DoxyParams}{Parameters}
+{\em new\-Child} & the new node to be added as a child to this parent. \\
+\hline
+{\em suppress\-Warning@code} & true  to suppress or
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ to show warning messages if the tree controls the number of children. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 289 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a8a9d55c02c90bb06c8f37d7b976cc11c}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!copy@{copy}}
+\index{copy@{copy}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}abstract {\bf Base\-Node} it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-copy (
+\begin{DoxyParamCaption}
+\item[{Boolean}]{create\-New\-Copy\-I\-D}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a8a9d55c02c90bb06c8f37d7b976cc11c}
+This method is used to delegate as far as is needed the creation of a new node that should be also copied with the same contents of this object by calling\-: \hyperlink{}{copy\-Contents(\-Base\-Node)}.\par
+ \begin{DoxyReturn}{Returns}
+a new node instance that can contains the same contents and children of this node. 
+\end{DoxyReturn}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a0384fbfce38913921cfa372606b7f8a6}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!copy\-Contents@{copy\-Contents}}
+\index{copy\-Contents@{copy\-Contents}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{copy\-Contents}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Node} it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-copy\-Contents (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Node}}]{new\-Node, }
+\item[{Boolean}]{generate\-Copy\-Id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a0384fbfce38913921cfa372606b7f8a6}
+This method copy the contents of this node in the node given as input parameters. Particularly, this implementation set this node to be a copy and it also transfers to the new node the actual values of\-: 
+\begin{DoxyCode}
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}{prefixId} 
+\end{DoxyCode}
+ (by appending another prefix \{ \char`\"{}cp-\/\char`\"{}\}),
+\begin{DoxyCode}
+type 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+data 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+ID 
+\end{DoxyCode}
+ . 
+\begin{DoxyParams}{Parameters}
+{\em n} & the node in which the contents of this node should be copied. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the input
+\begin{DoxyCode}
+n 
+\end{DoxyCode}
+ node with the contents of this object copied. 
+\end{DoxyReturn}
+
+
+Definition at line 341 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad94af343d93ea00bdce7c99e759adef9}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!copy\-Tree@{copy\-Tree}}
+\index{copy\-Tree@{copy\-Tree}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{copy\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Node} it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-copy\-Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad94af343d93ea00bdce7c99e759adef9}
+Copy iteratively the tree considering this node as the root. This method maintains both the original I\-D (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac2b29704663a2afe6db65bee8b699442}{get\-Id()}) and copy\-I\-D (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad89da9dcb2927e982f1415ba8ed5fc2b}{get\-Copy\-Id()}). Be careful since the copy\-Id is null if this node is not a copy. \begin{DoxyReturn}{Returns}
+the result of \hyperlink{}{copy\-Tree(\-Boolean)} where the input parameter is
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ . 
+\end{DoxyReturn}
+
+
+Definition at line 353 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a7a5b39603380ff3d65f69b2e2d2eba7d}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!copy\-Tree@{copy\-Tree}}
+\index{copy\-Tree@{copy\-Tree}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{copy\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Node} it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-copy\-Tree (
+\begin{DoxyParamCaption}
+\item[{final Boolean}]{update\-Copy\-Id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a7a5b39603380ff3d65f69b2e2d2eba7d}
+Copy iteratively the tree considering this node as the root. This method maintains the original I\-D (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac2b29704663a2afe6db65bee8b699442}{get\-Id()}) and the input parameter specifies if the copy\-I\-D should be maintained or created (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad89da9dcb2927e982f1415ba8ed5fc2b}{get\-Copy\-Id()}). Be careful since the copy\-Id is null if this node is not a copy. 
+\begin{DoxyParams}{Parameters}
+{\em create\-New\-Copy\-Id} & set to
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if the new copied nodes should have a unique copy\-Id. Set to
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ if the new copied nodes should maintain the original copy\-Id. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new root node contains a copy of all the tree starting from this node as a root. 
+\end{DoxyReturn}
+
+
+Definition at line 365 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ab040052d71e812c22e4f463a7778edc8}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!copy\-Tree\-With\-New\-I\-D@{copy\-Tree\-With\-New\-I\-D}}
+\index{copy\-Tree\-With\-New\-I\-D@{copy\-Tree\-With\-New\-I\-D}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{copy\-Tree\-With\-New\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Node} it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-copy\-Tree\-With\-New\-I\-D (
+\begin{DoxyParamCaption}
+\item[{Map$<$ Long, List$<$ String $>$$>$}]{tag\-Map}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ab040052d71e812c22e4f463a7778edc8}
+
+
+Definition at line 370 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a60b683e07f93776e3cfa66c0e76168c4}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!get\-Child@{get\-Child}}
+\index{get\-Child@{get\-Child}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{get\-Child}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Node} it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-get\-Child (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a60b683e07f93776e3cfa66c0e76168c4}
+returns the child of a node by index. It overlay the function \hyperlink{}{javax.\-swing.\-tree.\-Default\-Mutable\-Tree\-Node\#get\-Child\-At(int)} by returning a
+\begin{DoxyCode}
+BaseNode< T, D> 
+\end{DoxyCode}
+ object. 
+\begin{DoxyParams}{Parameters}
+{\em index} & the number of the child to be retrieved \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a node which is the child of this node by index. 
+\end{DoxyReturn}
+
+
+Definition at line 275 of file Base\-Node.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-Tree\-Visitor\-Recoursive$<$ D extends Object $>$.\-recoursive\-Work(), and it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-Tree\-Walker.\-walk\-For\-All().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a24adaab076a6a8a4d9ab0f353182003c}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!get\-Children\-Array@{get\-Children\-Array}}
+\index{get\-Children\-Array@{get\-Children\-Array}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{get\-Children\-Array}]{\setlength{\rightskip}{0pt plus 5cm}List$<$ {\bf Base\-Node}$>$ it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-get\-Children\-Array (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a24adaab076a6a8a4d9ab0f353182003c}
+\begin{DoxyReturn}{Returns}
+all the children of this node as an array 
+\end{DoxyReturn}
+
+
+Definition at line 236 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad89da9dcb2927e982f1415ba8ed5fc2b}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!get\-Copy\-Id@{get\-Copy\-Id}}
+\index{get\-Copy\-Id@{get\-Copy\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{get\-Copy\-Id}]{\setlength{\rightskip}{0pt plus 5cm}Long it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-get\-Copy\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad89da9dcb2927e982f1415ba8ed5fc2b}
+This method returns the copy\-I\-D assign to this node on constructor. This value does may not change when node is copied and it is
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ when the node is not copied. \begin{DoxyReturn}{Returns}
+the copy id of this node. It can be null if this node is not a copy, or if it has been copied using \hyperlink{}{copy\-Tree(\-Boolean)} with
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ input parameter and it was not a copy before. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a84ec1522500a0aee620dfe3654a2eb0b}{is\-Copy()} 
+\end{DoxySeeAlso}
+
+
+Definition at line 198 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_aaa062a29c60d37d63b105a1c95fec6f5}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!get\-Debugging\-Id@{get\-Debugging\-Id}}
+\index{get\-Debugging\-Id@{get\-Debugging\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{get\-Debugging\-Id}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-get\-Debugging\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_aaa062a29c60d37d63b105a1c95fec6f5}
+\begin{DoxyReturn}{Returns}
+the the node I\-D in human readable form. The returned value is
+\begin{DoxyCode}
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}{prefixId} + I 
+\end{DoxyCode}
+ . Where
+\begin{DoxyCode}
+I = this.getId() 
+\end{DoxyCode}
+ if the node is not a copy or, 
+\begin{DoxyCode}
+I = this.getCopyId + \textcolor{stringliteral}{"-ex:"} + this.getId() 
+\end{DoxyCode}
+ otherwise. 
+\end{DoxyReturn}
+
+
+Definition at line 226 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac2b29704663a2afe6db65bee8b699442}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!get\-Id@{get\-Id}}
+\index{get\-Id@{get\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{get\-Id}]{\setlength{\rightskip}{0pt plus 5cm}Long it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-get\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac2b29704663a2afe6db65bee8b699442}
+This method returns the unique I\-D assign to this node on constructor. This value does not change when node is copied. \begin{DoxyReturn}{Returns}
+the serial I\-D of this node 
+\end{DoxyReturn}
+
+
+Definition at line 179 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a60057c324224df3bb3ed19513440dbaa}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!get\-Original\-Id@{get\-Original\-Id}}
+\index{get\-Original\-Id@{get\-Original\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{get\-Original\-Id}]{\setlength{\rightskip}{0pt plus 5cm}Long it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-get\-Original\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a60057c324224df3bb3ed19513440dbaa}
+
+
+Definition at line 164 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4618a493bc87517e3cf9174eaa97bc69}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!get\-Parent@{get\-Parent}}
+\index{get\-Parent@{get\-Parent}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{get\-Parent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Node} it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-get\-Parent (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4618a493bc87517e3cf9174eaa97bc69}
+
+
+Definition at line 183 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a15d89614a65fa67f3148155f3ef84036}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!get\-Prefix\-Id@{get\-Prefix\-Id}}
+\index{get\-Prefix\-Id@{get\-Prefix\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{get\-Prefix\-Id}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-get\-Prefix\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a15d89614a65fa67f3148155f3ef84036}
+\begin{DoxyReturn}{Returns}
+the prefix\-Id assigned to this object 
+\end{DoxyReturn}
+
+
+Definition at line 218 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad8d73b94319bf906047a748e7c31a931}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!initialise@{initialise}}
+\index{initialise@{initialise}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{initialise}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-initialise (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ad8d73b94319bf906047a748e7c31a931}
+
+
+Definition at line 142 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a84ec1522500a0aee620dfe3654a2eb0b}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!is\-Copy@{is\-Copy}}
+\index{is\-Copy@{is\-Copy}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{is\-Copy}]{\setlength{\rightskip}{0pt plus 5cm}Boolean it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-is\-Copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a84ec1522500a0aee620dfe3654a2eb0b}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if the contents of this node as been filled by calling \hyperlink{}{copy\-Contents(\-Base\-Node)}. 
+\end{DoxyReturn}
+
+
+Definition at line 204 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1d04356a5dc33e09db1b33f2899eeabd}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!print\-Tree@{print\-Tree}}
+\index{print\-Tree@{print\-Tree}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{print\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-print\-Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1d04356a5dc33e09db1b33f2899eeabd}
+Prints on the
+\begin{DoxyCode}
+System.out 
+\end{DoxyCode}
+ stream the results of \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a0a350c0a6c67fa203ae530a55929be43}{to\-Tree\-String()}. 
+
+Definition at line 298 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a233616587a719d76c5bd5efabde15016}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!set\-Copy\-Id@{set\-Copy\-Id}}
+\index{set\-Copy\-Id@{set\-Copy\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{set\-Copy\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-set\-Copy\-Id (
+\begin{DoxyParamCaption}
+\item[{Long}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a233616587a719d76c5bd5efabde15016}
+
+
+Definition at line 188 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_aa6e5ed85e9e68ca715a1588ec0707546}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!set\-Id@{set\-Id}}
+\index{set\-Id@{set\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{set\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-set\-Id (
+\begin{DoxyParamCaption}
+\item[{Long}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_aa6e5ed85e9e68ca715a1588ec0707546}
+
+
+Definition at line 171 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a7b7c9533b6174764ff1f631504985d43}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!set\-Original\-Id@{set\-Original\-Id}}
+\index{set\-Original\-Id@{set\-Original\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{set\-Original\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-set\-Original\-Id (
+\begin{DoxyParamCaption}
+\item[{Long}]{original\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a7b7c9533b6174764ff1f631504985d43}
+
+
+Definition at line 167 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a6a7f71afc2cc29a45845b75a274c98ef}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!set\-Prefix\-Id@{set\-Prefix\-Id}}
+\index{set\-Prefix\-Id@{set\-Prefix\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{set\-Prefix\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-set\-Prefix\-Id (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix\-Id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a6a7f71afc2cc29a45845b75a274c98ef}
+
+\begin{DoxyParams}{Parameters}
+{\em prefix\-Id} & a prefix to be set. Used in \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_aaa062a29c60d37d63b105a1c95fec6f5}{get\-Debugging\-Id()}. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 212 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a9d8a1fbd1428ce47a30247bba94ddd25}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!show\-Tree@{show\-Tree}}
+\index{show\-Tree@{show\-Tree}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{show\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-show\-Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a9d8a1fbd1428ce47a30247bba94ddd25}
+Visualise a Tree (with this node as a root) through a dedicated Graphical User Interface. More in details, this basic G\-U\-I is implemented by\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_1_1TreeVisualizer}{Base\-Node.\-Tree\-Visualizer}. By default the title of the visualising frame would be empty. 
+
+Definition at line 504 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a5ed645f243d1555f06db33e1b57e9f3c}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!show\-Tree@{show\-Tree}}
+\index{show\-Tree@{show\-Tree}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{show\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-show\-Tree (
+\begin{DoxyParamCaption}
+\item[{final String}]{frame\-Title}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a5ed645f243d1555f06db33e1b57e9f3c}
+Visualise a Tree (with this node as a root) through a dedicated Graphical User Interface. More in details, this basic G\-U\-I is implemented by\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_1_1TreeVisualizer}{Base\-Node.\-Tree\-Visualizer}. 
+\begin{DoxyParams}{Parameters}
+{\em frame\-Title} & the name of the main windows in which the tree is visualised. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 512 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac8ec9d738aab3e71ed4953d5c04ddd32}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!to\-Map@{to\-Map}}
+\index{to\-Map@{to\-Map}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{to\-Map}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$ Long, {\bf Base\-Node}$>$ it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-to\-Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac8ec9d738aab3e71ed4953d5c04ddd32}
+This method returns a map relating all the nodes (starting from this object as root) of the tree with respect to their I\-D. \begin{DoxyReturn}{Returns}
+the result of \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a2b945f955a5a0151dd3d9c832cfc157f}{to\-Map(\-Boolean)} whit
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ as input parameter. 
+\end{DoxyReturn}
+
+
+Definition at line 457 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a2b945f955a5a0151dd3d9c832cfc157f}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!to\-Map@{to\-Map}}
+\index{to\-Map@{to\-Map}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{to\-Map}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$ Long, {\bf Base\-Node}$>$ it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-to\-Map (
+\begin{DoxyParamCaption}
+\item[{Boolean}]{use\-Copy\-Id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a2b945f955a5a0151dd3d9c832cfc157f}
+This method returns a map relating all the nodes (starting from this object as root) of the tree with respect to their copy\-I\-D if input parameter is
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ; with respect to their I\-D otherwise. 
+\begin{DoxyParams}{Parameters}
+{\em copy\-Id} & set to
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if the node should be map with respect to copy\-Id value. Set to
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ if the node should be map with respect to I\-D value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a map relating all the node of the tree (starting from this object as root) identified through their copy\-Id (if input parameter is
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) or through their I\-D (if
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ). 
+\end{DoxyReturn}
+
+
+Definition at line 468 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4333d02bc1f9764812dc5bffb5af53d2}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}abstract String it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a4333d02bc1f9764812dc5bffb5af53d2}
+This method should be implemented in the extending class in order to have a easy debugging information, used also in the G\-U\-I. \begin{DoxySeeAlso}{See Also}
+javax.\-swing.\-tree.\-Default\-Mutable\-Tree\-Node\-::to\-String() 
+\end{DoxySeeAlso}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a0a350c0a6c67fa203ae530a55929be43}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!to\-Tree\-String@{to\-Tree\-String}}
+\index{to\-Tree\-String@{to\-Tree\-String}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{to\-Tree\-String}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-to\-Tree\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a0a350c0a6c67fa203ae530a55929be43}
+\begin{DoxyReturn}{Returns}
+the tree described as a string starting from this node as the root. 
+\end{DoxyReturn}
+
+
+Definition at line 304 of file Base\-Node.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a526a32f2f2efacaf0a701e8d9b8d387c}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!copy\-Id@{copy\-Id}}
+\index{copy\-Id@{copy\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{copy\-Id}]{\setlength{\rightskip}{0pt plus 5cm}Long it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-copy\-Id = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a526a32f2f2efacaf0a701e8d9b8d387c}
+
+
+Definition at line 108 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ab1b67d800fbb127b6e95d27c6c936f1d}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!D\-E\-F\-A\-U\-L\-T\-\_\-\-P\-R\-E\-F\-I\-X\-\_\-\-I\-D@{D\-E\-F\-A\-U\-L\-T\-\_\-\-P\-R\-E\-F\-I\-X\-\_\-\-I\-D}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-P\-R\-E\-F\-I\-X\-\_\-\-I\-D@{D\-E\-F\-A\-U\-L\-T\-\_\-\-P\-R\-E\-F\-I\-X\-\_\-\-I\-D}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-P\-R\-E\-F\-I\-X\-\_\-\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-P\-R\-E\-F\-I\-X\-\_\-\-I\-D = \char`\"{}m\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ab1b67d800fbb127b6e95d27c6c936f1d}
+
+
+Definition at line 72 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a800cf0002fa8eb5d2e1a1efc798e9d3d}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-E\-R\-B\-O\-S\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-E\-R\-B\-O\-S\-E}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-E\-R\-B\-O\-S\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-E\-R\-B\-O\-S\-E}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-E\-R\-B\-O\-S\-E}]{\setlength{\rightskip}{0pt plus 5cm}Boolean it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-E\-R\-B\-O\-S\-E = false\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a800cf0002fa8eb5d2e1a1efc798e9d3d}
+
+
+Definition at line 569 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac48c006848405146428a0c553e43429e}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-I\-S\-I\-T\-O\-R\-\_\-\-N\-A\-M\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-I\-S\-I\-T\-O\-R\-\_\-\-N\-A\-M\-E}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-I\-S\-I\-T\-O\-R\-\_\-\-N\-A\-M\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-I\-S\-I\-T\-O\-R\-\_\-\-N\-A\-M\-E}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-I\-S\-I\-T\-O\-R\-\_\-\-N\-A\-M\-E}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-V\-I\-S\-I\-T\-O\-R\-\_\-\-N\-A\-M\-E = \char`\"{}visitor\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ac48c006848405146428a0c553e43429e}
+
+
+Definition at line 571 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_af4c8492c4126c6b336993d47448fd0ad}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-A\-L\-K\-E\-R\-\_\-\-N\-A\-M\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-A\-L\-K\-E\-R\-\_\-\-N\-A\-M\-E}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-A\-L\-K\-E\-R\-\_\-\-N\-A\-M\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-A\-L\-K\-E\-R\-\_\-\-N\-A\-M\-E}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-A\-L\-K\-E\-R\-\_\-\-N\-A\-M\-E}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-A\-L\-K\-E\-R\-\_\-\-N\-A\-M\-E = \char`\"{}walker\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_af4c8492c4126c6b336993d47448fd0ad}
+
+
+Definition at line 572 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ace8dafa005681888ca194c9f02e6f9cf}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!id@{id}}
+\index{id@{id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{id}]{\setlength{\rightskip}{0pt plus 5cm}Long it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-id\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_ace8dafa005681888ca194c9f02e6f9cf}
+
+
+Definition at line 107 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a9c661847e680bebcd0f7cd59f88ea4a1}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!is\-A\-Copy@{is\-A\-Copy}}
+\index{is\-A\-Copy@{is\-A\-Copy}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{is\-A\-Copy}]{\setlength{\rightskip}{0pt plus 5cm}boolean it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-is\-A\-Copy = false\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a9c661847e680bebcd0f7cd59f88ea4a1}
+
+
+Definition at line 109 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_af2c0c0c449f10cb72892b6df42f4e4a8}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!L\-O\-G\-\_\-\-T\-O\-T\-A\-L\-\_\-\-T\-I\-M\-E\-\_\-\-A\-N\-Y\-T\-W\-A\-Y@{L\-O\-G\-\_\-\-T\-O\-T\-A\-L\-\_\-\-T\-I\-M\-E\-\_\-\-A\-N\-Y\-T\-W\-A\-Y}}
+\index{L\-O\-G\-\_\-\-T\-O\-T\-A\-L\-\_\-\-T\-I\-M\-E\-\_\-\-A\-N\-Y\-T\-W\-A\-Y@{L\-O\-G\-\_\-\-T\-O\-T\-A\-L\-\_\-\-T\-I\-M\-E\-\_\-\-A\-N\-Y\-T\-W\-A\-Y}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{L\-O\-G\-\_\-\-T\-O\-T\-A\-L\-\_\-\-T\-I\-M\-E\-\_\-\-A\-N\-Y\-T\-W\-A\-Y}]{\setlength{\rightskip}{0pt plus 5cm}Boolean it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-L\-O\-G\-\_\-\-T\-O\-T\-A\-L\-\_\-\-T\-I\-M\-E\-\_\-\-A\-N\-Y\-T\-W\-A\-Y = false\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_af2c0c0c449f10cb72892b6df42f4e4a8}
+
+
+Definition at line 570 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a6a3d93e1d8a6fa71aeded8749347da7c}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!original\-Id@{original\-Id}}
+\index{original\-Id@{original\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{original\-Id}]{\setlength{\rightskip}{0pt plus 5cm}transient Long it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-original\-Id\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a6a3d93e1d8a6fa71aeded8749347da7c}
+
+
+Definition at line 106 of file Base\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}{\index{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}!prefix\-Id@{prefix\-Id}}
+\index{prefix\-Id@{prefix\-Id}!it::emarolab::cagg::core::BaseNode@{it\-::emarolab\-::cagg\-::core\-::\-Base\-Node}}
+\subsubsection[{prefix\-Id}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-Base\-Node.\-prefix\-Id\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode_a1e4662066a1e580f3ef9a1ad7c483dd8}
+
+
+Definition at line 110 of file Base\-Node.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/luca-\/phd/\-Documents/school luca/dottorato/research/verbal interface/speech\-\_\-workspace/concept\-\_\-action\-\_\-grammar\-\_\-generator/src/it/emarolab/cagg/core/\hyperlink{BaseNode_8java}{Base\-Node.\-java}\end{DoxyCompactItemize}

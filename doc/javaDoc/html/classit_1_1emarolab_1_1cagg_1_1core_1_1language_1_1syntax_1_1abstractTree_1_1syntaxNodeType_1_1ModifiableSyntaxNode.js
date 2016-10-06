@@ -1,0 +1,7 @@
+var classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1abstractTree_1_1syntaxNodeType_1_1ModifiableSyntaxNode =
+[
+    [ "ModifiableSyntaxNode", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1abstractTree_1_1syntaxNodeType_1_1ModifiableSyntaxNode.html#a8d9f22837951f188ed349f003ec28e7a", null ],
+    [ "assignData", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1abstractTree_1_1syntaxNodeType_1_1ModifiableSyntaxNode.html#a762004821bdc828e6ec79ae2d62a31b6", null ],
+    [ "assignType", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1abstractTree_1_1syntaxNodeType_1_1ModifiableSyntaxNode.html#af499aed3b2b5484eb22c20681fe2b573", null ],
+    [ "copy", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1abstractTree_1_1syntaxNodeType_1_1ModifiableSyntaxNode.html#a3d2a32794fcbde514c9ce817395cc1d1", null ]
+];

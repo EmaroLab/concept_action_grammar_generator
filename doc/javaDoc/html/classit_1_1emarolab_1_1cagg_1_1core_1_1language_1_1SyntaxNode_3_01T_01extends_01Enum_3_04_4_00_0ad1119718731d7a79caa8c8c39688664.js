@@ -1,0 +1,15 @@
+var classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664 =
+[
+    [ "SyntaxNode", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#af1a789a6cb123a51aefa39eae38d021d", null ],
+    [ "SyntaxNode", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#a1280397082fbf45597ffcdb54befdfe2", null ],
+    [ "assign", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#a60731795f3f4fa6e71f17d6ebaa51849", null ],
+    [ "assignData", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#a60aee624ab34518f943c0039c916950d", null ],
+    [ "assignType", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#aeab54d564e549598206be5524228bdcc", null ],
+    [ "copyContents", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#adae449e7c57a9980506e60364c490961", null ],
+    [ "getData", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#a93a1c238906e292a436711cb7f4dc482", null ],
+    [ "getType", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#a8b695dcbb42ba5e97e6cc27a3421e266", null ],
+    [ "setData", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#a0a5f1796636521eb76815139e90d893b", null ],
+    [ "setType", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#a291f7da96bf66b8c04dc0b216950a1d7", null ],
+    [ "data", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#acfb9c0de69b4fb76b64df56ff8918aad", null ],
+    [ "type", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxNode_3_01T_01extends_01Enum_3_04_4_00_0ad1119718731d7a79caa8c8c39688664.html#ac68b269ce1dcda0c97ae58cd7e61ba74", null ]
+];

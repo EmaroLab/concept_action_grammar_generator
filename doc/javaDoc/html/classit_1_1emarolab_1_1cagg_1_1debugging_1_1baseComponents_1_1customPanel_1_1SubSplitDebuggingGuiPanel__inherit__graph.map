@@ -1,0 +1,5 @@
+<map id="it.emarolab.cagg.debugging.baseComponents.customPanel.SubSplitDebuggingGuiPanel" name="it.emarolab.cagg.debugging.baseComponents.customPanel.SubSplitDebuggingGuiPanel">
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1AsnDebugginGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.AsnDebuggin\lGuiPanel" alt="" coords="744,5,1003,61"/>
+<area shape="rect" id="node5" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1AstDebugginGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.AstDebuggin\lGuiPanel" alt="" coords="746,85,1001,141"/>
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1BaseDebugginGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.BaseDebugginGuiPanel" alt="" coords="118,53,357,94"/>
+</map>

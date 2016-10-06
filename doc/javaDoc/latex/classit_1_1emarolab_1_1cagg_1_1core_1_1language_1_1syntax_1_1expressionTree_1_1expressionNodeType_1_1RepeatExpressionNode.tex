@@ -1,0 +1,245 @@
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode}{\section{it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node Class Reference}
+\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode}\index{it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node@{it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node}}
+}
+
+
+Inheritance diagram for it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeTypcbec70e1955bcfb611c1a326eeb922e8}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeTyp6634558e4ed11745a30ee41a9edbca94}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeTypee265c5385dc11a583b6493cfac9b7ab}{Id\-Post\-Processor}
+\item 
+class \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeTyp785488d13bbbabc8bec5d8852bfc23de}{Repeat\-Evaluator}
+\item 
+class {\bfseries Repeat\-To\-Logical\-Expression}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a63faa87040ceb29fcee3bf4df80d6eae}{Repeat\-Expression\-Node} (Parser\-Rule\-Context ctx)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a2b1a4143473dd1e2df138a825b5fcc26}{parse} (Parser\-Rule\-Context ctx)
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode}{Repeat\-Expression\-Node} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_afac521e27f4717e532aaeb0f6287c190}{copy} (Boolean update\-Copy\-Id)
+\item 
+Expression\-Node$<$?$>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_aa586860f4298f566cda48996e31c2a41}{copy\-Contents} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1BaseNode}{Base\-Node} new\-Node, Boolean generate\-Copy\-Id)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a792248ed845785e52801abd9be092531}{do\-Pre\-Processing} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1abstractTree_1_1syntaxNodeType_1_1RuleSyntaxNode}{Rule\-Syntax\-Node} rule\-Node, List$<$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1GrammarPrimitive}{Grammar\-Primitive} $>$ preliminary\-Grammars)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a0e8595e50c466a559c4e4d5c4768ce7c}{do\-Post\-Processing} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1abstractTree_1_1syntaxNodeType_1_1RuleSyntaxNode}{Rule\-Syntax\-Node} rule\-Node, Grammar\-Base$<$?extends \hyperlink{interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1semanticGrammar_1_1syntaxCompiler_1_1SemanticExpressionTreeBase}{Semantic\-Expression\-Tree\-Base} $>$ grammar)
+\item 
+Expression\-Node\\*
+$<$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1ExpressionDataFactory_1_1ExpressionRepeatData}{Expression\-Repeat\-Data} $>$\\*
+.Node\-Evaluator \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_aa6cf0eb741b9f748290dee920af2d402}{get\-Evaluator} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_af4a12cc253b3d81324fdb50b99a69e86}{M\-A\-X\-\_\-\-C\-H\-I\-L\-D\-R\-E\-N\-\_\-\-N\-U\-M\-B\-E\-R} = 1
+\item 
+static final Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a9c080850161e0694721c729aca9c4a54}{A\-N\-D\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R} = true
+\item 
+static final Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a3eae2bc5b3d1011f34db0f8db367ac0a}{O\-R\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R} = false
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1ExpressionDataFactory_1_1ExpressionRepeatData}{Expression\-Repeat\-Data} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_ac6c3e514a9fc1d963fcf982be226a16f}{assign\-Data} ()
+\item 
+Type \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a4f06f1706e5c0de29c5f0c579f656a05}{assign\-Type} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+transient Repeat\-To\-Logical\-Expression \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_ab5fb4e475bd09b572d920458ba2dc7a8}{translator}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeTyp785488d13bbbabc8bec5d8852bfc23de}{Repeat\-Evaluator} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a37caf8de00e3deb22f0c496d49e17e1e}{evaluator}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Repeat\-Expression\-Node.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a63faa87040ceb29fcee3bf4df80d6eae}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!Repeat\-Expression\-Node@{Repeat\-Expression\-Node}}
+\index{Repeat\-Expression\-Node@{Repeat\-Expression\-Node}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{Repeat\-Expression\-Node}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-Repeat\-Expression\-Node (
+\begin{DoxyParamCaption}
+\item[{Parser\-Rule\-Context}]{ctx}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a63faa87040ceb29fcee3bf4df80d6eae}
+
+
+Definition at line 45 of file Repeat\-Expression\-Node.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_ac6c3e514a9fc1d963fcf982be226a16f}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!assign\-Data@{assign\-Data}}
+\index{assign\-Data@{assign\-Data}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{assign\-Data}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Expression\-Repeat\-Data} it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-assign\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_ac6c3e514a9fc1d963fcf982be226a16f}
+
+
+Definition at line 79 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a4f06f1706e5c0de29c5f0c579f656a05}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!assign\-Type@{assign\-Type}}
+\index{assign\-Type@{assign\-Type}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{assign\-Type}]{\setlength{\rightskip}{0pt plus 5cm}Type it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-assign\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a4f06f1706e5c0de29c5f0c579f656a05}
+
+
+Definition at line 83 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_afac521e27f4717e532aaeb0f6287c190}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!copy@{copy}}
+\index{copy@{copy}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Repeat\-Expression\-Node} it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-copy (
+\begin{DoxyParamCaption}
+\item[{Boolean}]{update\-Copy\-Id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_afac521e27f4717e532aaeb0f6287c190}
+
+
+Definition at line 65 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_aa586860f4298f566cda48996e31c2a41}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!copy\-Contents@{copy\-Contents}}
+\index{copy\-Contents@{copy\-Contents}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{copy\-Contents}]{\setlength{\rightskip}{0pt plus 5cm}Expression\-Node$<$?$>$ it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-copy\-Contents (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Node}}]{new\-Node, }
+\item[{Boolean}]{generate\-Copy\-Id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_aa586860f4298f566cda48996e31c2a41}
+
+
+Definition at line 69 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a0e8595e50c466a559c4e4d5c4768ce7c}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!do\-Post\-Processing@{do\-Post\-Processing}}
+\index{do\-Post\-Processing@{do\-Post\-Processing}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{do\-Post\-Processing}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-do\-Post\-Processing (
+\begin{DoxyParamCaption}
+\item[{{\bf Rule\-Syntax\-Node}}]{rule\-Node, }
+\item[{Grammar\-Base$<$?extends {\bf Semantic\-Expression\-Tree\-Base} $>$}]{grammar}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a0e8595e50c466a559c4e4d5c4768ce7c}
+
+
+Definition at line 109 of file Repeat\-Expression\-Node.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-semantic\-Grammar.\-syntax\-Compiler.\-Semantic\-Expression\-Tree\-Base.\-get\-Root().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a0e8595e50c466a559c4e4d5c4768ce7c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a792248ed845785e52801abd9be092531}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!do\-Pre\-Processing@{do\-Pre\-Processing}}
+\index{do\-Pre\-Processing@{do\-Pre\-Processing}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{do\-Pre\-Processing}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-do\-Pre\-Processing (
+\begin{DoxyParamCaption}
+\item[{{\bf Rule\-Syntax\-Node}}]{rule\-Node, }
+\item[{List$<$ {\bf Grammar\-Primitive} $>$}]{preliminary\-Grammars}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a792248ed845785e52801abd9be092531}
+
+
+Definition at line 95 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_aa6cf0eb741b9f748290dee920af2d402}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!get\-Evaluator@{get\-Evaluator}}
+\index{get\-Evaluator@{get\-Evaluator}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{get\-Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}Expression\-Node$<${\bf Expression\-Repeat\-Data}$>$.Node\-Evaluator it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-get\-Evaluator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_aa6cf0eb741b9f748290dee920af2d402}
+
+
+Definition at line 131 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a2b1a4143473dd1e2df138a825b5fcc26}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!parse@{parse}}
+\index{parse@{parse}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-parse (
+\begin{DoxyParamCaption}
+\item[{Parser\-Rule\-Context}]{ctx}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a2b1a4143473dd1e2df138a825b5fcc26}
+
+
+Definition at line 50 of file Repeat\-Expression\-Node.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a9c080850161e0694721c729aca9c4a54}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!A\-N\-D\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R@{A\-N\-D\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R}}
+\index{A\-N\-D\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R@{A\-N\-D\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{A\-N\-D\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R}]{\setlength{\rightskip}{0pt plus 5cm}final Boolean it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-A\-N\-D\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R = true\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a9c080850161e0694721c729aca9c4a54}
+
+
+Definition at line 184 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a37caf8de00e3deb22f0c496d49e17e1e}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!evaluator@{evaluator}}
+\index{evaluator@{evaluator}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{evaluator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Repeat\-Evaluator} it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-evaluator\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a37caf8de00e3deb22f0c496d49e17e1e}
+
+
+Definition at line 38 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_af4a12cc253b3d81324fdb50b99a69e86}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!M\-A\-X\-\_\-\-C\-H\-I\-L\-D\-R\-E\-N\-\_\-\-N\-U\-M\-B\-E\-R@{M\-A\-X\-\_\-\-C\-H\-I\-L\-D\-R\-E\-N\-\_\-\-N\-U\-M\-B\-E\-R}}
+\index{M\-A\-X\-\_\-\-C\-H\-I\-L\-D\-R\-E\-N\-\_\-\-N\-U\-M\-B\-E\-R@{M\-A\-X\-\_\-\-C\-H\-I\-L\-D\-R\-E\-N\-\_\-\-N\-U\-M\-B\-E\-R}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{M\-A\-X\-\_\-\-C\-H\-I\-L\-D\-R\-E\-N\-\_\-\-N\-U\-M\-B\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}final Integer it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-M\-A\-X\-\_\-\-C\-H\-I\-L\-D\-R\-E\-N\-\_\-\-N\-U\-M\-B\-E\-R = 1\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_af4a12cc253b3d81324fdb50b99a69e86}
+
+
+Definition at line 31 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a3eae2bc5b3d1011f34db0f8db367ac0a}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!O\-R\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R@{O\-R\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R}}
+\index{O\-R\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R@{O\-R\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{O\-R\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R}]{\setlength{\rightskip}{0pt plus 5cm}final Boolean it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-O\-R\-\_\-\-O\-P\-E\-R\-A\-T\-O\-R = false\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_a3eae2bc5b3d1011f34db0f8db367ac0a}
+
+
+Definition at line 185 of file Repeat\-Expression\-Node.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_ab5fb4e475bd09b572d920458ba2dc7a8}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}!translator@{translator}}
+\index{translator@{translator}!it::emarolab::cagg::core::language::syntax::expressionTree::expressionNodeType::RepeatExpressionNode@{it\-::emarolab\-::cagg\-::core\-::language\-::syntax\-::expression\-Tree\-::expression\-Node\-Type\-::\-Repeat\-Expression\-Node}}
+\subsubsection[{translator}]{\setlength{\rightskip}{0pt plus 5cm}transient Repeat\-To\-Logical\-Expression it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Repeat\-Expression\-Node.\-translator\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1expressionTree_1_1expressionNodeType_1_1RepeatExpressionNode_ab5fb4e475bd09b572d920458ba2dc7a8}
+
+
+Definition at line 37 of file Repeat\-Expression\-Node.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/luca-\/phd/\-Documents/school luca/dottorato/research/verbal interface/speech\-\_\-workspace/concept\-\_\-action\-\_\-grammar\-\_\-generator/src/it/emarolab/cagg/core/language/syntax/expression\-Tree/expression\-Node\-Type/\hyperlink{RepeatExpressionNode_8java}{Repeat\-Expression\-Node.\-java}\end{DoxyCompactItemize}
