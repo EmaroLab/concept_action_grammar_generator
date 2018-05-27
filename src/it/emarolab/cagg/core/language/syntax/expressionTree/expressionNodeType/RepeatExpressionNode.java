@@ -183,7 +183,7 @@ public class RepeatExpressionNode extends ExpressionNode< ExpressionRepeatData>{
 	/////////////////////////////////////////////////// RepeatToLogicalExpression CONSTANTS
 	public static final Boolean AND_OPERATOR = true;
 	public static final Boolean OR_OPERATOR = false;	
-	class RepeatToLogicalExpression implements Serializable{
+	class RepeatToLogicalExpression implements java.io.Serializable{
 		/////////////////////////////////////////////////// FIELDS
 		// the variable contained the traslation of the repeat directive into a boolean ExpressionTree
 		private ExpressionNode<?> toLogicalExpression; 
