@@ -1,0 +1,11 @@
+<map id="it.emarolab.cagg.debugging.DebuggingText.DebuggingText" name="it.emarolab.cagg.debugging.DebuggingText.DebuggingText">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#a954881bbc398945ecd4bb9eaee1ecc56" title="it.emarolab.cagg.debugging.\lDebuggingText.initialise" alt="" coords="257,135,442,177"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#a9d3a7ed2d5177c7f8513cba4bdc3c998" title="it.emarolab.cagg.debugging.\lDebuggingText.setLoggerName" alt="" coords="506,5,713,46"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#af290c36f2c92cfc66387dd3f6fdccd53" title="it.emarolab.cagg.debugging.\lDebuggingText.setConfigurationPath" alt="" coords="491,70,727,111"/>
+<area shape="rect" id="node5" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#afbc675f65a800fe7a7d279b077908534" title="it.emarolab.cagg.debugging.\lDebuggingText.setLogger" alt="" coords="517,135,702,177"/>
+<area shape="rect" id="node6" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#ae1db7e027b1295c50d9afa8aeabc453b" title="it.emarolab.cagg.debugging.\lDebuggingText.createLogger" alt="" coords="515,201,704,242"/>
+<area shape="rect" id="node9" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#aa80c0f8c618c11bfa7a7449739224fc7" title="it.emarolab.cagg.debugging.\lDebuggingText.addLogger" alt="" coords="517,266,702,307"/>
+<area shape="rect" id="node7" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#affd2ee09ca69d174906069b511a0ef29" title="it.emarolab.cagg.debugging.\lDebuggingText.getLoggerName" alt="" coords="791,233,998,274"/>
+<area shape="rect" id="node8" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#aaeff0ed9d47c673637344f5f738c45eb" title="it.emarolab.cagg.debugging.\lDebuggingText.getConfigurationPath" alt="" coords="777,167,1013,209"/>
+<area shape="rect" id="node10" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#a27ca62f94655750c25c45e20b76db28b" title="it.emarolab.cagg.debugging.\lDebuggingText.getLogger" alt="" coords="802,298,987,339"/>
+</map>

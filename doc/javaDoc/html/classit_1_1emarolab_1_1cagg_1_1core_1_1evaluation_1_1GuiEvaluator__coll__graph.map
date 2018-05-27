@@ -1,0 +1,6 @@
+<map id="it.emarolab.cagg.core.evaluation.GuiEvaluator" name="it.emarolab.cagg.core.evaluation.GuiEvaluator">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator.html" title="it.emarolab.cagg.core.evaluation.\lThreadedEvaluator" alt="" coords="822,50,1037,91"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator_1_1EvaluatorRunner.html" title="it.emarolab.cagg.core.evaluation.\lThreadedEvaluator.EvaluatorRunner" alt="" coords="435,115,667,157"/>
+<area shape="rect" id="node5" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1CaggThread.html" title="it.emarolab.cagg.core.evaluation.\lCaggThread" alt="" coords="121,74,335,115"/>
+<area shape="rect" id="node8" href="$interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html" title="it.emarolab.cagg.core.evaluation.interfacing.\lGuiEvaluationInterface" alt="" coords="790,115,1069,157"/>
+</map>

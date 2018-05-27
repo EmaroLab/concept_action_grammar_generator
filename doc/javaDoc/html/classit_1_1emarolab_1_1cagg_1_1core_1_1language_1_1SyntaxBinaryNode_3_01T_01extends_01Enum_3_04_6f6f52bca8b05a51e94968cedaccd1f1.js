@@ -1,0 +1,17 @@
+var classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1 =
+[
+    [ "SyntaxBinaryNode", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#a112b6e4e0c7c11370f66b685cb9e75f4", null ],
+    [ "SyntaxBinaryNode", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#ace60d82ad8c0e52b1196bfe4d24ee47e", null ],
+    [ "SyntaxBinaryNode", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#adb299cb62c968d909b4ed0cd102800e5", null ],
+    [ "SyntaxBinaryNode", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#a6d21cb9c400eef5058705730aaffbd55", null ],
+    [ "assign", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#ac297470a0ead4cefc3669eaf3c1f03cf", null ],
+    [ "assignData", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#a07adb09278d0c85721a6ada656a6e722", null ],
+    [ "assignType", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#ab1bd99bb7831f331927c3f675a6ebb40", null ],
+    [ "copyContents", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#a879fff9a4bfcddc00a2fa797a144243e", null ],
+    [ "getData", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#a1385e73c6903d447611f22e3bfa88133", null ],
+    [ "getType", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#a5434ed378781c972c5673afc4106f84f", null ],
+    [ "setData", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#aa05c306a92774e4a653966efa3171258", null ],
+    [ "setType", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#a7be3d1de8df4ce6f6cd6a57a4f35218f", null ],
+    [ "data", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#aba625b314880e275f09984235373f5ef", null ],
+    [ "type", "classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1SyntaxBinaryNode_3_01T_01extends_01Enum_3_04_6f6f52bca8b05a51e94968cedaccd1f1.html#a4426abc1ae2240232658485eab6a9e5a", null ]
+];

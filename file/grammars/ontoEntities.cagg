@@ -17,8 +17,7 @@
 ///////////////////////////////////////////	Ontological Object Definition !!!
 
 // describes the possible type of objects in a sentence
-<ONTO_OBJ>		:	!optional( <ENUM> {@objEnum;}) 
-					( <ONTO_OBJ_CLS> {@CLS;} | <ONTO_OBJ_IND> {@IND;}) // | <PARAM_IND>	
+<ONTO_OBJ>		:	( <ONTO_OBJ_CLS> {@CLS;} | <ONTO_OBJ_IND> {@IND;}) // | <PARAM_IND>	
 				;											// ##############
 
 ///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

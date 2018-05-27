@@ -1,0 +1,5 @@
+var namespaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting =
+[
+    [ "InputFormatterBase", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1InputFormatterBase.html", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1InputFormatterBase" ],
+    [ "ThreadedInputFormatter", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1ThreadedInputFormatter.html", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1ThreadedInputFormatter" ]
+];

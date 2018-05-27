@@ -1,0 +1,5 @@
+<map id="it.emarolab.cagg.core.evaluation.GuiEvaluator.startAndMonitorResult" name="it.emarolab.cagg.core.evaluation.GuiEvaluator.startAndMonitorResult">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1SemanticTreeGuiPanel.html#a122a3adf096499b63e9bc08775aa34b2" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.SemanticTree\lGuiPanel.addTree" alt="" coords="285,5,547,61"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1ThreadedEvaluator.html#a760cd197b4dd73823616c1926c296586" title="it.emarolab.cagg.core.evaluation.\lThreadedEvaluator.getNextSolution" alt="" coords="302,85,530,126"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator.html#a45966369f37071d8b57558c4dddada62" title="it.emarolab.cagg.core.evaluation.\lGuiEvaluator.hasBeenKilled" alt="" coords="309,150,523,191"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="it.emarolab.cagg.interfaces.CaggGrammarTesterOnFile.createTestMap" name="it.emarolab.cagg.interfaces.CaggGrammarTesterOnFile.createTestMap">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1interfaces_1_1CaggGrammarTesterOnFile.html#a24571605e5adccdb800a15936f1859b6" title="it.emarolab.cagg.interfaces.\lCaggGrammarTesterOnFile.createSystemLog" alt="" coords="328,5,616,46"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1interfaces_1_1TestLog.html#a9d14f5a62e0808d3700a6f9e6d2eb7e4" title="it.emarolab.cagg.interfaces.\lTestLog.error" alt="" coords="381,70,563,111"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1interfaces_1_1CaggGrammarTesterOnFile_1_1TestPathManager.html#a205f312c92564f0d1f4c58e250552671" title="it.emarolab.cagg.interfaces.\lCaggGrammarTesterOnFile.TestPath\lManager.getQuestionMapPath" alt="" coords="353,135,591,191"/>
+<area shape="rect" id="node5" href="$classit_1_1emarolab_1_1cagg_1_1interfaces_1_1CaggGrammarTesterOnFile_1_1TestPathManager.html#a90d81cc57a665d364049405ed42b6b2a" title="it.emarolab.cagg.interfaces.\lCaggGrammarTesterOnFile.TestPath\lManager.getTestPath" alt="" coords="353,215,591,271"/>
+</map>

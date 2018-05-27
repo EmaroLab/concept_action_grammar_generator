@@ -1,0 +1,79 @@
+#CAGv1;  
+// to format this file properly open it with 4 space tabs
+
+//!start <ITERATIVE_PROPS>;
+
+// 	This grammar represents the possible ways to query
+// ontological properties by speaking.
+//	This grammar considers an InputFormatter able to skip worlds
+// that are told by the user but not specified in the grammar.
+// 	In particular, the ontology used in this case is the one
+// describing scenes of primitives objects composition (scene)
+// 	Finally, consider that this is a main grammar 
+// and it needs also the sceneOnto.cagg source file.
+
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Properties directives !!!!!!!!!!!!!!
+
+<ITERATIVE_PROPS>	
+		:	!repeat( <PROPS>, 1, 3)
+		;											// ##############
+
+<PROPS>	:	!optional( <OBJ> {@?;@~;})
+			(	<PROP> !optional( <OBJ> {@?;@~;})
+			  | <OBJ> {@?;@~;} <PROP>
+			)
+		;											// ##############
+
+
+<OBJ>	:	<ONTO_OBJ>	//|	<NOUM>	| <PRONOUM>
+		;											// ##############
+
+// since the system may consider only the first solution put it with priority
+<PROP>	:	!optional( <ENUM> {@propEnum;})
+		  	(
+				<SUPER> 	{@?~;}
+			  | <COMP>		{@?~;} 
+			  | <DESCRIPT> 	{@?~;}
+			  | <QUANTIT> 	{@?~;}
+		  	)
+		;											// ##############
+		   
+		   
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Comparative Properties Definition !!
+
+// this describes the possible way to ask for comparative (-er) properties
+// (e.g. "is X1 on the rigth of a cone?") [reduced to: ind.obj_prop(ind)]
+<COMP>	:	<PROP_ER> !optional( than {@!!;})
+		  | !optional( more {@!!;}) <PROP_COMP> !optional( than {@!!;})
+		;											// ##############
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Superlative Properties Definition !!
+	
+// this describes the possible way to ask for superlative (-est) properties
+// (e.g. "is X1 the highest cone?") [reduced to queries of ind.obj_prop(ind_i)]
+<SUPER>	:	<PROP_EST>
+		  | most {@!!;} <PROP_COMP>
+		;											// ##############
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Descriptive Properties Definition !!
+
+// this describes the possible way to ask for descriptive properties
+// (e.g. "is X1 a cone") [reduced to queries about the classification hierarchy]
+<DESCRIPT>	
+		:	<PROP_DESCRIPT>	  | <PROP_DESCRIPT>	
+		;											// ##############
+			
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Quantitative Properties Definition !			
+
+// this describes the possible way to ask for quantitative properties
+// (e.g. "is X1 a red cone") [reduced to: ind.data_prop(ind)]
+<QUANTIT>	
+		:	<PROP_QUANTIT>
+		;											// ##############
+		

@@ -19,13 +19,13 @@ public class APIusage { // (API)
 	// check log4j2 configuration files for logging and debugging (see: log/log4j_configuration/..)
 	
 	// constant for graammar testing
-	public static final String USER_SPEECH_INPUT = "can you tell me what do you see on the table close to the door?";
-	public static boolean TEST = false; // set to true to test the grammar with the USER_SPEECH_INPUT
+	public static final String USER_SPEECH_INPUT = "Are there 2 cones?";
+	public static boolean TEST = true; // set to true to test the grammar with the USER_SPEECH_INPUT
 	
 	// constants for grammar files
 	public static final String SOURCE_BASE_PATH = DebuggingDefaults.PATH_ABSOLUTE_NOTJAR;
 	public static final String[] SOURCE_PATS = { 
-		SOURCE_BASE_PATH + "englishBase.cagg", 			//SOURCE_BASE_PATH + "englishQuestions.cagg",
+		SOURCE_BASE_PATH + "englishBase.cagg", 			SOURCE_BASE_PATH + "englishQuestions.cagg",
 		SOURCE_BASE_PATH + "ontoEntities.cagg",			SOURCE_BASE_PATH + "ontoProperty.cagg"
 	};
 	public static final String SERIALISATION_PATH = DebuggingDefaults.PATH_GRAMMA_DESERIALISATION_NOTJAR + "query_scene.ser";

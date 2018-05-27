@@ -1,0 +1,6 @@
+<map id="it.emarolab.cagg.debugging.baseComponents.customPanel.TestDebugginGuiPanel" name="it.emarolab.cagg.debugging.baseComponents.customPanel.TestDebugginGuiPanel">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1BaseDebugginGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.BaseDebugginGuiPanel" alt="" coords="261,158,499,199"/>
+<area shape="rect" id="node9" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1SemanticTreeGuiPanel.html" title="it.emarolab.cagg.debugging.base\lComponents.customPanel.SemanticTree\lGuiPanel" alt="" coords="649,92,911,148"/>
+<area shape="rect" id="node7" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1JGradientBooleanButton.html" title="it.emarolab.cagg.debugging.base\lComponents.JGradientBooleanButton" alt="" coords="259,287,501,329"/>
+<area shape="rect" id="node14" href="$interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html" title="it.emarolab.cagg.core.evaluation.interfacing.\lGuiEvaluationInterface" alt="" coords="641,399,919,441"/>
+</map>

@@ -1,0 +1,25 @@
+var classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7 =
+[
+    [ "EvaluationResults", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a07a3d9e7b14e34feecdda5f919768ce8", null ],
+    [ "EvaluationResults", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#af64867a311b03b91717f2e5bb7a95123", null ],
+    [ "getEvaluationStartTimeStamp", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#ae01457b401d4b2daf5381522f4753791", null ],
+    [ "getFacts", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a0c53b0e16f195e90182542d4c2b8b886", null ],
+    [ "getGerationTimeStamp", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a31537a8ca0af79348864527ff07d62a4", null ],
+    [ "getResult", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a10410e75cb963d1173ca6a2af7b26c42", null ],
+    [ "getResultIdx", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a6a1bb73c7e652e669e1663fc31fc70b7", null ],
+    [ "getResultOutcome", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#ae170cea046ab73ae3f19a8dcb38c272a", null ],
+    [ "getResultTags", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#ae69646cd54df3267d36153ccea7c4da4", null ],
+    [ "getTimeSpan", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a457e730497acbbba3c94e2f2ce7155b6", null ],
+    [ "getTimeSpanFromEvaluationStart", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#ab2c5ab25fd43419119fedb3bb6dabd1b", null ],
+    [ "getUnknownWorlds", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a574760ac8fb8bab4e776addcc51a92db", null ],
+    [ "getUsedInput", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a02accd81d8c2d64de7094198df716302", null ],
+    [ "initialise", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a0610cc01c3755688272f81b16b0f395f", null ],
+    [ "toString", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#ae9950e2a92557a5b7b363d6ab3b417cf", null ],
+    [ "creationTimeStamp", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#afa9a90bf882fa3c824d09268a348a753", null ],
+    [ "facts", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a75e88928c98933c5c46316b53e2e60bf", null ],
+    [ "result", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a918e4958b3b46b571dd3b139c2040e5c", null ],
+    [ "resultIdx", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#af762552996eba74fac14763d154090f9", null ],
+    [ "secondsFromStart", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#ae0bddf7c2cd8252a0182b0b41affeef3", null ],
+    [ "skippedWorlds", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a888965111a9054c45082fed5dbbb3c16", null ],
+    [ "usedInputs", "classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7.html#a939fede306e58fa5a0c945086e49dba3", null ]
+];

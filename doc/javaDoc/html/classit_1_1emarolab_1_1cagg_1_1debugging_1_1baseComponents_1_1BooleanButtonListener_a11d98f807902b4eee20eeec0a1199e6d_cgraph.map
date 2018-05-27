@@ -1,0 +1,5 @@
+<map id="it.emarolab.cagg.debugging.baseComponents.BooleanButtonListener.actionPerformed" name="it.emarolab.cagg.debugging.baseComponents.BooleanButtonListener.actionPerformed">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1BooleanButtonListener.html#a0dc6e838d710758d23441f4a7dd4d936" title="it.emarolab.cagg.debugging.base\lComponents.BooleanButtonListener.do\lOffAction" alt="" coords="329,5,578,61"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1BooleanButtonListener.html#a6328d08340b485b36bd4c97e46a42c45" title="it.emarolab.cagg.debugging.base\lComponents.BooleanButtonListener.do\lOnAction" alt="" coords="329,85,578,141"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1JGradientBooleanButton.html#a6457713f98a3a458473e81bc302a3846" title="it.emarolab.cagg.debugging.base\lComponents.JGradientBooleanButton.is\lPressed" alt="" coords="326,165,581,221"/>
+</map>

@@ -25,7 +25,7 @@
 //		8) "... if there is a sphere?"					(there BE SUBJ)
 //		9) "is x1 a sphere?"							(BE SUBJ)
 //	   10) "Which object have the bigger radius"		(WH SUBJ VERB)
-<QUERY>	: 	(	!optional( <WH> {@?~;}) 
+/*<QUERY>	: 	(	!optional( <WH> {@?~;}) 
 			  (   <AUX> {@?~;} <SUBJ> <VERB> {@?~;} // (1,3,10)
 			  	| <BE> {@?~;} !optional( <SUBJ>)	// (2,6)	[SUBJ, PROP OBJ]						
 			  	| <SUBJ> !optional( there {@~;}) <VERB> {@?~;} // (5)
@@ -37,12 +37,24 @@
 			) 
 			//!optional( <ITERATIVE_PROPS>)
 		;											// ##############
+*/
+<QUERY> :	!optional( <WH> {@?~;}) (
+				<AUX>{@?~;} <SUBJ> <VERB>{@?~;}
+			  | <BE>{@?~;} there{@~;} <SUBJ>
+		 	  | <BE>{@?~;} <SUBJ>
+		 	  | <BE_HAVE>{@?~;} <SUBJ> <VERB>{@?~;}
+			  |	if{@?~;} ( 
+			  	  !optional( there{@~;}) <BE_HAVE>{@?~;} <SUBJ> 
+		  		| <SUBJ> <VERB>{@?~;}	
+		  	  )
+			)
+		;
 
 
 ///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ///////////////////////////////////////////	Query components definition !!!!!
 		   
-<WH+>	:	how {@!~;} ( much | many)
+<WH+>	:	how {@!~;} ( much | many) !optional( <Q_OBJ> {@SUBJ;@~;})
 		;											// ##############
 
 <WH>	:	which       | what          | where		
@@ -54,7 +66,11 @@
 		  | would		| should
 		;											// ##############
 
-<SUBJ>	:	<NOUM> 		{@SUBJ;@~;}	
-		  | <PRONOUM> 	{@SUBJ;@~;}	
-		  | <ONTO_OBJ> 	{@SUBJ;@~;}
-		;											// ##############
+<Q_OBJ>	:	<NOUM> 	| <PRONOUM> 
+		  | ( !optional(<ENUM>{@objEnum;}) <ONTO_OBJ>
+		  	| <ONTO_OBJ> <ONTO_OBJ> 
+		  	)	
+		;
+<SUBJ>	:  <Q_OBJ>{@SUBJ;@~;};
+<OBJJ>	:  <Q_OBJ>{@!SUBJ;@OBJ;};
+													// ##############

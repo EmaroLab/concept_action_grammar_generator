@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN" name="cagg-log4j2-gui-console-config"
+<Configuration status="warn" name="cagg-log4j2-gui-console-config"
 	packages="it.emarolab.cagg.debugging.baseComponents">
 	<Properties>
 		 <Property name="CLS-ALL">${sys:caggLoggerCallerClass}.${sys:caggLoggerCallerMethod}:${sys:caggLoggerCallerLine}</Property>

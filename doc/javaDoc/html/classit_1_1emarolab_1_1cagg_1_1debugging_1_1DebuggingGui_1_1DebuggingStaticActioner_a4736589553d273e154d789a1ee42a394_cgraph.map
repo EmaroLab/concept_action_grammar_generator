@@ -1,0 +1,4 @@
+<map id="it.emarolab.cagg.debugging.DebuggingGui.DebuggingStaticActioner.testClick" name="it.emarolab.cagg.debugging.DebuggingGui.DebuggingStaticActioner.testClick">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1JGradientBooleanButton.html#a2a823071faa9133cef4d45e060b17048" title="it.emarolab.cagg.debugging.base\lComponents.JGradientBooleanButton.changeState" alt="" coords="363,5,682,46"/>
+<area shape="rect" id="node3" href="$interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface.html#abefc2330a6288d4b4ccaed7a530c65ca" title="it.emarolab.cagg.core.evaluation.interfacing.\lGuiEvaluationInterface.hasBeenKilled" alt="" coords="383,70,662,111"/>
+</map>

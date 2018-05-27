@@ -1,0 +1,515 @@
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1}{\section{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$ Class Reference}
+\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1}\index{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+}
+
+
+Collaboration diagram for it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendc8c01e11698ab0d4aed93d88347cbae3}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extend2adbebed3b043f34edcb0efa646badc7}{Evaluation\-Results}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_affa9c214cdedd75f8691f30ff584359e}{Evaluator\-Base} (F \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3b45e169a4152cf6a81d6f8a0e60d6bc}{formatter})
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_acbda4dc28498f8a0f947d8749e23fc9a}{Evaluator\-Base} (String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a6ae36ff2beb31486da6c87d845616155}{logger\-Name}, F \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3b45e169a4152cf6a81d6f8a0e60d6bc}{formatter})
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a26e5cddd94965614d0b74e58531fbf37}{evaluate} (String user\-Input)
+\item 
+abstract Evaluation\-Results \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aab7485b183e97f3631625a9ceeb06b5c}{get\-Next\-Solution} ()
+\item 
+abstract Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_accf5df0a412157053b43ccda02892714}{get\-Evaluation\-Count} ()
+\item 
+abstract void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a897ac240d6270cb5de6c785ac6748d37}{stop} ()
+\item 
+abstract void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a99f64889b5869facd7e36432260700b1}{join} ()
+\item 
+abstract boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ab5fc585b77d84f864eba825c513e8996}{is\-Running} ()
+\item 
+abstract void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a99b21c55798db77a98db0aeb38967dc9}{activate\-Trigger} (Evaluation\-Results result)
+\item 
+G \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a4d67b61e7873557a8c98f552b0ce6090}{get\-Grammar} ()
+\item 
+F \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad4d9106eff8b34b184bf1a77a8d65328}{get\-Formatter} ()
+\item 
+Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a4eb61a6b823f3815817dab3e3018b590}{get\-Evaluation\-Stating\-Time\-Stamp} ()
+\item 
+Float \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a09a65ef09c45529c438a3ed2204ea01d}{get\-Actual\-Dealy\-From\-Start} ()
+\item 
+String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a1d3a8ace3da5bad5e02fed0c1b1ca31f}{get\-Logger\-Name} ()
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a11b36eb5831b04fdc07074cdf16f924c}{set\-Logger\-Name} (String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a6ae36ff2beb31486da6c87d845616155}{logger\-Name})
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1CaggThread_1_1ThreadLogger}{Thread\-Logger} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ae988ce7b83ec0b1737cbd4f453fcd4fd}{get\-Thread\-Logger} ()
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a7354ddb29f468f241971804caa7df869}{set\-Thread\-Logger} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1CaggThread_1_1ThreadLogger}{Thread\-Logger} logger)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a53e62cca385dc0c48d7e6994249511e8}{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-E\-R\-\_\-\-N\-A\-M\-E} = \hyperlink{classit_1_1emarolab_1_1cagg_1_1debugging_1_1CaggLoggersManager_af8668f66339e9fdbd8cbca1d1852b907}{Cagg\-Loggers\-Manager.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-N\-A\-M\-E\-\_\-\-E\-V\-A\-L\-U\-A\-T\-O\-R}
+\item 
+static final int \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aa133cf705d63cd4d2f26b08d3ddfdc59}{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-B\-A\-C\-K\-\_\-\-S\-T\-E\-P} = 2
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a2615a663766fc09941bc3b6b70952f0d}{start} ()
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad102e70a89e26f65f9f00328a8180b58}{set\-Expression\-Facts} (Facts$<$ ?$>$ true\-Facts)
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1semanticGrammar_1_1syntaxCompiler_1_1Semant5d395032261986aec1b33357dd21b6bb}{Semantic\-Result} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a34ef387a6fd87eac1dc5bd6d3f4e87a9}{evaluate\-Expression} ()
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ac5802b6b1a139d9524c6460299b72b37}{reset\-Expression} ()
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a5e495e79e157edca15b4ed4e7a9a700a}{log} (Object msg)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aa2ae2e33c3b993e860499047669aa437}{log} (int back\-Step, Object msg)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ab533cba50f38489812545786a727ad95}{log\-Warning} (Object msg)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a66acf00dc39adc9d4b63ef60798b3cb6}{log\-Warning} (int back\-Step, Object msg)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a77c2397fe2dd0dd0788dcdd3154986a8}{log\-Ok} (Object msg)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a48cd1d47288865d0e438524e7852a451}{log\-Ok} (int back\-Step, Object msg)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a64f854e145f7bf156a71f4495880dd91}{log\-Error} (Object msg)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3270034da8fd890ef0ea6dc826b34e4a}{log\-Error} (int back\-Step, Object msg)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_af8117e2b50fe4078c543e5316eed06bb}{log\-Error} (Exception e)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ae23400673840dd9f104a53f7d62b480a}{log\-Error} (int back\-Step, Exception e)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a436f5d0b8b48be29135d7a5640211e63}{initialise} (String log\-Name, F \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3b45e169a4152cf6a81d6f8a0e60d6bc}{formatter})
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+G \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad5f00bd710a38f621f91b7a1c2d63472}{grammar}
+\item 
+F \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3b45e169a4152cf6a81d6f8a0e60d6bc}{formatter}
+\item 
+Long \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a9118cdd9e5192faca3e7c3d97c9fc81c}{evaluating\-Start\-Time\-Stamp} = null
+\item 
+String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a6ae36ff2beb31486da6c87d845616155}{logger\-Name}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1CaggThread_1_1ThreadLogger}{Thread\-Logger} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a559fb61baeafd47b0f1cec2a6e5924b4}{thread\-Logger}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 20 of file Evaluator\-Base.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_affa9c214cdedd75f8691f30ff584359e}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!Evaluator\-Base@{Evaluator\-Base}}
+\index{Evaluator\-Base@{Evaluator\-Base}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{Evaluator\-Base}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.Evaluator\-Base (
+\begin{DoxyParamCaption}
+\item[{F}]{formatter}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_affa9c214cdedd75f8691f30ff584359e}
+
+
+Definition at line 40 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_acbda4dc28498f8a0f947d8749e23fc9a}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!Evaluator\-Base@{Evaluator\-Base}}
+\index{Evaluator\-Base@{Evaluator\-Base}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{Evaluator\-Base}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.Evaluator\-Base (
+\begin{DoxyParamCaption}
+\item[{String}]{logger\-Name, }
+\item[{F}]{formatter}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_acbda4dc28498f8a0f947d8749e23fc9a}
+
+
+Definition at line 43 of file Evaluator\-Base.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a99b21c55798db77a98db0aeb38967dc9}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!activate\-Trigger@{activate\-Trigger}}
+\index{activate\-Trigger@{activate\-Trigger}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{activate\-Trigger}]{\setlength{\rightskip}{0pt plus 5cm}abstract void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.activate\-Trigger (
+\begin{DoxyParamCaption}
+\item[{Evaluation\-Results}]{result}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a99b21c55798db77a98db0aeb38967dc9}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a26e5cddd94965614d0b74e58531fbf37}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{evaluate}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.evaluate (
+\begin{DoxyParamCaption}
+\item[{String}]{user\-Input}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a26e5cddd94965614d0b74e58531fbf37}
+
+
+Definition at line 59 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a34ef387a6fd87eac1dc5bd6d3f4e87a9}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!evaluate\-Expression@{evaluate\-Expression}}
+\index{evaluate\-Expression@{evaluate\-Expression}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{evaluate\-Expression}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Semantic\-Result} it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.evaluate\-Expression (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a34ef387a6fd87eac1dc5bd6d3f4e87a9}
+
+
+Definition at line 89 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a09a65ef09c45529c438a3ed2204ea01d}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!get\-Actual\-Dealy\-From\-Start@{get\-Actual\-Dealy\-From\-Start}}
+\index{get\-Actual\-Dealy\-From\-Start@{get\-Actual\-Dealy\-From\-Start}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{get\-Actual\-Dealy\-From\-Start}]{\setlength{\rightskip}{0pt plus 5cm}Float it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.get\-Actual\-Dealy\-From\-Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a09a65ef09c45529c438a3ed2204ea01d}
+
+
+Definition at line 108 of file Evaluator\-Base.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-debugging.\-Debugging\-Defaults.\-N\-A\-N\-O\-S\-E\-C\-\_\-2\-\_\-\-S\-E\-C.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_accf5df0a412157053b43ccda02892714}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!get\-Evaluation\-Count@{get\-Evaluation\-Count}}
+\index{get\-Evaluation\-Count@{get\-Evaluation\-Count}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{get\-Evaluation\-Count}]{\setlength{\rightskip}{0pt plus 5cm}abstract Integer it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.get\-Evaluation\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_accf5df0a412157053b43ccda02892714}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a4eb61a6b823f3815817dab3e3018b590}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!get\-Evaluation\-Stating\-Time\-Stamp@{get\-Evaluation\-Stating\-Time\-Stamp}}
+\index{get\-Evaluation\-Stating\-Time\-Stamp@{get\-Evaluation\-Stating\-Time\-Stamp}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{get\-Evaluation\-Stating\-Time\-Stamp}]{\setlength{\rightskip}{0pt plus 5cm}Long it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.get\-Evaluation\-Stating\-Time\-Stamp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a4eb61a6b823f3815817dab3e3018b590}
+
+
+Definition at line 105 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad4d9106eff8b34b184bf1a77a8d65328}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!get\-Formatter@{get\-Formatter}}
+\index{get\-Formatter@{get\-Formatter}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{get\-Formatter}]{\setlength{\rightskip}{0pt plus 5cm}F it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.get\-Formatter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad4d9106eff8b34b184bf1a77a8d65328}
+
+
+Definition at line 102 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a4d67b61e7873557a8c98f552b0ce6090}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!get\-Grammar@{get\-Grammar}}
+\index{get\-Grammar@{get\-Grammar}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{get\-Grammar}]{\setlength{\rightskip}{0pt plus 5cm}G it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.get\-Grammar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a4d67b61e7873557a8c98f552b0ce6090}
+
+
+Definition at line 99 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a1d3a8ace3da5bad5e02fed0c1b1ca31f}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!get\-Logger\-Name@{get\-Logger\-Name}}
+\index{get\-Logger\-Name@{get\-Logger\-Name}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{get\-Logger\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.get\-Logger\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a1d3a8ace3da5bad5e02fed0c1b1ca31f}
+
+
+Definition at line 111 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aab7485b183e97f3631625a9ceeb06b5c}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!get\-Next\-Solution@{get\-Next\-Solution}}
+\index{get\-Next\-Solution@{get\-Next\-Solution}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{get\-Next\-Solution}]{\setlength{\rightskip}{0pt plus 5cm}abstract Evaluation\-Results it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.get\-Next\-Solution (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aab7485b183e97f3631625a9ceeb06b5c}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ae988ce7b83ec0b1737cbd4f453fcd4fd}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!get\-Thread\-Logger@{get\-Thread\-Logger}}
+\index{get\-Thread\-Logger@{get\-Thread\-Logger}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{get\-Thread\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Thread\-Logger} it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.get\-Thread\-Logger (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ae988ce7b83ec0b1737cbd4f453fcd4fd}
+
+
+Definition at line 117 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a436f5d0b8b48be29135d7a5640211e63}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!initialise@{initialise}}
+\index{initialise@{initialise}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{initialise}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.initialise (
+\begin{DoxyParamCaption}
+\item[{String}]{log\-Name, }
+\item[{F}]{formatter}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a436f5d0b8b48be29135d7a5640211e63}
+
+
+Definition at line 47 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ab5fc585b77d84f864eba825c513e8996}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!is\-Running@{is\-Running}}
+\index{is\-Running@{is\-Running}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{is\-Running}]{\setlength{\rightskip}{0pt plus 5cm}abstract boolean it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.is\-Running (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ab5fc585b77d84f864eba825c513e8996}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a99f64889b5869facd7e36432260700b1}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!join@{join}}
+\index{join@{join}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{join}]{\setlength{\rightskip}{0pt plus 5cm}abstract void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.join (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a99f64889b5869facd7e36432260700b1}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a5e495e79e157edca15b4ed4e7a9a700a}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log@{log}}
+\index{log@{log}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log (
+\begin{DoxyParamCaption}
+\item[{Object}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a5e495e79e157edca15b4ed4e7a9a700a}
+
+
+Definition at line 128 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aa2ae2e33c3b993e860499047669aa437}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log@{log}}
+\index{log@{log}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log (
+\begin{DoxyParamCaption}
+\item[{int}]{back\-Step, }
+\item[{Object}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aa2ae2e33c3b993e860499047669aa437}
+
+
+Definition at line 131 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a64f854e145f7bf156a71f4495880dd91}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log\-Error@{log\-Error}}
+\index{log\-Error@{log\-Error}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log\-Error}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log\-Error (
+\begin{DoxyParamCaption}
+\item[{Object}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a64f854e145f7bf156a71f4495880dd91}
+
+
+Definition at line 149 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3270034da8fd890ef0ea6dc826b34e4a}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log\-Error@{log\-Error}}
+\index{log\-Error@{log\-Error}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log\-Error}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log\-Error (
+\begin{DoxyParamCaption}
+\item[{int}]{back\-Step, }
+\item[{Object}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3270034da8fd890ef0ea6dc826b34e4a}
+
+
+Definition at line 152 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_af8117e2b50fe4078c543e5316eed06bb}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log\-Error@{log\-Error}}
+\index{log\-Error@{log\-Error}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log\-Error}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log\-Error (
+\begin{DoxyParamCaption}
+\item[{Exception}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_af8117e2b50fe4078c543e5316eed06bb}
+
+
+Definition at line 156 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ae23400673840dd9f104a53f7d62b480a}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log\-Error@{log\-Error}}
+\index{log\-Error@{log\-Error}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log\-Error}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log\-Error (
+\begin{DoxyParamCaption}
+\item[{int}]{back\-Step, }
+\item[{Exception}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ae23400673840dd9f104a53f7d62b480a}
+
+
+Definition at line 159 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a77c2397fe2dd0dd0788dcdd3154986a8}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log\-Ok@{log\-Ok}}
+\index{log\-Ok@{log\-Ok}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log\-Ok}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log\-Ok (
+\begin{DoxyParamCaption}
+\item[{Object}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a77c2397fe2dd0dd0788dcdd3154986a8}
+
+
+Definition at line 142 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a48cd1d47288865d0e438524e7852a451}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log\-Ok@{log\-Ok}}
+\index{log\-Ok@{log\-Ok}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log\-Ok}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log\-Ok (
+\begin{DoxyParamCaption}
+\item[{int}]{back\-Step, }
+\item[{Object}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a48cd1d47288865d0e438524e7852a451}
+
+
+Definition at line 145 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ab533cba50f38489812545786a727ad95}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log\-Warning@{log\-Warning}}
+\index{log\-Warning@{log\-Warning}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log\-Warning}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log\-Warning (
+\begin{DoxyParamCaption}
+\item[{Object}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ab533cba50f38489812545786a727ad95}
+
+
+Definition at line 135 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a66acf00dc39adc9d4b63ef60798b3cb6}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!log\-Warning@{log\-Warning}}
+\index{log\-Warning@{log\-Warning}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{log\-Warning}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.log\-Warning (
+\begin{DoxyParamCaption}
+\item[{int}]{back\-Step, }
+\item[{Object}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a66acf00dc39adc9d4b63ef60798b3cb6}
+
+
+Definition at line 138 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ac5802b6b1a139d9524c6460299b72b37}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!reset\-Expression@{reset\-Expression}}
+\index{reset\-Expression@{reset\-Expression}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{reset\-Expression}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.reset\-Expression (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ac5802b6b1a139d9524c6460299b72b37}
+
+
+Definition at line 92 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad102e70a89e26f65f9f00328a8180b58}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!set\-Expression\-Facts@{set\-Expression\-Facts}}
+\index{set\-Expression\-Facts@{set\-Expression\-Facts}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{set\-Expression\-Facts}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.set\-Expression\-Facts (
+\begin{DoxyParamCaption}
+\item[{Facts$<$ ?$>$}]{true\-Facts}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad102e70a89e26f65f9f00328a8180b58}
+
+
+Definition at line 86 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a11b36eb5831b04fdc07074cdf16f924c}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!set\-Logger\-Name@{set\-Logger\-Name}}
+\index{set\-Logger\-Name@{set\-Logger\-Name}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{set\-Logger\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.set\-Logger\-Name (
+\begin{DoxyParamCaption}
+\item[{String}]{logger\-Name}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a11b36eb5831b04fdc07074cdf16f924c}
+
+
+Definition at line 114 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a7354ddb29f468f241971804caa7df869}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!set\-Thread\-Logger@{set\-Thread\-Logger}}
+\index{set\-Thread\-Logger@{set\-Thread\-Logger}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{set\-Thread\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.set\-Thread\-Logger (
+\begin{DoxyParamCaption}
+\item[{{\bf Thread\-Logger}}]{logger}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a7354ddb29f468f241971804caa7df869}
+
+
+Definition at line 121 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a2615a663766fc09941bc3b6b70952f0d}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!start@{start}}
+\index{start@{start}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}abstract void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a2615a663766fc09941bc3b6b70952f0d}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a897ac240d6270cb5de6c785ac6748d37}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!stop@{stop}}
+\index{stop@{stop}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}abstract void it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a897ac240d6270cb5de6c785ac6748d37}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a53e62cca385dc0c48d7e6994249511e8}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-E\-R\-\_\-\-N\-A\-M\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-E\-R\-\_\-\-N\-A\-M\-E}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-E\-R\-\_\-\-N\-A\-M\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-E\-R\-\_\-\-N\-A\-M\-E}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-E\-R\-\_\-\-N\-A\-M\-E}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-E\-R\-\_\-\-N\-A\-M\-E = {\bf Cagg\-Loggers\-Manager.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-N\-A\-M\-E\-\_\-\-E\-V\-A\-L\-U\-A\-T\-O\-R}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a53e62cca385dc0c48d7e6994249511e8}
+
+
+Definition at line 25 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aa133cf705d63cd4d2f26b08d3ddfdc59}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-B\-A\-C\-K\-\_\-\-S\-T\-E\-P@{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-B\-A\-C\-K\-\_\-\-S\-T\-E\-P}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-B\-A\-C\-K\-\_\-\-S\-T\-E\-P@{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-B\-A\-C\-K\-\_\-\-S\-T\-E\-P}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-B\-A\-C\-K\-\_\-\-S\-T\-E\-P}]{\setlength{\rightskip}{0pt plus 5cm}final int it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.D\-E\-F\-A\-U\-L\-T\-\_\-\-L\-O\-G\-G\-I\-N\-G\-\_\-\-B\-A\-C\-K\-\_\-\-S\-T\-E\-P = 2\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_aa133cf705d63cd4d2f26b08d3ddfdc59}
+
+
+Definition at line 26 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a9118cdd9e5192faca3e7c3d97c9fc81c}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!evaluating\-Start\-Time\-Stamp@{evaluating\-Start\-Time\-Stamp}}
+\index{evaluating\-Start\-Time\-Stamp@{evaluating\-Start\-Time\-Stamp}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{evaluating\-Start\-Time\-Stamp}]{\setlength{\rightskip}{0pt plus 5cm}Long it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.evaluating\-Start\-Time\-Stamp = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a9118cdd9e5192faca3e7c3d97c9fc81c}
+
+
+Definition at line 33 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3b45e169a4152cf6a81d6f8a0e60d6bc}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!formatter@{formatter}}
+\index{formatter@{formatter}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{formatter}]{\setlength{\rightskip}{0pt plus 5cm}F it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.formatter\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a3b45e169a4152cf6a81d6f8a0e60d6bc}
+
+
+Definition at line 32 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad5f00bd710a38f621f91b7a1c2d63472}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!grammar@{grammar}}
+\index{grammar@{grammar}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{grammar}]{\setlength{\rightskip}{0pt plus 5cm}G it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.grammar\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_ad5f00bd710a38f621f91b7a1c2d63472}
+
+
+Definition at line 31 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a6ae36ff2beb31486da6c87d845616155}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!logger\-Name@{logger\-Name}}
+\index{logger\-Name@{logger\-Name}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{logger\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.logger\-Name\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a6ae36ff2beb31486da6c87d845616155}
+
+
+Definition at line 34 of file Evaluator\-Base.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a559fb61baeafd47b0f1cec2a6e5924b4}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}!thread\-Logger@{thread\-Logger}}
+\index{thread\-Logger@{thread\-Logger}!it::emarolab::cagg::core::evaluation::interfacing::EvaluatorBase< G extends GrammarBase< ?extends SemanticExpressionTreeBase >, F extends InputFormatterBase >@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::interfacing\-::\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends Semantic\-Expression\-Tree\-Base $>$, F extends Input\-Formatter\-Base $>$}}
+\subsubsection[{thread\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Thread\-Logger} it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Evaluator\-Base$<$ G extends Grammar\-Base$<$ ?extends {\bf Semantic\-Expression\-Tree\-Base} $>$, F extends {\bf Input\-Formatter\-Base} $>$.thread\-Logger\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1EvaluatorBase_3_01G_01extendd61d057930241954f97ab0cbf4992dd1_a559fb61baeafd47b0f1cec2a6e5924b4}
+
+
+Definition at line 35 of file Evaluator\-Base.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/luca-\/phd/\-Documents/school luca/dottorato/research/verbal interface/speech\-\_\-workspace/concept\-\_\-action\-\_\-grammar\-\_\-generator/src/it/emarolab/cagg/core/evaluation/interfacing/\hyperlink{EvaluatorBase_8java}{Evaluator\-Base.\-java}\end{DoxyCompactItemize}

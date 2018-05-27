@@ -1,0 +1,87 @@
+#CAGv1;  
+// [sceneQuestion.cagg] to format this file properly open it with 4 space tabs
+
+!start <QUERY>;
+
+<QUERY>	:	<BE>{@AUX;@~;}
+			(	<OBJ>{@Subj;} <PROP2>{@?~;} !optional(<OBJ>{@?~;})
+			  | <Q_THERE>
+			)
+			!optional(<PROP2>{@?~;}) !optional( <OBJ>{@?~;})
+		  | !optional(<WH>{@?~;})
+			( <Q_AUX>
+			| <BE>{@AUX;@~;} <OBJ>{@Subj;}
+			| <BE>{@AUX;@~;} <OBJ>{@SUbj;} <VERBING>{@VERB;@~;}
+		 	)
+			!optional(<PROP2>{@?~;}) !optional( <OBJ>{@?~;})
+		  | <WH_M>{@?~;} <OBJ>{@Subj;} 
+			( <Q_AUX>
+			| <Q_THERE>
+			)
+		;
+
+<Q_THERE>:	there{@~;}
+			( 	<OBJ>{@Subj;} <PROP2>{@~;} !optional( <OBJ>{@?~;}) 
+			  | <LOCATION>{@?~;} 
+			  | <OBJ>{@Subj;} !optional(<LOCATION>{@?~;})
+			)
+		;
+
+<Q_AUX>	:	<AUX>{@?~;} <OBJ>{@SUBJ;} <VERB>{@?;@~;}
+		  |	<BE>{@?VERB;@~;} <OBJ>{@SUbj;}		  
+		;
+
+<WH_M>	:	how{@!!;} (much | many)
+		;
+
+<PROP1>	:	shape | shapes | colour | colours | green | yellow | black | white | small | big | medium | horizontal | vertical | parallel | perpendicular | coaxial | aligned | cooplanar | far | close | closest | center | oriented | between	// properties that are relate only to on <OBJ>
+		;
+<PROP2>	:	right | left | above | below | front | behind | further | aligned | cooplanar | higher | lower | (higher | lower | closer | further) than | horizontal | vertical | parallel | perpendicular | coaxial | aligned | cooplanar | closest | along | center | close | oriented | between
+		;
+
+<AUX>	:	do 	| does	| can	| could | would	| should
+		;											// ##############
+
+<VERB>	:	see	| seen | remind | reminds | <BE> | <HAVE>
+		;
+<VERBING>:	seeing | reminding 
+		;
+
+<OBJ>	:	<PRONOUM>{@~;} 
+		  |	!optional(<ENUM>) !optional(<PROP1>{@?~;}) <SHAPES>{@?~;} !optional(<LOCATION>{@?~;})
+		  | x1{@~;} | x2{@~;} | x3{@~;} | x4{@~;}
+		  | !optional(axis | axes | line)(x{@~;}	| y{@~;} | z{@~;})!optional(axis | axes | line)
+		  | !optional(plane)(xy{@~;} | yx{@xy;} | xz{@~;} | zx{@xz;} | yz{@~;} | zy{@yz;}) !optional(plane)
+		
+		;
+
+<LOCATION>: scene | scenes | table | tables
+		;
+
+<ENUM>	:	<ENUMERATOR> | <QUANTIFIER>
+		;											// ##############
+<ENUMERATOR>:	
+			1 	{@~;}	| one   {@!~;@1;}		
+		  | 2 	{@~;}	| two   {@!~;@2;}
+		  | 3 	{@~;}	| three {@!~;@3;}
+		  | 4 	{@~;}	| four  {@!~;@4;}
+		;											// ##############
+		
+<QUANTIFIER>
+		: 	every  | all 
+		  | some	{@SOME;@!~;}	| any {@!~;@SOME;} // the tag is always "same"	
+		  | <MORE> {@?;}	| <LESS> {@?;} | most{@~;}
+		;											// ##############
+<MORE>	:	more {@!!;} <ENUMERATOR> 
+		;											// ##############
+<LESS>	:	less {@!!;} <ENUMERATOR> 
+		;
+
+<PRONOUM>: 	i | you | it | they
+		;
+<SHAPES>:	cone | cones | cylinder | cylinders | plane | planes | sphere | spheres | object | objects | box | boxes | cup
+		;
+
+<BE>	:	am | are | is;
+<HAVE>	:	has| have;	
+<WH>	:	which | what | where;

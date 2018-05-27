@@ -1,0 +1,304 @@
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator}{\section{it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator Class Reference}
+\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator}\index{it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator@{it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator}}
+}
+
+
+Inheritance diagram for it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a1d12955d5430215a44ec86108e6699a3}{Gui\-Evaluator} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1ThreadedInputFormatter}{Threaded\-Input\-Formatter} formatter)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_acdc926a57208e75508ff6d5157b5452f}{activate\-Trigger} (Evaluation\-Results result)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a162aa9204db7d2f115db59a607190990}{start\-And\-Monitor\-Result} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1TestDebugginGuiPanel}{Test\-Debuggin\-Gui\-Panel} test\-Panel, \hyperlink{classit_1_1emarolab_1_1cagg_1_1debugging_1_1baseComponents_1_1customPanel_1_1SemanticTreeGuiPanel}{Semantic\-Tree\-Gui\-Panel} tree\-Panel)
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a14dd786e76f98ae69606f49b90aca892}{stop\-Evaluation} ()
+\item 
+Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a45966369f37071d8b57558c4dddada62}{has\-Been\-Killed} ()
+\item 
+Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_aa2ac6b9c03006923243f0892b336c918}{in\-Progress} ()
+\item 
+Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a68b051610cd066941b22d2c965e5f80a}{get\-Evaluating\-Progress} ()
+\item 
+Evaluating\-Info \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a6c612f25937d135fd60533bfcd695696}{get\-New\-Evaluating\-Info} ()
+\item 
+Evaluated\-Tree \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_ae6680fc2706f767fb69aa99b542a8f77}{get\-All\-Evaluated\-Expressions} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a3f67f7d0cbf1c4acb7b0ecc9128743bf}{reset\-Expression} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Evaluating\-Info \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a4b6590dbb425688e97881535bc40cc7b}{gui\-Info} = new Evaluating\-Info()
+\item 
+Evaluated\-Tree \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_ae6546ea6dd764ba0bad50645a7f8a0aa}{eval\-Tree} = new Evaluated\-Tree()
+\item 
+Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a5531f3ccea0d2388e677737c8afe44ad}{has\-Been\-Killed} = null
+\item 
+Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a3fbd2b5da5785f922264c05fe0ae4770}{previous\-Tree\-Size} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file Gui\-Evaluator.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a1d12955d5430215a44ec86108e6699a3}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!Gui\-Evaluator@{Gui\-Evaluator}}
+\index{Gui\-Evaluator@{Gui\-Evaluator}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{Gui\-Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-Gui\-Evaluator (
+\begin{DoxyParamCaption}
+\item[{{\bf Threaded\-Input\-Formatter}}]{formatter}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a1d12955d5430215a44ec86108e6699a3}
+
+
+Definition at line 27 of file Gui\-Evaluator.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_acdc926a57208e75508ff6d5157b5452f}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!activate\-Trigger@{activate\-Trigger}}
+\index{activate\-Trigger@{activate\-Trigger}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{activate\-Trigger}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-activate\-Trigger (
+\begin{DoxyParamCaption}
+\item[{Evaluation\-Results}]{result}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_acdc926a57208e75508ff6d5157b5452f}
+
+
+Definition at line 49 of file Gui\-Evaluator.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_ae6680fc2706f767fb69aa99b542a8f77}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!get\-All\-Evaluated\-Expressions@{get\-All\-Evaluated\-Expressions}}
+\index{get\-All\-Evaluated\-Expressions@{get\-All\-Evaluated\-Expressions}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{get\-All\-Evaluated\-Expressions}]{\setlength{\rightskip}{0pt plus 5cm}Evaluated\-Tree it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-get\-All\-Evaluated\-Expressions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_ae6680fc2706f767fb69aa99b542a8f77}
+
+
+Implements \hyperlink{interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_a30c5a5306a28d4c67641bf55548b25d3}{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface}.
+
+
+
+Definition at line 183 of file Gui\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-eval\-Tree.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a68b051610cd066941b22d2c965e5f80a}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!get\-Evaluating\-Progress@{get\-Evaluating\-Progress}}
+\index{get\-Evaluating\-Progress@{get\-Evaluating\-Progress}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{get\-Evaluating\-Progress}]{\setlength{\rightskip}{0pt plus 5cm}Integer it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-get\-Evaluating\-Progress (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a68b051610cd066941b22d2c965e5f80a}
+
+
+Implements \hyperlink{interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_a998af18ddb63f0ac9d8bb3423a7b2eab}{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface}.
+
+
+
+Definition at line 172 of file Gui\-Evaluator.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a6c612f25937d135fd60533bfcd695696}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!get\-New\-Evaluating\-Info@{get\-New\-Evaluating\-Info}}
+\index{get\-New\-Evaluating\-Info@{get\-New\-Evaluating\-Info}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{get\-New\-Evaluating\-Info}]{\setlength{\rightskip}{0pt plus 5cm}Evaluating\-Info it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-get\-New\-Evaluating\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a6c612f25937d135fd60533bfcd695696}
+
+
+Implements \hyperlink{interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_ac005a4f002a5f0642be21c1202135c3c}{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface}.
+
+
+
+Definition at line 177 of file Gui\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-gui\-Info.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a45966369f37071d8b57558c4dddada62}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!has\-Been\-Killed@{has\-Been\-Killed}}
+\index{has\-Been\-Killed@{has\-Been\-Killed}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{has\-Been\-Killed}]{\setlength{\rightskip}{0pt plus 5cm}Boolean it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-has\-Been\-Killed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a45966369f37071d8b57558c4dddada62}
+
+
+Implements \hyperlink{interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_abefc2330a6288d4b4ccaed7a530c65ca}{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface}.
+
+
+
+Definition at line 164 of file Gui\-Evaluator.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-start\-And\-Monitor\-Result(), and it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-stop\-Evaluation().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_aa2ac6b9c03006923243f0892b336c918}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!in\-Progress@{in\-Progress}}
+\index{in\-Progress@{in\-Progress}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{in\-Progress}]{\setlength{\rightskip}{0pt plus 5cm}Boolean it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-in\-Progress (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_aa2ac6b9c03006923243f0892b336c918}
+
+
+Implements \hyperlink{interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_a2f8c453178460998dbfe966c5d409652}{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface}.
+
+
+
+Definition at line 168 of file Gui\-Evaluator.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a3f67f7d0cbf1c4acb7b0ecc9128743bf}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!reset\-Expression@{reset\-Expression}}
+\index{reset\-Expression@{reset\-Expression}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{reset\-Expression}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-reset\-Expression (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a3f67f7d0cbf1c4acb7b0ecc9128743bf}
+
+
+Definition at line 35 of file Gui\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-eval\-Tree.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a162aa9204db7d2f115db59a607190990}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!start\-And\-Monitor\-Result@{start\-And\-Monitor\-Result}}
+\index{start\-And\-Monitor\-Result@{start\-And\-Monitor\-Result}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{start\-And\-Monitor\-Result}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-start\-And\-Monitor\-Result (
+\begin{DoxyParamCaption}
+\item[{{\bf Test\-Debuggin\-Gui\-Panel}}]{test\-Panel, }
+\item[{{\bf Semantic\-Tree\-Gui\-Panel}}]{tree\-Panel}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a162aa9204db7d2f115db59a607190990}
+
+
+Implements \hyperlink{interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_adfc8f64a0eacda3e0dd7e9ce8a59d37e}{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface}.
+
+
+
+Definition at line 58 of file Gui\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-debugging.\-base\-Components.\-custom\-Panel.\-Semantic\-Tree\-Gui\-Panel.\-add\-Tree(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-eval\-Tree, it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface.\-Solution\-Type.\-F\-E\-A\-S\-I\-B\-L\-E, it.\-emarolab.\-cagg.\-core.\-evaluation.\-Threaded\-Evaluator.\-get\-Next\-Solution(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-has\-Been\-Killed(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-previous\-Tree\-Size, it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface.\-Solution\-Type.\-T\-R\-U\-E\-\_\-\-S\-O\-L\-\_\-\-I\-D\-X, it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface.\-Solution\-Type.\-U\-N\-F\-E\-A\-S\-I\-B\-L\-E, and it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface.\-Solution\-Type.\-U\-N\-R\-E\-A\-S\-O\-N\-A\-B\-L\-E.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a162aa9204db7d2f115db59a607190990_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a14dd786e76f98ae69606f49b90aca892}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!stop\-Evaluation@{stop\-Evaluation}}
+\index{stop\-Evaluation@{stop\-Evaluation}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{stop\-Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-stop\-Evaluation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a14dd786e76f98ae69606f49b90aca892}
+
+
+Implements \hyperlink{interfaceit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GuiEvaluationInterface_a9088bd8a49d34a9b9925fc577b226a61}{it.\-emarolab.\-cagg.\-core.\-evaluation.\-interfacing.\-Gui\-Evaluation\-Interface}.
+
+
+
+Definition at line 158 of file Gui\-Evaluator.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-has\-Been\-Killed().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a14dd786e76f98ae69606f49b90aca892_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_ae6546ea6dd764ba0bad50645a7f8a0aa}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!eval\-Tree@{eval\-Tree}}
+\index{eval\-Tree@{eval\-Tree}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{eval\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}Evaluated\-Tree it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-eval\-Tree = new Evaluated\-Tree()\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_ae6546ea6dd764ba0bad50645a7f8a0aa}
+
+
+Definition at line 20 of file Gui\-Evaluator.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-get\-All\-Evaluated\-Expressions(), it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-reset\-Expression(), and it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-start\-And\-Monitor\-Result().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a4b6590dbb425688e97881535bc40cc7b}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!gui\-Info@{gui\-Info}}
+\index{gui\-Info@{gui\-Info}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{gui\-Info}]{\setlength{\rightskip}{0pt plus 5cm}Evaluating\-Info it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-gui\-Info = new Evaluating\-Info()\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a4b6590dbb425688e97881535bc40cc7b}
+
+
+Definition at line 19 of file Gui\-Evaluator.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-get\-New\-Evaluating\-Info().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a5531f3ccea0d2388e677737c8afe44ad}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!has\-Been\-Killed@{has\-Been\-Killed}}
+\index{has\-Been\-Killed@{has\-Been\-Killed}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{has\-Been\-Killed}]{\setlength{\rightskip}{0pt plus 5cm}Boolean it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-has\-Been\-Killed = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a5531f3ccea0d2388e677737c8afe44ad}
+
+
+Definition at line 21 of file Gui\-Evaluator.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a3fbd2b5da5785f922264c05fe0ae4770}{\index{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}!previous\-Tree\-Size@{previous\-Tree\-Size}}
+\index{previous\-Tree\-Size@{previous\-Tree\-Size}!it::emarolab::cagg::core::evaluation::GuiEvaluator@{it\-::emarolab\-::cagg\-::core\-::evaluation\-::\-Gui\-Evaluator}}
+\subsubsection[{previous\-Tree\-Size}]{\setlength{\rightskip}{0pt plus 5cm}Integer it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-previous\-Tree\-Size = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1GuiEvaluator_a3fbd2b5da5785f922264c05fe0ae4770}
+
+
+Definition at line 22 of file Gui\-Evaluator.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-evaluation.\-Gui\-Evaluator.\-start\-And\-Monitor\-Result().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/luca-\/phd/\-Documents/school luca/dottorato/research/verbal interface/speech\-\_\-workspace/concept\-\_\-action\-\_\-grammar\-\_\-generator/src/it/emarolab/cagg/core/evaluation/\hyperlink{GuiEvaluator_8java}{Gui\-Evaluator.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="it.emarolab.cagg.debugging.CaggLoggersManager.initialise" name="it.emarolab.cagg.debugging.CaggLoggersManager.initialise">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1CaggLoggersManager.html#a76d643f5dd354a9c58046479e24bb83b" title="it.emarolab.cagg.debugging.\lCaggLoggersManager.setFilePath" alt="" coords="253,70,472,111"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1DebuggingText.html#a8f1b74b8facecd8d3d8e6af8f4fdc2f3" title="it.emarolab.cagg.debugging.\lDebuggingText.getFormattedDate" alt="" coords="520,5,739,46"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1UILog.html#a188db845b9d2e4459aa4ca8e119d27f4" title="it.emarolab.cagg.debugging.\lUILog.getLogger" alt="" coords="537,70,722,111"/>
+<area shape="rect" id="node5" href="$classit_1_1emarolab_1_1cagg_1_1debugging_1_1UILog.html#a1b28be4ea8d87cdd3dae01062b951f73" title="it.emarolab.cagg.debugging.\lUILog.info" alt="" coords="537,135,722,177"/>
+</map>

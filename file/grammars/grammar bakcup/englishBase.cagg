@@ -1,0 +1,106 @@
+#CAGv1;  
+// to format this file properly open it with 4 space tabs
+
+// 	This grammar collects common inglish entities.
+// Consider that other names (such as color, object name ...)
+// that are related to the ontological description should be 
+// placed on a specific file (dependent to the semantic description
+// of such a properties).
+//  Note that this is not a main grammar !!!
+// 	Finally, consider that those terms does non propagated 
+// any tags from super-rules !!!
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Entities Names !!!!!!!!!!!!!!!!!!
+
+<PRONOUM>:  
+			i           | it	    	| they      | you
+		  | somebody 	| someone   	| anybody
+		;											// ##############
+				
+<NOUM>	:	god		
+		  | robot 		| bot
+		  | machine		| system
+		;											// ##############
+
+	
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Verbs composition !!!!!!!!!!!!!!!
+
+<VERB>	: 	<BE>		| <HAVE>	// does not inherits tags from <BE_HAVE>
+		  | see 		| sees		    | seeing
+		  | know 		| knows		    | knowing
+		  | exist		| exists	    | existing
+		  | get			| gets			| got 
+		;											// ##############
+
+<BE_HAVE> 	// you may want to descrimitate them by adding {@?;} to all the terms
+		:	<BE> 		| <HAVE>	// they can be used ase auxiliary verbs
+		;											// ##############
+
+<BE>	:	are 		| is
+		;											// ##############
+
+<HAVE>	:	have    	| has
+		;											// ##############
+
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Quantifiers !!!!!!!!!!!!!!!!!!!!!
+
+// you may want to descrimitate them by adding {@?;} to all the terms
+<ENUM>	:	<ENUMERATOR> | <QUANTIFIER>
+		;											// ##############
+
+// to express the number of objects in the sentences (it has a limit for performances)
+// a grammar dedicated to the spelling of numbers can be suitable as well.
+<ENUMERATOR>
+		:	1 	{@~;}	| one   {@!~;@1;}		
+		  | 2 	{@~;}	| two   {@!~;@2;}
+		  | 3 	{@~;}	| three {@!~;@3;}
+		  | 4 	{@~;}	| four  {@!~;@4;}
+		;											// ##############
+		
+<QUANTIFIER>
+		: 	some	{@SOME;@!~;}	| any {@!~;@SOME;} // the tag is always "same"	
+		  | <MORE> {@?;}	| <LESS> {@?;}
+		;											// ##############
+<MORE>	:	more {@!!;} than {@!!;} <ENUMERATOR> 
+		;											// ##############
+<LESS>	:	less {@!!;} than {@!!;} <ENUMERATOR> 
+		;											// ##############
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Math speaking directives !!!!!!!!
+	
+// the way to describe an axis of a 3D frame
+<AXIS>			:	x {@~;}	| y {@~;}	| z {@~;}
+				;											// ##############
+
+// the way to describe a semi-plane of a 3D frame
+<AXIS_PLANES>	:	xy 	{@~;}	| x {@!!;} y {@!~;@xy;} // they get always the same type of tag ('~')
+				  | xz 	{@~;}	| x {@!!;} z {@!~;@xz;}
+				  | yz 	{@~;}	| y {@!!;} z {@!~;@yz;}
+				  |	yx 	{@~;}	| y {@!!;} x {@!~;@xy;}
+				  | zx 	{@~;}	| z {@!!;} x {@!~;@xz;}
+				  | zy 	{@~;}	| z {@!!;} y {@!~;@yz;}
+				;											// ##############	
+
+
+///////////////////////////////////////////	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////	Unreasonable Worlds !!!!!!!!!!!!!
+
+// those increase the performances of the input formatter by skipping 
+// all the specific (frequent) wolrds in which the place of a tags does
+// not any sense. You do not need to call this rule on your grammar since
+// '^' is a global symbol. 
+// This list may strong depend from your application (e.g. 'in', 'on' may be interesting)
+<WORLD_TO_NOT_BE_EVALUATED>
+		: 	^on  {@!!;}	| ^of   {@!!;}
+		  | ^a   {@!!;}	| ^an   {@!!;}
+		  | ^the {@!!;}	| ^with {@!!;}
+		  | ^to  {@!!;}	| ^that {@!!;}
+		  | ^for {@!!;}	| ^from {@!!;}
+		  | ^on  {@!!;}	| ^in 	{@!!;}	| ^at 	{@!!;}
+		;											// ##############
+		

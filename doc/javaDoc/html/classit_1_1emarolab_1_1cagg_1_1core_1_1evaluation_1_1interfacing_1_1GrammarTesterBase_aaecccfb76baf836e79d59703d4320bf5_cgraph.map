@@ -1,0 +1,6 @@
+<map id="it.emarolab.cagg.core.evaluation.interfacing.GrammarTesterBase.GrammarTesterBase" name="it.emarolab.cagg.core.evaluation.interfacing.GrammarTesterBase.GrammarTesterBase">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GrammarTesterBase.html#af698a620944b547771206862df45a988" title="it.emarolab.cagg.core.evaluation.interfacing.\lGrammarTesterBase.initialise" alt="" coords="334,37,613,78"/>
+<area shape="rect" id="node5" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GrammarTesterBase.html#acf5bfed217147dbf2c62954b59a203ff" title="initialisation methods used from constructors " alt="" coords="334,102,613,143"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GrammarTesterBase.html#ad626b9ed635917e825bc72dd0c7a99c1" title="it.emarolab.cagg.core.evaluation.interfacing.\lGrammarTesterBase.getNewFormatter" alt="" coords="662,5,941,46"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1interfacing_1_1GrammarTesterBase.html#ace0f41c55b2c427a9a34cf9e12034dce" title="it.emarolab.cagg.core.evaluation.interfacing.\lGrammarTesterBase.getNewEvaluator" alt="" coords="662,70,941,111"/>
+</map>

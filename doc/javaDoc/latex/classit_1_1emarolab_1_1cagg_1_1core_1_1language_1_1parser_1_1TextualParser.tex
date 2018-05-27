@@ -1,0 +1,1074 @@
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser}{\section{it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser Class Reference}
+\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser}\index{it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser@{it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser}}
+}
+
+
+Inheritance diagram for it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser} (String to\-Parse, Boolean from\-File, Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad55874c03b0539971ad34a18727399ff}{id})
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser} (String to\-Parse, Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad55874c03b0539971ad34a18727399ff}{id})
+\item 
+String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a6c77fb3326546964bd2b53d508b2edc7}{to\-String} ()
+\item 
+Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a7af90ab2e8fcfe667b6d4c7193351b70}{get\-Id} ()
+\item 
+Abstract\-Syntax\-Node$<$?$>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_adc8b9870bcc1c8637375312e8c73eb76}{get\-A\-S\-Tree} ()
+\item 
+Abstract\-Syntax\-Node$<$?$>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a01993ec03cc1574528434213fad5916d}{get\-A\-S\-Preamble\-Tree} ()
+\item 
+Abstract\-Syntax\-Node$<$?$>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a0efa52766f64a4dbe1caca72bdd6782e}{get\-A\-S\-Body\-Tree} ()
+\item 
+boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a383056b22669f4ccc056ba2f9c5b2769}{has\-Error} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa439fccd0ee28a5ba52809b24312ad56}{is\-String\-Literal} (String base\-Lit)
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a8f306a0a12eda22ed96140516c708578}{remove\-Prefix} (String base\-Str, String prefix)
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad037508d30fc47f879348055b875c31b}{get\-Word\-Between\-Symbols} (String base\-Str, String start\-Symb, String end\-Symb)
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aaee6178ea848df1b9ec2bb52a007800f}{get\-Word\-Between\-Symbols} (String base\-Str, String start\-Symb, String end\-Symb, Boolean last\-Of)
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a455e463ffc902a96273f8c415e6fdac4}{remove\-Word\-Between\-Two\-Symbols} (String base\-Str, String start\-Symb, String end\-Symb)
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_afc9699817effc3691e85e5b2ab49e6cf}{remove\-Declaration} (String base\-Str)
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a96d5c4a6eeb211ea5cca81b9edfe932a}{retrieve\-String} (String base\-Str)
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a7a131de61ed1326cfe72b187b917e3be}{retrieve\-Declaration} (String base\-Str)
+\item 
+static String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ab12749c2e62641fa188c3cb77c45f9d8}{retrieve\-Directive\-Content} (Parser\-Rule\-Context ctx, String declaration)
+\item 
+static List$<$ String $>$ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aac0da05e4f1c22362136a2ed8a54e347}{retrieve\-Directive\-Contents} (Parser\-Rule\-Context ctx, String declaration)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_afd804f787ce5a65aec1bddbe5f258f74}{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R} = \char`\"{},\char`\"{}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a82e3fa38ac4cf494023ae11e239b18e6}{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G} = \char`\"{}!\char`\"{}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4b3f1d558ca20b275641ed2a5e6b21eb}{D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N} = \char`\"{}(\char`\"{}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a477638375efdcb20392b0292871c62df}{D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E} = \char`\"{})\char`\"{}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R} = \char`\"{}\textbackslash{}\char`\"{}\char`\"{}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_af6d5a2a80151c759e69c0bbbc306a3f0}{D\-E\-F\-A\-U\-L\-T\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G\-\_\-\-R\-E\-P\-L\-A\-C\-E} = \char`\"{}\char`\"{}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa075e6ceef45f7c212a5a7074e3c3417}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N} = \char`\"{}$<$\char`\"{}
+\item 
+static final String \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad3397a80478c23fe4bcd487e6ffd6c0d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E} = \char`\"{}$>$\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1ANTLRGenerated_1_1CAGGSyntaxDefinitionLexer}{C\-A\-G\-G\-Syntax\-Definition\-Lexer} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_abc71c2e32cae41672910e40bd71adf34}{instanciate\-Lexer} (A\-N\-T\-L\-R\-Input\-Stream stream)
+\item 
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1ANTLRGenerated_1_1CAGGSyntaxDefinitionParser}{C\-A\-G\-G\-Syntax\-Definition\-Parser} \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_af451fdf56be3f1ab666e34a43e9d702f}{instanciate\-Parse} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1ANTLRGenerated_1_1CAGGSyntaxDefinitionLexer}{C\-A\-G\-G\-Syntax\-Definition\-Lexer} lexer)
+\item 
+Nuance\-Grammar\-Context \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ae61b8cf20a5399a1d2900656a12992eb}{start\-Parser} (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1ANTLRGenerated_1_1CAGGSyntaxDefinitionParser}{C\-A\-G\-G\-Syntax\-Definition\-Parser} parser)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a178fb29100ea6d367a807ca92bb73a0d}{initialise} (Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad55874c03b0539971ad34a18727399ff}{id})
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Integer \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad55874c03b0539971ad34a18727399ff}{id} = null
+\item 
+Boolean \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a97db3f1690e531815e0b316e0bf84418}{has\-Error}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVersion}{Version}
+Concept-\/\-Action Grammar Generator 1.\-1 \par
+ File\-: src//cagg.core.\-source\-Interface.\-parser.\-Textual\-Parser.\-java \par
+
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Buoncompagni Luca \par
+ D\-I\-B\-R\-I\-S, emaro\-Lab,\par
+ University of Genoa. \par
+ 15/gen/2016 \par
+
+\end{DoxyAuthor}
+
+
+This class extends \hyperlink{}{Parser\-Base} object with parameter set to\-: \hyperlink{}{C\-A\-G\-G\-Syntax\-Definition\-Lexer}, \hyperlink{}{C\-A\-G\-G\-Syntax\-Definition\-Parser}, \hyperlink{}{Nuance\-Grammar\-Context} and \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ParserListener}{Parser\-Listener}; respectively.\par
+
+
+It purposes is to activate the parsing procedure and get a populated Abstract Syntax Tree (A\-S\-T). For doing so, it requires a source text to be parsed in order to create the Parsing Tree (P\-T) and then walk over it to create the A\-S\-T by using a listener (this is done in class constructor).\par
+
+
+Last but not the least, this class also implements static methods used to manipulate strings and detach information during parsing. 
+
+\begin{DoxySeeAlso}{See Also}
+Parser\-Base 
+
+\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ParserListener}{Parser\-Listener} 
+\end{DoxySeeAlso}
+
+
+Definition at line 41 of file Textual\-Parser.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!Textual\-Parser@{Textual\-Parser}}
+\index{Textual\-Parser@{Textual\-Parser}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{Textual\-Parser}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-Textual\-Parser (
+\begin{DoxyParamCaption}
+\item[{String}]{to\-Parse, }
+\item[{Boolean}]{from\-File, }
+\item[{Integer}]{id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}
+This constructor simple rely on \hyperlink{}{Parser\-Base\#\-Parser\-Base(\-String, Boolean)} by using\-:
+\begin{DoxyCode}
+toParse 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+fromFile 
+\end{DoxyCode}
+ as input parameters respectively. Further it initialises this class
+\begin{DoxyCode}
+\textcolor{keywordtype}{id} 
+\end{DoxyCode}
+ with respect to the input specification. This is used mainly for visualisation and debugging. Finally, this constructor also creates a new \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ParserListener}{Parser\-Listener} and set it as listener through the method\-: \hyperlink{}{set\-Listener(\-Parse\-Tree\-Listener)}. 
+\begin{DoxyParams}{Parameters}
+{\em to\-Parse} & the text to be parsed (if
+\begin{DoxyCode}
+fromFile 
+\end{DoxyCode}
+ is
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ). Or the path to the file to be parsed (if
+\begin{DoxyCode}
+from file 
+\end{DoxyCode}
+ is
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ). \\
+\hline
+{\em from\-File} & identifies if the parameter
+\begin{DoxyCode}
+toParse 
+\end{DoxyCode}
+ is the text to be parsed (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ) or the path to the file to be parsed (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ). \\
+\hline
+{\em id} & the identifier to be assigned to this object. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 99 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-initialise().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!Textual\-Parser@{Textual\-Parser}}
+\index{Textual\-Parser@{Textual\-Parser}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{Textual\-Parser}]{\setlength{\rightskip}{0pt plus 5cm}it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-Textual\-Parser (
+\begin{DoxyParamCaption}
+\item[{String}]{to\-Parse, }
+\item[{Integer}]{id}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}
+This constructor simple rely on \hyperlink{}{Parser\-Base\#\-Parser\-Base(\-String)} by using\-:
+\begin{DoxyCode}
+toParse 
+\end{DoxyCode}
+ as input parameter. Further it initialises this class
+\begin{DoxyCode}
+\textcolor{keywordtype}{id} 
+\end{DoxyCode}
+ with respect to the input specification. This is used mainly for visualisation and debugging. Finally, this constructor also creates a new \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ParserListener}{Parser\-Listener} and set it as listener through the method\-: \hyperlink{}{set\-Listener(\-Parse\-Tree\-Listener)}. 
+\begin{DoxyParams}{Parameters}
+{\em to\-Parse} & the source text to be parsed. \\
+\hline
+{\em id} & the identifier to be assigned to this object. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 113 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-initialise().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a0efa52766f64a4dbe1caca72bdd6782e}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!get\-A\-S\-Body\-Tree@{get\-A\-S\-Body\-Tree}}
+\index{get\-A\-S\-Body\-Tree@{get\-A\-S\-Body\-Tree}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{get\-A\-S\-Body\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}Abstract\-Syntax\-Node$<$?$>$ it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-A\-S\-Body\-Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a0efa52766f64a4dbe1caca72bdd6782e}
+This method, returns the preamble node of a copy of the Abstract Syntax Tree generated during parsing. In particular, it is generated by walking through the Parsing Tree and by applying the listener created on constructor (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser(\-String, Integer)} or \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser(\-String, Boolean, Integer)}). More in details, the tree is given by querying\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1TreeParserListener_ac0ea0fcdfb6a42c450dbbfdb49f6acfb}{Parser\-Listener\#get\-Ast\-Preamble()} and then the copy is given by calling\-: \hyperlink{}{Abstract\-Syntax\-Node\#copy\-Tree()}. \begin{DoxyReturn}{Returns}
+a copy of the Abstract Syntax Tree preamble node. This method, returns the body node of the Abstract Syntax Tree generated during parsing. In particular, it is generated by walking through the Parsing Tree and by applying the listener created on constructor (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser(\-String, Integer)} or \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser(\-String, Boolean, Integer)}). More in details, the tree is given by querying\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1TreeParserListener_aaa9fecbf4191a4ff7eb021a27397ee70}{Parser\-Listener\#get\-Ast\-Body()}. 
+
+the Abstract Syntax Tree body node. 
+\end{DoxyReturn}
+
+
+Definition at line 209 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a01993ec03cc1574528434213fad5916d}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!get\-A\-S\-Preamble\-Tree@{get\-A\-S\-Preamble\-Tree}}
+\index{get\-A\-S\-Preamble\-Tree@{get\-A\-S\-Preamble\-Tree}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{get\-A\-S\-Preamble\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}Abstract\-Syntax\-Node$<$?$>$ it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-A\-S\-Preamble\-Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a01993ec03cc1574528434213fad5916d}
+This method, returns the root node of a copy of the Abstract Syntax Tree generated during parsing. In particular, it is generated by walking through the Parsing Tree and by applying the listener created on constructor (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser(\-String, Integer)} or \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser(\-String, Boolean, Integer)}). More in details, the tree is given by querying\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1TreeParserListener_ad2b6adac06ab1314d865f223093794bf}{Parser\-Listener\#get\-Ast\-Root()} and then the copy is given by calling\-: \hyperlink{}{Abstract\-Syntax\-Node\#copy\-Tree()}. \begin{DoxyReturn}{Returns}
+a copy of the Abstract Syntax Tree root node. This method, returns the preamble node of the Abstract Syntax Tree generated during parsing. In particular, it is generated by walking through the Parsing Tree and by applying the listener created on constructor (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser(\-String, Integer)} or \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser(\-String, Boolean, Integer)}). More in details, the tree is given by querying\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1TreeParserListener_ac0ea0fcdfb6a42c450dbbfdb49f6acfb}{Parser\-Listener\#get\-Ast\-Preamble()}. 
+
+the Abstract Syntax Tree preamble node. 
+\end{DoxyReturn}
+
+
+Definition at line 190 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_adc8b9870bcc1c8637375312e8c73eb76}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!get\-A\-S\-Tree@{get\-A\-S\-Tree}}
+\index{get\-A\-S\-Tree@{get\-A\-S\-Tree}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{get\-A\-S\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}Abstract\-Syntax\-Node$<$?$>$ it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-A\-S\-Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_adc8b9870bcc1c8637375312e8c73eb76}
+This method, returns the root node of the Abstract Syntax Tree generated during parsing. In particular, it is generated by walking through the Parsing Tree and by applying the listener created on constructor (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser(\-String, Integer)} or \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser(\-String, Boolean, Integer)}). More in details, the tree is given by querying\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1TreeParserListener_ad2b6adac06ab1314d865f223093794bf}{Parser\-Listener\#get\-Ast\-Root()}. \begin{DoxyReturn}{Returns}
+the Abstract Syntax Tree root node. 
+\end{DoxyReturn}
+
+
+Definition at line 171 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a7af90ab2e8fcfe667b6d4c7193351b70}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!get\-Id@{get\-Id}}
+\index{get\-Id@{get\-Id}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{get\-Id}]{\setlength{\rightskip}{0pt plus 5cm}Integer it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a7af90ab2e8fcfe667b6d4c7193351b70}
+\begin{DoxyReturn}{Returns}
+the
+\begin{DoxyCode}
+\textcolor{keywordtype}{id} 
+\end{DoxyCode}
+ assigned to this object on constructors (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser(\-String, Integer)} or \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser(\-String, Boolean, Integer)}). This is used mainly for visualisation or debugging purposes. 
+\end{DoxyReturn}
+
+
+Definition at line 161 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-id.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad037508d30fc47f879348055b875c31b}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!get\-Word\-Between\-Symbols@{get\-Word\-Between\-Symbols}}
+\index{get\-Word\-Between\-Symbols@{get\-Word\-Between\-Symbols}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{get\-Word\-Between\-Symbols}]{\setlength{\rightskip}{0pt plus 5cm}static String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-Word\-Between\-Symbols (
+\begin{DoxyParamCaption}
+\item[{String}]{base\-Str, }
+\item[{String}]{start\-Symb, }
+\item[{String}]{end\-Symb}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad037508d30fc47f879348055b875c31b}
+This method calls\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aaee6178ea848df1b9ec2bb52a007800f}{get\-Word\-Between\-Symbols(\-String, String, String, Boolean)} with\-: 
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+startsSymb 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+endSymb 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ; respectively. 
+\begin{DoxyParams}{Parameters}
+{\em base\-Str} & the string from where retrieve the set of chars between symbols. \\
+\hline
+{\em start\-Symb} & the starting symbol type that defines the set of chars returned by this method. \\
+\hline
+{\em end\-Symb} & the ending symbol type that defines the set of chars returned by this method. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the chars of
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ that are within the symbols\-:
+\begin{DoxyCode}
+startSymb 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+endSymb 
+\end{DoxyCode}
+ . (The first occurrence). 
+\end{DoxyReturn}
+
+
+Definition at line 265 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Word\-Between\-Two\-Symbols(), it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Declaration(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-String().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aaee6178ea848df1b9ec2bb52a007800f}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!get\-Word\-Between\-Symbols@{get\-Word\-Between\-Symbols}}
+\index{get\-Word\-Between\-Symbols@{get\-Word\-Between\-Symbols}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{get\-Word\-Between\-Symbols}]{\setlength{\rightskip}{0pt plus 5cm}static String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-Word\-Between\-Symbols (
+\begin{DoxyParamCaption}
+\item[{String}]{base\-Str, }
+\item[{String}]{start\-Symb, }
+\item[{String}]{end\-Symb, }
+\item[{Boolean}]{last\-Of}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aaee6178ea848df1b9ec2bb52a007800f}
+This method relies on\-:
+\begin{DoxyCode}
+String#indexOf(\textcolor{keywordtype}{int}) 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+String#lastIndexOf(\textcolor{keywordtype}{int}) 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+String#substring(\textcolor{keywordtype}{int}, \textcolor{keywordtype}{int}) 
+\end{DoxyCode}
+ in order to get the chars of an input string that are between two symbols. By searching for the first or last occurrence. 
+\begin{DoxyParams}{Parameters}
+{\em base\-Str} & the string from where retrieve the set of chars between symbols. \\
+\hline
+{\em start\-Symb} & the starting symbol type that defines the set of chars returned by this method. \\
+\hline
+{\em end\-Symb} & the ending symbol type that defines the set of chars returned by this method. \\
+\hline
+{\em last\-Of} & if it is
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ the method looks for the last occurrence of the
+\begin{DoxyCode}
+startSymb 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+endSymb 
+\end{DoxyCode}
+ . While, if it is
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ it looks for the first occurrence. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the set of chars that are between the two given symbols (excluded). 
+\end{DoxyReturn}
+
+
+Definition at line 280 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a383056b22669f4ccc056ba2f9c5b2769}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!has\-Error@{has\-Error}}
+\index{has\-Error@{has\-Error}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{has\-Error}]{\setlength{\rightskip}{0pt plus 5cm}boolean it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-has\-Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a383056b22669f4ccc056ba2f9c5b2769}
+This method, returns the body node of a copy of the Abstract Syntax Tree generated during parsing. In particular, it is generated by walking through the Parsing Tree and by applying the listener created on constructor (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser(\-String, Integer)} or \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser(\-String, Boolean, Integer)}). More in details, the tree is given by querying\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1ANTLRInterface_1_1TreeParserListener_aaa9fecbf4191a4ff7eb021a27397ee70}{Parser\-Listener\#get\-Ast\-Body()} and then the copy is given by calling\-: \hyperlink{}{Abstract\-Syntax\-Node\#copy\-Tree()}. \begin{DoxyReturn}{Returns}
+a copy of the Abstract Syntax Tree body node. 
+
+
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if at lest an error occurred during parsing perfomed on constructor. 
+\end{DoxyReturn}
+
+
+Definition at line 224 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-initialise().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a178fb29100ea6d367a807ca92bb73a0d}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!initialise@{initialise}}
+\index{initialise@{initialise}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{initialise}]{\setlength{\rightskip}{0pt plus 5cm}void it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-initialise (
+\begin{DoxyParamCaption}
+\item[{Integer}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a178fb29100ea6d367a807ca92bb73a0d}
+
+
+Definition at line 118 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-has\-Error(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-id.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-Textual\-Parser().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a178fb29100ea6d367a807ca92bb73a0d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_abc71c2e32cae41672910e40bd71adf34}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!instanciate\-Lexer@{instanciate\-Lexer}}
+\index{instanciate\-Lexer@{instanciate\-Lexer}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{instanciate\-Lexer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-A\-G\-G\-Syntax\-Definition\-Lexer} it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-instanciate\-Lexer (
+\begin{DoxyParamCaption}
+\item[{A\-N\-T\-L\-R\-Input\-Stream}]{stream}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_abc71c2e32cae41672910e40bd71adf34}
+
+
+Definition at line 126 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_af451fdf56be3f1ab666e34a43e9d702f}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!instanciate\-Parse@{instanciate\-Parse}}
+\index{instanciate\-Parse@{instanciate\-Parse}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{instanciate\-Parse}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-A\-G\-G\-Syntax\-Definition\-Parser} it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-instanciate\-Parse (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-A\-G\-G\-Syntax\-Definition\-Lexer}}]{lexer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_af451fdf56be3f1ab666e34a43e9d702f}
+
+
+Definition at line 130 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa439fccd0ee28a5ba52809b24312ad56}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!is\-String\-Literal@{is\-String\-Literal}}
+\index{is\-String\-Literal@{is\-String\-Literal}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{is\-String\-Literal}]{\setlength{\rightskip}{0pt plus 5cm}static Boolean it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-is\-String\-Literal (
+\begin{DoxyParamCaption}
+\item[{String}]{base\-Lit}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa439fccd0ee28a5ba52809b24312ad56}
+This method returns
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if the calls
+\begin{DoxyCode}
+baseLit.contains( \{@value #\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{DEFAULT\_STRING\_IDENTIFIER}\}) 
+\end{DoxyCode}
+ returns
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ . 
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ otherwise. 
+\begin{DoxyParams}{Parameters}
+{\em base\-Lit} & the string to be checked (if it is a string literal or not). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if
+\begin{DoxyCode}
+baseLit 
+\end{DoxyCode}
+ is a string literal.
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ otherwise. 
+\end{DoxyReturn}
+
+
+Definition at line 236 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-abstract\-Tree.\-syntax\-Node\-Type.\-Grammar\-Syntax\-Node.\-assign\-Data(), and it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-abstract\-Tree.\-syntax\-Node\-Type.\-Pronounce\-Syntax\-Node.\-set\-Name().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_afc9699817effc3691e85e5b2ab49e6cf}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!remove\-Declaration@{remove\-Declaration}}
+\index{remove\-Declaration@{remove\-Declaration}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{remove\-Declaration}]{\setlength{\rightskip}{0pt plus 5cm}static String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Declaration (
+\begin{DoxyParamCaption}
+\item[{String}]{base\-Str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_afc9699817effc3691e85e5b2ab49e6cf}
+This method calls\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a455e463ffc902a96273f8c415e6fdac4}{remove\-Word\-Between\-Two\-Symbols(\-String, String, String)} with\-:
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ , \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa075e6ceef45f7c212a5a7074e3c3417}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N}\} and \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad3397a80478c23fe4bcd487e6ffd6c0d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E}\} input parameters respectively. 
+\begin{DoxyParams}{Parameters}
+{\em base\-Str} & the string from where remove the set of chars between symbols. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a copy of
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ that does not have the first occurrence of the words between two symbols anymore (symbols\-: \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa075e6ceef45f7c212a5a7074e3c3417}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N}\} and \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad3397a80478c23fe4bcd487e6ffd6c0d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E}\}). This method also removes the specified starting and ending symbols. 
+\end{DoxyReturn}
+
+
+Definition at line 316 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E, it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N, and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Word\-Between\-Two\-Symbols().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_afc9699817effc3691e85e5b2ab49e6cf_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a8f306a0a12eda22ed96140516c708578}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!remove\-Prefix@{remove\-Prefix}}
+\index{remove\-Prefix@{remove\-Prefix}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{remove\-Prefix}]{\setlength{\rightskip}{0pt plus 5cm}static String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Prefix (
+\begin{DoxyParamCaption}
+\item[{String}]{base\-Str, }
+\item[{String}]{prefix}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a8f306a0a12eda22ed96140516c708578}
+This method remove a prefix from a string by returning\-: 
+\begin{DoxyCode}
+baseStr.substring( prefix.length(), baseStr.length()) 
+\end{DoxyCode}
+ . 
+\begin{DoxyParams}{Parameters}
+{\em base\-Str} & the string from which remove the prefix \\
+\hline
+{\em prefix} & the prefix to be removed from
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the a copy of the
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ where a number of char equals to the length of
+\begin{DoxyCode}
+prefix 
+\end{DoxyCode}
+ is removed (from the beginning of the base string). 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+String\-::substring(int, int) 
+\end{DoxySeeAlso}
+
+
+Definition at line 251 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a455e463ffc902a96273f8c415e6fdac4}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!remove\-Word\-Between\-Two\-Symbols@{remove\-Word\-Between\-Two\-Symbols}}
+\index{remove\-Word\-Between\-Two\-Symbols@{remove\-Word\-Between\-Two\-Symbols}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{remove\-Word\-Between\-Two\-Symbols}]{\setlength{\rightskip}{0pt plus 5cm}static String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Word\-Between\-Two\-Symbols (
+\begin{DoxyParamCaption}
+\item[{String}]{base\-Str, }
+\item[{String}]{start\-Symb, }
+\item[{String}]{end\-Symb}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a455e463ffc902a96273f8c415e6fdac4}
+This method calls\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad037508d30fc47f879348055b875c31b}{get\-Word\-Between\-Symbols(\-String, String, String)} with\-: 
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+startSymb 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+endSymb 
+\end{DoxyCode}
+ input parameters respectively. Then, it returns\-:
+\begin{DoxyCode}
+baseStr.replace( startSymb + toRemove + endSymb, \{@value #
+      \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_af6d5a2a80151c759e69c0bbbc306a3f0}{DEFAULT\_REMOVING\_REPLACE}\}) 
+\end{DoxyCode}
+ where 
+\begin{DoxyCode}
+toRemove 
+\end{DoxyCode}
+ is the string returning from the previous call. 
+\begin{DoxyParams}{Parameters}
+{\em base\-Str} & the string from where remove the set of chars between symbols. \\
+\hline
+{\em start\-Symb} & the starting symbol type that defines the set of chars removed by this method. \\
+\hline
+{\em end\-Symb} & the ending symbol type that defines the set of chars removed by this method. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a copy of
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ that does not have the first occurrence of the words between two symbols anymore. This method also removes the specified starting and ending symbols. 
+\end{DoxyReturn}
+
+
+Definition at line 304 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G\-\_\-\-R\-E\-P\-L\-A\-C\-E, and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-Word\-Between\-Symbols().
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Declaration().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a455e463ffc902a96273f8c415e6fdac4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a7a131de61ed1326cfe72b187b917e3be}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!retrieve\-Declaration@{retrieve\-Declaration}}
+\index{retrieve\-Declaration@{retrieve\-Declaration}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{retrieve\-Declaration}]{\setlength{\rightskip}{0pt plus 5cm}static String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Declaration (
+\begin{DoxyParamCaption}
+\item[{String}]{base\-Str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a7a131de61ed1326cfe72b187b917e3be}
+This method calls\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad037508d30fc47f879348055b875c31b}{get\-Word\-Between\-Symbols(\-String, String, String)} with\-: 
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ , \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa075e6ceef45f7c212a5a7074e3c3417}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N}\}, \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad3397a80478c23fe4bcd487e6ffd6c0d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E}\}; respectively. 
+\begin{DoxyParams}{Parameters}
+{\em base\-Str} & the string from where retrieving the declaration literal. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the first set of chars of
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ within the symbols\-: \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa075e6ceef45f7c212a5a7074e3c3417}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N}\} and \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad3397a80478c23fe4bcd487e6ffd6c0d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E}\}. 
+\end{DoxyReturn}
+
+
+Definition at line 342 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E, it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N, and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-Word\-Between\-Symbols().
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Term\-Expression\-Node.\-parse().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a7a131de61ed1326cfe72b187b917e3be_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ab12749c2e62641fa188c3cb77c45f9d8}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!retrieve\-Directive\-Content@{retrieve\-Directive\-Content}}
+\index{retrieve\-Directive\-Content@{retrieve\-Directive\-Content}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{retrieve\-Directive\-Content}]{\setlength{\rightskip}{0pt plus 5cm}static String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Content (
+\begin{DoxyParamCaption}
+\item[{Parser\-Rule\-Context}]{ctx, }
+\item[{String}]{declaration}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ab12749c2e62641fa188c3cb77c45f9d8}
+This method looks into the string \hyperlink{}{Parser\-Rule\-Context\#get\-Text()} of all the children of the input parameter
+\begin{DoxyCode}
+ctx 
+\end{DoxyCode}
+ and returns it (first occurence) if it not equals to\-: \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a82e3fa38ac4cf494023ae11e239b18e6}{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G}\},
+\begin{DoxyCode}
+declaration 
+\end{DoxyCode}
+ , \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4b3f1d558ca20b275641ed2a5e6b21eb}{D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N}\} and \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a477638375efdcb20392b0292871c62df}{D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E}\}. Otherwise it returns an empty string. 
+\begin{DoxyParams}{Parameters}
+{\em ctx} & the parsing tree context from which get child and text to check. \\
+\hline
+{\em declaration} & an optional child content text to be discarder. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the first text of the child of
+\begin{DoxyCode}
+ctx 
+\end{DoxyCode}
+ that it is not equal to the standard grammar declarative literals. 
+\end{DoxyReturn}
+
+
+Definition at line 355 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G, it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E, and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aac0da05e4f1c22362136a2ed8a54e347}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!retrieve\-Directive\-Contents@{retrieve\-Directive\-Contents}}
+\index{retrieve\-Directive\-Contents@{retrieve\-Directive\-Contents}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{retrieve\-Directive\-Contents}]{\setlength{\rightskip}{0pt plus 5cm}static List$<$ String$>$ it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Contents (
+\begin{DoxyParamCaption}
+\item[{Parser\-Rule\-Context}]{ctx, }
+\item[{String}]{declaration}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aac0da05e4f1c22362136a2ed8a54e347}
+This method looks into the string \hyperlink{}{Parser\-Rule\-Context\#get\-Text()} of all the children of the input parameter
+\begin{DoxyCode}
+ctx 
+\end{DoxyCode}
+ and returns it for all the occurences in which it is not equals to\-: \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a82e3fa38ac4cf494023ae11e239b18e6}{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G}\},
+\begin{DoxyCode}
+declaration 
+\end{DoxyCode}
+ , \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4b3f1d558ca20b275641ed2a5e6b21eb}{D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N}\}, \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_afd804f787ce5a65aec1bddbe5f258f74}{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R}\} and \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a477638375efdcb20392b0292871c62df}{D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E}\}. Otherwise it returns an empty list. 
+\begin{DoxyParams}{Parameters}
+{\em ctx} & the parsing tree context from which get child and text to check. \\
+\hline
+{\em declaration} & an optional child content text to be discarder. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the all texts of the children of
+\begin{DoxyCode}
+ctx 
+\end{DoxyCode}
+ that it are not equal to the standard grammar declarative literals. 
+\end{DoxyReturn}
+
+
+Definition at line 377 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G, it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E, it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N, and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a96d5c4a6eeb211ea5cca81b9edfe932a}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!retrieve\-String@{retrieve\-String}}
+\index{retrieve\-String@{retrieve\-String}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{retrieve\-String}]{\setlength{\rightskip}{0pt plus 5cm}static String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-String (
+\begin{DoxyParamCaption}
+\item[{String}]{base\-Str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a96d5c4a6eeb211ea5cca81b9edfe932a}
+This method calls\-: \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aaee6178ea848df1b9ec2bb52a007800f}{get\-Word\-Between\-Symbols(\-String, String, String, Boolean)} with\-: 
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ , \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R}\}, \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R}\} and
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ; respectively. Finally, it removes all the occurrences of
+\begin{DoxyCode}
+\{@value #\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{DEFAULT\_STRING\_IDENTIFIER}\}\{@value #
+      \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{DEFAULT\_STRING\_IDENTIFIER}\} 
+\end{DoxyCode}
+ with\-:
+\begin{DoxyCode}
+\{@value #\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{DEFAULT\_STRING\_IDENTIFIER}\} 
+\end{DoxyCode}
+ . 
+\begin{DoxyParams}{Parameters}
+{\em base\-Str} & the string from where retrieving the string literal. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the last set of chars of
+\begin{DoxyCode}
+baseStr 
+\end{DoxyCode}
+ within the symbol \{ \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R}\}; where possible double occurrences of
+\begin{DoxyCode}
+\{@value #\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{DEFAULT\_STRING\_IDENTIFIER}\} + \{@value #
+      \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{DEFAULT\_STRING\_IDENTIFIER}\} 
+\end{DoxyCode}
+ are substituted with\-:
+\begin{DoxyCode}
+\{@value #\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{DEFAULT\_STRING\_IDENTIFIER}\} 
+\end{DoxyCode}
+ . 
+\end{DoxyReturn}
+
+
+Definition at line 331 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R, and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-Word\-Between\-Symbols().
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-abstract\-Tree.\-syntax\-Node\-Type.\-Language\-Syntax\-Node.\-assign\-Data(), it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-abstract\-Tree.\-syntax\-Node\-Type.\-Grammar\-Syntax\-Node.\-assign\-Data(), it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Label\-Expression\-Node.\-parse(), and it.\-emarolab.\-cagg.\-core.\-language.\-syntax.\-expression\-Tree.\-expression\-Node\-Type.\-Term\-Expression\-Node.\-parse().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a96d5c4a6eeb211ea5cca81b9edfe932a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ae61b8cf20a5399a1d2900656a12992eb}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!start\-Parser@{start\-Parser}}
+\index{start\-Parser@{start\-Parser}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{start\-Parser}]{\setlength{\rightskip}{0pt plus 5cm}Nuance\-Grammar\-Context it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-start\-Parser (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-A\-G\-G\-Syntax\-Definition\-Parser}}]{parser}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ae61b8cf20a5399a1d2900656a12992eb}
+This method specify the main A\-N\-T\-L\-R rule with respect to which the parser starts. Particularly, it is set to\-:
+\begin{DoxyCode}
+parser.nuanceGrammar() 
+\end{DoxyCode}
+ \begin{DoxySeeAlso}{See Also}
+Parser\-Base\-::start\-Parser(\-Parser) 
+\end{DoxySeeAlso}
+
+
+Definition at line 139 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a6c77fb3326546964bd2b53d508b2edc7}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a6c77fb3326546964bd2b53d508b2edc7}
+This method describes this object with a string for visualisation and debugging purposes. It simply returns\-:
+\begin{DoxyCode}
+\textcolor{stringliteral}{"grammarId:"} + \textcolor{keywordtype}{id} 
+\end{DoxyCode}
+ , where
+\begin{DoxyCode}
+\textcolor{keywordtype}{id} 
+\end{DoxyCode}
+ is the value given on class constructors (\hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4635df475bf70bb164ed66352ec9cc6d}{Textual\-Parser(\-String, Integer)} or \hyperlink{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a21c889dd346843225cc6e9034ae0005c}{Textual\-Parser(\-String, Boolean, Integer)}). \begin{DoxySeeAlso}{See Also}
+it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-A\-N\-T\-L\-R\-Interface.\-Parser\-Base\-::to\-String() 
+\end{DoxySeeAlso}
+
+
+Definition at line 149 of file Textual\-Parser.\-java.
+
+
+
+References it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-id.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a82e3fa38ac4cf494023ae11e239b18e6}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G@{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G@{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-E\-G\-I\-N\-N\-I\-N\-G = \char`\"{}!\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a82e3fa38ac4cf494023ae11e239b18e6}
+The default directive beginning symbol of the grammar. By default set to \{ \char`\"{}!\char`\"{}\}. 
+
+Definition at line 53 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Content(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Contents().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a477638375efdcb20392b0292871c62df}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-C\-L\-O\-S\-E = \char`\"{})\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a477638375efdcb20392b0292871c62df}
+The default expression ending symbol of the grammar. By default set to \{ \char`\"{})\char`\"{}\}. 
+
+Definition at line 61 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Content(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Contents().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad3397a80478c23fe4bcd487e6ffd6c0d}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-C\-L\-O\-S\-E = \char`\"{}$>$\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad3397a80478c23fe4bcd487e6ffd6c0d}
+The default declaration ending symbol of the grammar. By default set to \{ \char`\"{}$>$\char`\"{}\}. 
+
+Definition at line 77 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Declaration(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Declaration().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa075e6ceef45f7c212a5a7074e3c3417}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N@{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N@{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-E\-C\-L\-A\-R\-A\-T\-I\-O\-N\-\_\-\-O\-P\-E\-N = \char`\"{}$<$\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aa075e6ceef45f7c212a5a7074e3c3417}
+The default declaration starting symbol of the grammar. By default set to \{ \char`\"{}$<$\char`\"{}\}. 
+
+Definition at line 73 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Declaration(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Declaration().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4b3f1d558ca20b275641ed2a5e6b21eb}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N@{D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N@{D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-P\-E\-N = \char`\"{}(\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a4b3f1d558ca20b275641ed2a5e6b21eb}
+The default expression opening symbol of the grammar. By default set to \{ \char`\"{}(\char`\"{}\}. 
+
+Definition at line 57 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Content(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Contents().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_af6d5a2a80151c759e69c0bbbc306a3f0}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!D\-E\-F\-A\-U\-L\-T\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G\-\_\-\-R\-E\-P\-L\-A\-C\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G\-\_\-\-R\-E\-P\-L\-A\-C\-E}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G\-\_\-\-R\-E\-P\-L\-A\-C\-E@{D\-E\-F\-A\-U\-L\-T\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G\-\_\-\-R\-E\-P\-L\-A\-C\-E}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G\-\_\-\-R\-E\-P\-L\-A\-C\-E}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G\-\_\-\-R\-E\-P\-L\-A\-C\-E = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_af6d5a2a80151c759e69c0bbbc306a3f0}
+The default symbol replaced to the chars to be removed. By default set to \{ \char`\"{}\char`\"{}\}. 
+
+Definition at line 69 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-remove\-Word\-Between\-Two\-Symbols().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_afd804f787ce5a65aec1bddbe5f258f74}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R@{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R@{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-E\-P\-A\-R\-A\-T\-O\-R = \char`\"{},\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_afd804f787ce5a65aec1bddbe5f258f74}
+The default data separator symbol of the grammar. By default set to \{ \char`\"{},\char`\"{}\}. 
+
+Definition at line 49 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-Directive\-Contents().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R@{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R@{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}final String it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-R\-I\-N\-G\-\_\-\-I\-D\-E\-N\-T\-I\-F\-I\-E\-R = \char`\"{}\textbackslash{}\char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_aec543b552ded4668a73c7b2bf5b9301d}
+The default string identifying symbol of the grammar. By default set to \{ \char`\"{}\textbackslash{}\char`\"{}"\}. 
+
+Definition at line 65 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-is\-String\-Literal(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-retrieve\-String().
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a97db3f1690e531815e0b316e0bf84418}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!has\-Error@{has\-Error}}
+\index{has\-Error@{has\-Error}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{has\-Error}]{\setlength{\rightskip}{0pt plus 5cm}Boolean it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-has\-Error\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_a97db3f1690e531815e0b316e0bf84418}
+
+
+Definition at line 82 of file Textual\-Parser.\-java.
+
+\hypertarget{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad55874c03b0539971ad34a18727399ff}{\index{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}!id@{id}}
+\index{id@{id}!it::emarolab::cagg::core::language::parser::TextualParser@{it\-::emarolab\-::cagg\-::core\-::language\-::parser\-::\-Textual\-Parser}}
+\subsubsection[{id}]{\setlength{\rightskip}{0pt plus 5cm}Integer it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-id = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1parser_1_1TextualParser_ad55874c03b0539971ad34a18727399ff}
+
+
+Definition at line 81 of file Textual\-Parser.\-java.
+
+
+
+Referenced by it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-get\-Id(), it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-initialise(), and it.\-emarolab.\-cagg.\-core.\-language.\-parser.\-Textual\-Parser.\-to\-String().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/luca-\/phd/\-Documents/school luca/dottorato/research/verbal interface/speech\-\_\-workspace/concept\-\_\-action\-\_\-grammar\-\_\-generator/src/it/emarolab/cagg/core/language/parser/\hyperlink{TextualParser_8java}{Textual\-Parser.\-java}\end{DoxyCompactItemize}

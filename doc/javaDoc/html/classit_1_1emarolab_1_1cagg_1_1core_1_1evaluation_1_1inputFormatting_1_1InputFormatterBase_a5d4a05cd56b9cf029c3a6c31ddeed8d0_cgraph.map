@@ -1,0 +1,6 @@
+<map id="it.emarolab.cagg.core.evaluation.inputFormatting.InputFormatterBase.searchFacts" name="it.emarolab.cagg.core.evaluation.inputFormatting.InputFormatterBase.searchFacts">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1InputFormatterBase.html#adc613a8605c9d0743037e01ae7f6fe5d" title="it.emarolab.cagg.core.evaluation.input\lFormatting.InputFormatterBase.start" alt="" coords="340,5,583,46"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1InputFormatterBase.html#adcf0ea9d9e41cf238b4e18a7ad8a81a2" title="it.emarolab.cagg.core.evaluation.input\lFormatting.InputFormatterBase.tokenize" alt="" coords="333,70,589,111"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1InputFormatterBase.html#aa312fa410edf91eb83984cc817b64e5f" title="it.emarolab.cagg.core.evaluation.input\lFormatting.InputFormatterBase.logWarning" alt="" coords="641,37,913,78"/>
+<area shape="rect" id="node5" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1evaluation_1_1inputFormatting_1_1InputFormatterBase.html#aa9d03dde68438c66d4d498632bfd9f50" title="it.emarolab.cagg.core.evaluation.input\lFormatting.InputFormatterBase.getGrammar" alt="" coords="638,102,917,143"/>
+</map>

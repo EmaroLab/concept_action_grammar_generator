@@ -22,16 +22,70 @@ public class GrammarTest {
 	////// set of user inputs to be tested sequentially
 	public static final List< String> USER_COMMANDS = new ArrayList<>();
 	static{
-		USER_COMMANDS.add( "is there a higher sphere");
-		//USER_COMMANDS.add( "are there 2 cones on the left of x1");
-		//USER_COMMANDS.add( "is x1 higher than x2");
-		USER_COMMANDS.add( "what do you see?");
+		/*
+		USER_COMMANDS.add( "How many planes do you see?");
+		USER_COMMANDS.add( "Are there 2 coaxial planes?");
+		USER_COMMANDS.add( "Do you see 1 cylinder?");
+		USER_COMMANDS.add( "Is X3 in front of every other objects?");
+		USER_COMMANDS.add( "Do you see a green object?");
+		USER_COMMANDS.add( "How many planes are there in the scene?");
+		USER_COMMANDS.add( "Are there any objects aligned?");
+		USER_COMMANDS.add( "Is X1 further than X2?");
+		USER_COMMANDS.add( "Is X3 on the right of X2?");
+		USER_COMMANDS.add( "Is there any green object?");
+		USER_COMMANDS.add( "Is there a cylinder in the scene?");
+		USER_COMMANDS.add( "Are the spheres far?");
+		*/
+		// AA
+		/*
+		USER_COMMANDS.add( "Are there any objects in parallel?");
+		USER_COMMANDS.add( "How many object are on xy?");
+		USER_COMMANDS.add( "Is X3 the closest object?");
+		USER_COMMANDS.add( "Are all the objects along line y?");
+		USER_COMMANDS.add( "Is X3 in the center?");
+		USER_COMMANDS.add( "Is X2 on the left of X3?");
+		USER_COMMANDS.add( "Is X2 close?");
+		USER_COMMANDS.add( "How many objects do you see?");
+		USER_COMMANDS.add( "What are the colours of the objects you see?");
+		USER_COMMANDS.add( "What are the shapes of the objects you see?");
+		USER_COMMANDS.add( "Is there a cylinder?");
+		USER_COMMANDS.add( "How is it oriented?");
+		USER_COMMANDS.add( "How many vertical planes do you see?");
+		USER_COMMANDS.add( "Are they aligned?");
+		*/
+		// BB
+		// CC
+		/*
+		USER_COMMANDS.add( "Which is the most object to the right?");
+		USER_COMMANDS.add( "Is the cone at the extreme right?");
+		USER_COMMANDS.add( "How many objects are aligned along x?");
+		USER_COMMANDS.add( "Is the cone to the left of x4?");
+		USER_COMMANDS.add( "Is the yellow sphere the closest object?");
+		USER_COMMANDS.add( "Do you see any vertical boxes?");
+		USER_COMMANDS.add( "How many vertical cylinders do you see?");
+		USER_COMMANDS.add( "Do you see a cup?");
+		USER_COMMANDS.add( "Is the cone between the three spheres?");
+		USER_COMMANDS.add( "Is the cone at the right of the entire scene?");
+		USER_COMMANDS.add( "Is the smaller ball at the right of the scene?");
+		USER_COMMANDS.add( "Is the medium ball at the right of the scene?");
+		USER_COMMANDS.add( "Is the object right of the biggest black object?");
+		USER_COMMANDS.add( "Is the object black?");
+		*/
+		// DD
+		
+		USER_COMMANDS.add( "Is your object further than the cone?");
+		USER_COMMANDS.add( "is your object the closest?");
+		
+		USER_COMMANDS.add( "Is there any object aligned with the y axis?"); // EX AA
+		USER_COMMANDS.add( "Do the objects in the scene remind you of a cone?"); // EX BB
+		USER_COMMANDS.add( "Is there any horizontal plane laying on the xy plane?"); // EX CC
+		USER_COMMANDS.add( "Is the object below the biggest black object?"); // EX DD
 	}
 	
 	///// evaluator time out in seconds (null for no time out)
-	public static final Float EVALUATION_TIME_OUT = 5.0f; // in seconds
+	public static final Float EVALUATION_TIME_OUT = 250.0f; // in seconds
 	public static final Boolean USE_DEFAULT_TESTER = true;
-	public static final String TEST_LOGGING_NAME = "GrammarTest"; 
+	public static final String TEST_LOGGING_NAME = "PhDReport15_GrammarTest"; 
 
 	///// MAIN PROCEDURE
 	public static void main(String[] args) {

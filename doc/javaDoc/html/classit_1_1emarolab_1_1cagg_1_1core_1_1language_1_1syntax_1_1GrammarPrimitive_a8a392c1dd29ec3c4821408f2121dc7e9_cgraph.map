@@ -1,0 +1,5 @@
+<map id="it.emarolab.cagg.core.language.syntax.GrammarPrimitive.GrammarPrimitive" name="it.emarolab.cagg.core.language.syntax.GrammarPrimitive.GrammarPrimitive">
+<area shape="rect" id="node2" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1GrammarPrimitive.html#a1ec6ca83054e11a6adecf0de412e06e1" title="it.emarolab.cagg.core.language.syntax.\lGrammarPrimitive.setExpressionsNodesMap" alt="" coords="305,5,589,46"/>
+<area shape="rect" id="node3" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1GrammarPrimitive.html#a83fd6dcd4026122ef2e5283c595ca380" title="it.emarolab.cagg.core.language.syntax.\lGrammarPrimitive.setPreambleMap" alt="" coords="321,70,572,111"/>
+<area shape="rect" id="node4" href="$classit_1_1emarolab_1_1cagg_1_1core_1_1language_1_1syntax_1_1GrammarPrimitive.html#a898cc7706fc3aaf4d2d6b7b6a20e53a4" title="it.emarolab.cagg.core.language.syntax.\lGrammarPrimitive.setRuleMap" alt="" coords="321,135,572,177"/>
+</map>
