@@ -3,7 +3,7 @@
 ----
 
 This Java library implements an evaluator of grammars represented through the
-[Backus-Naur Form]([https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) syntax. It can compile the syntax into a tree and evaluate it with an input sentence as a String.
+[Backus-Naur Form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) syntax. It can compile the syntax into a tree and evaluate it with an input sentence as a String.
 
 #### Publications
 
