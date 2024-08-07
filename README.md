@@ -1,6 +1,4 @@
 # Concept Action Grammar Generator (CAGG)
-**Author**: Luca Buoncompagni  (buon_luca@yahoo.com)
-----
 
 This Java library implements an evaluator of grammars represented through the
 [Backus-Naur Form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) syntax. It can compile the syntax into a tree and evaluate it with an input sentence as a String.
@@ -47,3 +45,6 @@ To know more about the code, check out the example [grammars](https://github.com
 
 ![alt text](https://github.com/EmaroLab/concept_action_grammar_generator/blob/master/file/GUI-parse.png)
 ![alt text](https://github.com/EmaroLab/concept_action_grammar_generator/blob/master/file/GUI-eval.png)
+
+---
+**Author**: Luca Buoncompagni  (buon_luca@yahoo.com)
